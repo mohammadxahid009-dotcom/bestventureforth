@@ -1,1 +1,12 @@
-ewogICJpbnN0YWxsQ29tbWFuZCI6ICJwbnBtIGluc3RhbGwgLS1uby1mcm96ZW4tbG9ja2ZpbGUiLAogICJidWlsZENvbW1hbmQiOiAicG5wbSBidWlsZDp2ZXJjZWwiLAogICJvdXRwdXREaXJlY3RvcnkiOiAiZGlzdC9wdWJsaWMiLAogICJyZXdyaXRlcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICIvKC4qKSIsCiAgICAgICJkZXN0aW5hdGlvbiI6ICIvaW5kZXguaHRtbCIKICAgIH0KICBdCn0K
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm build:vercel",
+  "outputDirectory": "dist/public",
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
