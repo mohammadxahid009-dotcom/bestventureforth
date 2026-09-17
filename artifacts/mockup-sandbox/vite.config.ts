@@ -1,1 +1,57 @@
-aW1wb3J0IHsgZGVmaW5lQ29uZmlnIH0gZnJvbSAidml0ZSI7CmltcG9ydCByZWFjdCBmcm9tICJAdml0ZWpzL3BsdWdpbi1yZWFjdCI7CmltcG9ydCB0YWlsd2luZGNzcyBmcm9tICJAdGFpbHdpbmRjc3Mvdml0ZSI7CmltcG9ydCBwYXRoIGZyb20gInBhdGgiOwppbXBvcnQgcnVudGltZUVycm9yT3ZlcmxheSBmcm9tICJAcmVwbGl0L3ZpdGUtcGx1Z2luLXJ1bnRpbWUtZXJyb3ItbW9kYWwiOwppbXBvcnQgeyBtb2NrdXBQcmV2aWV3UGx1Z2luIH0gZnJvbSAiLi9tb2NrdXBQcmV2aWV3UGx1Z2luIjsKCmNvbnN0IHBvcnQgPSBOdW1iZXIocHJvY2Vzcy5lbnYuUE9SVCB8fCA1MTczKTsKCmlmIChOdW1iZXIuaXNOYU4ocG9ydCkgfHwgcG9ydCA8PSAwKSB7CiAgdGhyb3cgbmV3IEVycm9yKGBJbnZhbGlkIFBPUlQgdmFsdWU6ICIke3Byb2Nlc3MuZW52LlBPUlR9ImApOwp9Cgpjb25zdCBiYXNlUGF0aCA9IHByb2Nlc3MuZW52LkJBU0VfUEFUSCB8fCAiLyI7CgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIGJhc2U6IGJhc2VQYXRoLAogIHBsdWdpbnM6IFsKICAgIG1vY2t1cFByZXZpZXdQbHVnaW4oKSwKICAgIHJlYWN0KCksCiAgICB0YWlsd2luZGNzcygpLAogICAgcnVudGltZUVycm9yT3ZlcmxheSgpLAogICAgLi4uKHByb2Nlc3MuZW52Lk5PREVfRU5WICE9PSAicHJvZHVjdGlvbiIgJiYKICAgIHByb2Nlc3MuZW52LlJFUExfSUQgIT09IHVuZGVmaW5lZAogICAgICA/IFsKICAgICAgICAgIGF3YWl0IGltcG9ydCgiQHJlcGxpdC92aXRlLXBsdWdpbi1jYXJ0b2dyYXBoZXIiKS50aGVuKChtKSA9PgogICAgICAgICAgICBtLmNhcnRvZ3JhcGhlcih7CiAgICAgICAgICAgICAgcm9vdDogcGF0aC5yZXNvbHZlKGltcG9ydC5tZXRhLmRpcm5hbWUsICIuLiIpLAogICAgICAgICAgICB9KSwKICAgICAgICAgICksCiAgICAgICAgXQogICAgICA6IFtdKSwKICBdLAogIHJlc29sdmU6IHsKICAgIGFsaWFzOiB7CiAgICAgICJAIjogcGF0aC5yZXNvbHZlKGltcG9ydC5tZXRhLmRpcm5hbWUsICJzcmMiKSwKICAgIH0sCiAgfSwKICByb290OiBwYXRoLnJlc29sdmUoaW1wb3J0Lm1ldGEuZGlybmFtZSksCiAgYnVpbGQ6IHsKICAgIG91dERpcjogcGF0aC5yZXNvbHZlKGltcG9ydC5tZXRhLmRpcm5hbWUsICJkaXN0IiksCiAgICBlbXB0eU91dERpcjogdHJ1ZSwKICB9LAogIHNlcnZlcjogewogICAgcG9ydCwKICAgIGhvc3Q6ICIwLjAuMC4wIiwKICAgIGFsbG93ZWRIb3N0czogdHJ1ZSwKICAgIGZzOiB7CiAgICAgIHN0cmljdDogdHJ1ZSwKICAgIH0sCiAgfSwKICBwcmV2aWV3OiB7CiAgICBwb3J0LAogICAgaG9zdDogIjAuMC4wLjAiLAogICAgYWxsb3dlZEhvc3RzOiB0cnVlLAogIH0sCn0pOwo=
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import path from "path";
+import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
+import { mockupPreviewPlugin } from "./mockupPreviewPlugin";
+
+const port = Number(process.env.PORT || 5173);
+
+if (Number.isNaN(port) || port <= 0) {
+  throw new Error(`Invalid PORT value: "${process.env.PORT}"`);
+}
+
+const basePath = process.env.BASE_PATH || "/";
+
+export default defineConfig({
+  base: basePath,
+  plugins: [
+    mockupPreviewPlugin(),
+    react(),
+    tailwindcss(),
+    runtimeErrorOverlay(),
+    ...(process.env.NODE_ENV !== "production" &&
+    process.env.REPL_ID !== undefined
+      ? [
+          await import("@replit/vite-plugin-cartographer").then((m) =>
+            m.cartographer({
+              root: path.resolve(import.meta.dirname, ".."),
+            }),
+          ),
+        ]
+      : []),
+  ],
+  resolve: {
+    alias: {
+      "@": path.resolve(import.meta.dirname, "src"),
+    },
+  },
+  root: path.resolve(import.meta.dirname),
+  build: {
+    outDir: path.resolve(import.meta.dirname, "dist"),
+    emptyOutDir: true,
+  },
+  server: {
+    port,
+    host: "0.0.0.0",
+    allowedHosts: true,
+    fs: {
+      strict: true,
+    },
+  },
+  preview: {
+    port,
+    host: "0.0.0.0",
+    allowedHosts: true,
+  },
+});

@@ -1,1 +1,28 @@
-a2luZCA9ICJ3ZWIiCnByZXZpZXdQYXRoID0gIi8iCnRpdGxlID0gIlZlbnR1cmVmb3J0aCBFeHBlZGl0aW9uIgpkZXNjcmlwdGlvbiA9ICJBIHJlYWwtd29ybGQgZXhwbG9yYXRpb24gZ2FtZSB0aGF0IHR1cm5zIHlvdXIgc3Vycm91bmRpbmdzIGludG8gYSBjb29yZGluYXRlLWdyaWQgYWR2ZW50dXJlIHdpdGggR1BTIGRpc2NvdmVyeSwgcGhvdG8gbWVtb3JpZXMsIHByb2dyZXNzIHRyYWNraW5nLCBhbmQgbXVsdGlwbGF5ZXIgaHVudHMuIgp2ZXJzaW9uID0gIjEuMC4wIgppZCA9ICJhcnRpZmFjdHMvdmVudHVyZWZvcnRoLWV4cGVkaXRpb24iCnJvdXRlciA9ICJwYXRoIgoKW1tzZXJ2aWNlc11dCm5hbWUgPSAid2ViIgpwYXRocyA9IFsgIi8iIF0KbG9jYWxQb3J0ID0gMjAzNTcKCltzZXJ2aWNlcy5kZXZlbG9wbWVudF0KcnVuID0gInBucG0gLS1maWx0ZXIgQHdvcmtzcGFjZS92ZW50dXJlZm9ydGgtZXhwZWRpdGlvbiBydW4gZGV2IgoKW3NlcnZpY2VzLnByb2R1Y3Rpb25dCmJ1aWxkID0gWyAicG5wbSIsICItLWZpbHRlciIsICJAd29ya3NwYWNlL3ZlbnR1cmVmb3J0aC1leHBlZGl0aW9uIiwgInJ1biIsICJidWlsZCIgXQpzZXJ2ZSA9ICJzdGF0aWMiCnB1YmxpY0RpciA9ICJhcnRpZmFjdHMvdmVudHVyZWZvcnRoLWV4cGVkaXRpb24vZGlzdC9wdWJsaWMiCgpbW3NlcnZpY2VzLnByb2R1Y3Rpb24ucmV3cml0ZXNdXQpmcm9tID0gIi8qIgp0byA9ICIvaW5kZXguaHRtbCIKCltzZXJ2aWNlcy5lbnZdClBPUlQgPSAiMjAzNTciCkJBU0VfUEFUSCA9ICIvIgo=
+kind = "web"
+previewPath = "/"
+title = "Ventureforth Expedition"
+description = "A real-world exploration game that turns your surroundings into a coordinate-grid adventure with GPS discovery, photo memories, progress tracking, and multiplayer hunts."
+version = "1.0.0"
+id = "artifacts/ventureforth-expedition"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20357
+
+[services.development]
+run = "pnpm --filter @workspace/ventureforth-expedition run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/ventureforth-expedition", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/ventureforth-expedition/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20357"
+BASE_PATH = "/"

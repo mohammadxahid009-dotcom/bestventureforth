@@ -1,1 +1,58 @@
-IyBWZW50dXJlZm9ydGggRXhwZWRpdGlvbgoKQSByZWFsLXdvcmxkIGV4cGxvcmF0aW9uIGdhbWUgdGhhdCB0dXJucyBhIHBsYXllcuKAmXMgc3Vycm91bmRpbmdzIGludG8gYSBjb29yZGluYXRlLWdyaWQgYWR2ZW50dXJlIHdpdGggR1BTIGRpc2NvdmVyeSwgcGhvdG8gbWVtb3JpZXMsIHByb2dyZXNzIHRyYWNraW5nLCBhbmQgbXVsdGlwbGF5ZXIgaHVudHMuCgojIyBSdW4gJiBPcGVyYXRlCgotIGBwbnBtIC0tZmlsdGVyIEB3b3Jrc3BhY2UvYXBpLXNlcnZlciBydW4gZGV2YCDigJQgcnVuIHRoZSBBUEkgc2VydmVyIChwb3J0IDUwMDApCi0gYHBucG0gLS1maWx0ZXIgQHdvcmtzcGFjZS92ZW50dXJlZm9ydGgtZXhwZWRpdGlvbiBydW4gZGV2YCDigJQgcnVuIHRoZSBleHBlZGl0aW9uIHdlYiBhcHAKLSBgcG5wbSAtLWZpbHRlciBAd29ya3NwYWNlL3ZlbnR1cmVmb3J0aC1leHBlZGl0aW9uIHJ1biB0eXBlY2hlY2tgIOKAlCB0eXBlY2hlY2sgdGhlIHdlYiBhcHAKLSBgUE9SVD0yMDM1NyBCQVNFX1BBVEg9LyBwbnBtIC0tZmlsdGVyIEB3b3Jrc3BhY2UvdmVudHVyZWZvcnRoLWV4cGVkaXRpb24gcnVuIGJ1aWxkYCDigJQgY3JlYXRlIHRoZSBwcm9kdWN0aW9uIHdlYiBidWlsZAotIGBwbnBtIHJ1biB0eXBlY2hlY2tgIOKAlCBmdWxsIHR5cGVjaGVjayBhY3Jvc3MgYWxsIHBhY2thZ2VzCi0gYHBucG0gcnVuIGJ1aWxkYCDigJQgdHlwZWNoZWNrICsgYnVpbGQgYWxsIHBhY2thZ2VzCi0gYHBucG0gLS1maWx0ZXIgQHdvcmtzcGFjZS9hcGktc3BlYyBydW4gY29kZWdlbmAg4oCUIHJlZ2VuZXJhdGUgQVBJIGhvb2tzIGFuZCBab2Qgc2NoZW1hcyBmcm9tIHRoZSBPcGVuQVBJIHNwZWMKLSBgcG5wbSAtLWZpbHRlciBAd29ya3NwYWNlL2RiIHJ1biBwdXNoYCDigJQgcHVzaCBEQiBzY2hlbWEgY2hhbmdlcyAoZGV2IG9ubHkpCi0gUmVxdWlyZWQgZW52OiBgREFUQUJBU0VfVVJMYCDigJQgUG9zdGdyZXMgY29ubmVjdGlvbiBzdHJpbmcKCiMjIFN0YWNrCgotIHBucG0gd29ya3NwYWNlcywgTm9kZS5qcyAyNCwgVHlwZVNjcmlwdCA1LjkKLSBBUEk6IEV4cHJlc3MgNQotIERCOiBQb3N0Z3JlU1FMICsgRHJpenpsZSBPUk0KLSBWYWxpZGF0aW9uOiBab2QgKGB6b2QvdjRgKSwgYGRyaXp6bGUtem9kYAotIEFQSSBjb2RlZ2VuOiBPcnZhbCAoZnJvbSBPcGVuQVBJIHNwZWMpCi0gQnVpbGQ6IGVzYnVpbGQgKENKUyBidW5kbGUpCi0gV2ViIGFwcDogUmVhY3QgKyBWaXRlICsgVGFuU3RhY2sgUm91dGVyICsgTGVhZmxldAotIEV4dGVybmFsIHNlcnZpY2VzOiBTdXBhYmFzZSBBdXRoLCBQb3N0Z3JlcyB0YWJsZXMsIFN0b3JhZ2UsIGFuZCBSZWFsdGltZQoKIyMgV2hlcmUgdGhpbmdzIGxpdmUKCi0gYGFydGlmYWN0cy92ZW50dXJlZm9ydGgtZXhwZWRpdGlvbi9zcmMvcm91dGVzL2luZGV4LnRzeGAg4oCUIG1haW4gZXhwZWRpdGlvbiBnYW1lIGZsb3cKLSBgYXJ0aWZhY3RzL3ZlbnR1cmVmb3J0aC1leHBlZGl0aW9uL3NyYy9jb21wb25lbnRzL2Ag4oCUIG1hcCwgZGlyZWN0aW9uIHRvb2wsIHBob3RvIG1lbW9yaWVzLCBtdWx0aXBsYXllciBsb2JieSwgYW5kIFVJIHByaW1pdGl2ZXMKLSBgYXJ0aWZhY3RzL3ZlbnR1cmVmb3J0aC1leHBlZGl0aW9uL3NyYy9saWIvYCDigJQgZXhwZWRpdGlvbiBjYWxjdWxhdGlvbnMsIHByb2dyZXNzLCBwaG90b3MsIG11bHRpcGxheWVyLCBhbmQgc2Vzc2lvbiBoZWxwZXJzCi0gYGFydGlmYWN0cy92ZW50dXJlZm9ydGgtZXhwZWRpdGlvbi9zcmMvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2Ag4oCUIFN1cGFiYXNlIGNsaWVudCBhbmQgYXV0aCBpbnRlZ3JhdGlvbgotIGBhcnRpZmFjdHMvdmVudHVyZWZvcnRoLWV4cGVkaXRpb24vc3JjL2luZGV4LmNzc2Ag4oCUIGFuYWxvZyBmaWVsZC1pbnN0cnVtZW50IHRoZW1lCgojIyBBcmNoaXRlY3R1cmUgZGVjaXNpb25zCgotIFRoZSBleHBlZGl0aW9uIGZyb250ZW5kIGtlZXBzIHRoZSB1cGxvYWRlZCBTdXBhYmFzZS1iYWNrZWQgYmVoYXZpb3IgcmF0aGVyIHRoYW4gZHVwbGljYXRpbmcgaXRzIGRhdGEgbW9kZWwgaW4gdGhlIHdvcmtzcGFjZSBBUEkuCi0gVGhlIGFwcCBydW5zIGFzIGEgY2xpZW50LXNpZGUgVml0ZSBhcnRpZmFjdDsgZG9jdW1lbnQtbGV2ZWwgbWV0YWRhdGEgbGl2ZXMgaW4gYGluZGV4Lmh0bWxgLCB3aGlsZSBUYW5TdGFjayBSb3V0ZXIgb3ducyBpbi1hcHAgcm91dGVzLgotIEdQUywgbWFwLCBwaG90byBzdG9yYWdlLCBhbmQgbXVsdGlwbGF5ZXIgZmVhdHVyZXMgcmVtYWluIHJlYWwgaW50ZWdyYXRpb25zOyBzYWZlIGluaXRpYWwgbG9hZGluZyBzdGF0ZXMgaGFuZGxlIG1pc3NpbmcgYnJvd3NlciBwZXJtaXNzaW9ucyBvciBjb25maWd1cmF0aW9uLgoKIyMgUHJvZHVjdAoKLSBTaWduIGluIG9yIGNyZWF0ZSBhbiBhY2NvdW50IGJlZm9yZSBzdGFydGluZyBhbiBleHBlZGl0aW9uLgotIFVzZSBsb2NhdGlvbiBhbmQgaGVhZGluZyBkYXRhIHRvIGNob29zZSBhIGRpcmVjdGlvbiBhbmQgZGlzY292ZXIgbXlzdGVyeSBkZXN0aW5hdGlvbnMuCi0gUmV2ZWFsIHRoZSBtYXAgdGhyb3VnaCB3YWxraW5nLCBwcmVzZXJ2ZSBwcm9ncmVzcywgc2F2ZSBwaG90byBtZW1vcmllcywgYW5kIGpvaW4gdGltZWQgbXVsdGlwbGF5ZXIgaHVudHMuCgojIyBVc2VyIHByZWZlcmVuY2VzCgotIFByZXNlcnZlIHRoZSB1cGxvYWRlZCBhcHDigJlzIHZpc3VhbHMgYW5kIGJlaGF2aW9yIGluc3RlYWQgb2YgcmVwbGFjaW5nIGl0IHdpdGggYSBuZXcgZGVzaWduLgoKIyMgR290Y2hhcwoKX1BvcHVsYXRlIGFzIHlvdSBidWlsZCDigJQgc2hhcnAgZWRnZXMsICJhbHdheXMgcnVuIFggYmVmb3JlIFkiIHJ1bGVzLl8KCiMjIFBvaW50ZXJzCgotIFNlZSB0aGUgYHBucG0td29ya3NwYWNlYCBza2lsbCBmb3Igd29ya3NwYWNlIHN0cnVjdHVyZSwgVHlwZVNjcmlwdCBzZXR1cCwgYW5kIHBhY2thZ2UgZGV0YWlscwo=
+# Ventureforth Expedition
+
+A real-world exploration game that turns a player’s surroundings into a coordinate-grid adventure with GPS discovery, photo memories, progress tracking, and multiplayer hunts.
+
+## Run & Operate
+
+- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- `pnpm --filter @workspace/ventureforth-expedition run dev` — run the expedition web app
+- `pnpm --filter @workspace/ventureforth-expedition run typecheck` — typecheck the web app
+- `PORT=20357 BASE_PATH=/ pnpm --filter @workspace/ventureforth-expedition run build` — create the production web build
+- `pnpm run typecheck` — full typecheck across all packages
+- `pnpm run build` — typecheck + build all packages
+- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
+- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
+- Required env: `DATABASE_URL` — Postgres connection string
+
+## Stack
+
+- pnpm workspaces, Node.js 24, TypeScript 5.9
+- API: Express 5
+- DB: PostgreSQL + Drizzle ORM
+- Validation: Zod (`zod/v4`), `drizzle-zod`
+- API codegen: Orval (from OpenAPI spec)
+- Build: esbuild (CJS bundle)
+- Web app: React + Vite + TanStack Router + Leaflet
+- External services: Supabase Auth, Postgres tables, Storage, and Realtime
+
+## Where things live
+
+- `artifacts/ventureforth-expedition/src/routes/index.tsx` — main expedition game flow
+- `artifacts/ventureforth-expedition/src/components/` — map, direction tool, photo memories, multiplayer lobby, and UI primitives
+- `artifacts/ventureforth-expedition/src/lib/` — expedition calculations, progress, photos, multiplayer, and session helpers
+- `artifacts/ventureforth-expedition/src/integrations/supabase/` — Supabase client and auth integration
+- `artifacts/ventureforth-expedition/src/index.css` — analog field-instrument theme
+
+## Architecture decisions
+
+- The expedition frontend keeps the uploaded Supabase-backed behavior rather than duplicating its data model in the workspace API.
+- The app runs as a client-side Vite artifact; document-level metadata lives in `index.html`, while TanStack Router owns in-app routes.
+- GPS, map, photo storage, and multiplayer features remain real integrations; safe initial loading states handle missing browser permissions or configuration.
+
+## Product
+
+- Sign in or create an account before starting an expedition.
+- Use location and heading data to choose a direction and discover mystery destinations.
+- Reveal the map through walking, preserve progress, save photo memories, and join timed multiplayer hunts.
+
+## User preferences
+
+- Preserve the uploaded app’s visuals and behavior instead of replacing it with a new design.
+
+## Gotchas
+
+_Populate as you build — sharp edges, "always run X before Y" rules._
+
+## Pointers
+
+- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details

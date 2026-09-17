@@ -1,1 +1,10 @@
-aW1wb3J0IHsgUm91dGVyLCB0eXBlIElSb3V0ZXIgfSBmcm9tICJleHByZXNzIjsKaW1wb3J0IGhlYWx0aFJvdXRlciBmcm9tICIuL2hlYWx0aCI7CmltcG9ydCBmcmllbmRzUm91dGVyIGZyb20gIi4vZnJpZW5kcyI7Cgpjb25zdCByb3V0ZXI6IElSb3V0ZXIgPSBSb3V0ZXIoKTsKCnJvdXRlci51c2UoaGVhbHRoUm91dGVyKTsKcm91dGVyLnVzZShmcmllbmRzUm91dGVyKTsKCmV4cG9ydCBkZWZhdWx0IHJvdXRlcjsK
+import { Router, type IRouter } from "express";
+import healthRouter from "./health";
+import friendsRouter from "./friends";
+
+const router: IRouter = Router();
+
+router.use(healthRouter);
+router.use(friendsRouter);
+
+export default router;

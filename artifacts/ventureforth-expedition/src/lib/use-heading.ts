@@ -1,1 +1,107 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKCnR5cGUgT3JpZW50YXRpb25FdmVudCA9IERldmljZU9yaWVudGF0aW9uRXZlbnQgJiB7IHdlYmtpdENvbXBhc3NIZWFkaW5nPzogbnVtYmVyIH07CgovKioKICogTGl2ZSBjb21wYXNzIGhlYWRpbmcgaW4gZGVncmVlcyAoMCA9IG5vcnRoLCBjbG9ja3dpc2UpLgogKiBVc2VzIHRoZSBkZXZpY2UgbWFnbmV0b21ldGVyIHdoZW4gYXZhaWxhYmxlICh0aGUgb25seSB0aGluZyB0aGF0IHJlYWN0cyB3aGVuCiAqIHlvdSB0dXJuIG9uIHRoZSBzcG90KTsgR1BTIGNvdXJzZSBpcyB1c2VkIGFzIGEgZmFsbGJhY2sgd2hpbGUgbW92aW5nLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHVzZUhlYWRpbmcoKSB7CiAgY29uc3QgW2hlYWRpbmcsIHNldEhlYWRpbmddID0gdXNlU3RhdGU8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3NvdXJjZSwgc2V0U291cmNlXSA9IHVzZVN0YXRlPCJjb21wYXNzIiB8ICJncHMiIHwgbnVsbD4obnVsbCk7CiAgY29uc3Qgc21vb3RoZWQgPSB1c2VSZWY8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgaGFzQ29tcGFzcyA9IHVzZVJlZihmYWxzZSk7CiAgY29uc3QgZnJhbWUgPSB1c2VSZWYoMCk7CiAgY29uc3QgcGVuZGluZyA9IHVzZVJlZjx7IGhlYWRpbmc6IG51bWJlcjsgc291cmNlOiAiY29tcGFzcyIgfCAiZ3BzIiB9IHwgbnVsbD4obnVsbCk7CgogIGNvbnN0IHB1c2ggPSB1c2VDYWxsYmFjaygoZGVnOiBudW1iZXIsIHNyYzogImNvbXBhc3MiIHwgImdwcyIpID0+IHsKICAgIGlmIChzcmMgPT09ICJncHMiICYmIGhhc0NvbXBhc3MuY3VycmVudCkgcmV0dXJuOwogICAgY29uc3Qgbm9ybSA9ICgoZGVnICUgMzYwKSArIDM2MCkgJSAzNjA7CiAgICBjb25zdCBwcmV2ID0gc21vb3RoZWQuY3VycmVudDsKICAgIC8vIGNpcmN1bGFyIHNtb290aGluZyB0byBraWxsIG1hZ25ldG9tZXRlciBqaXR0ZXIKICAgIGxldCBuZXh0ID0gbm9ybTsKICAgIGlmIChwcmV2ICE9PSBudWxsKSB7CiAgICAgIGNvbnN0IGRlbHRhID0gKChub3JtIC0gcHJldiArIDU0MCkgJSAzNjApIC0gMTgwOwogICAgICBuZXh0ID0gKCgocHJldiArIGRlbHRhICogMC4zNSkgJSAzNjApICsgMzYwKSAlIDM2MDsKICAgIH0KICAgIHNtb290aGVkLmN1cnJlbnQgPSBuZXh0OwogICAgcGVuZGluZy5jdXJyZW50ID0geyBoZWFkaW5nOiBuZXh0LCBzb3VyY2U6IHNyYyB9OwogICAgaWYgKGZyYW1lLmN1cnJlbnQpIHJldHVybjsKICAgIGZyYW1lLmN1cnJlbnQgPSByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoKCkgPT4gewogICAgICBmcmFtZS5jdXJyZW50ID0gMDsKICAgICAgY29uc3QgdmFsdWUgPSBwZW5kaW5nLmN1cnJlbnQ7CiAgICAgIGlmICghdmFsdWUpIHJldHVybjsKICAgICAgc2V0SGVhZGluZygoY3VycmVudCkgPT4gewogICAgICAgIGlmIChjdXJyZW50ICE9PSBudWxsKSB7CiAgICAgICAgICBjb25zdCBkZWx0YSA9IE1hdGguYWJzKCgodmFsdWUuaGVhZGluZyAtIGN1cnJlbnQgKyA1NDApICUgMzYwKSAtIDE4MCk7CiAgICAgICAgICBpZiAoZGVsdGEgPCAxKSByZXR1cm4gY3VycmVudDsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIHZhbHVlLmhlYWRpbmc7CiAgICAgIH0pOwogICAgICBzZXRTb3VyY2UoKGN1cnJlbnQpID0+IChjdXJyZW50ID09PSB2YWx1ZS5zb3VyY2UgPyBjdXJyZW50IDogdmFsdWUuc291cmNlKSk7CiAgICB9KTsKICB9LCBbXSk7CgogIGNvbnN0IHN0YXJ0ID0gdXNlQ2FsbGJhY2soKCkgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CgogICAgY29uc3Qgb25PcmllbnQgPSAoZTogRXZlbnQpID0+IHsKICAgICAgY29uc3QgZXYgPSBlIGFzIE9yaWVudGF0aW9uRXZlbnQ7CiAgICAgIGxldCBkZWc6IG51bWJlciB8IG51bGwgPSBudWxsOwogICAgICBpZiAodHlwZW9mIGV2LndlYmtpdENvbXBhc3NIZWFkaW5nID09PSAibnVtYmVyIikgewogICAgICAgIGRlZyA9IGV2LndlYmtpdENvbXBhc3NIZWFkaW5nOwogICAgICB9IGVsc2UgaWYgKGV2LmFscGhhICE9PSBudWxsICYmIGV2LmFscGhhICE9PSB1bmRlZmluZWQpIHsKICAgICAgICBkZWcgPQogICAgICAgICAgZXYuYWJzb2x1dGUgfHwgZS50eXBlID09PSAiZGV2aWNlb3JpZW50YXRpb25hYnNvbHV0ZSIgPyAzNjAgLSBldi5hbHBoYSA6IDM2MCAtIGV2LmFscGhhOwogICAgICB9CiAgICAgIGlmIChkZWcgPT09IG51bGwgfHwgTnVtYmVyLmlzTmFOKGRlZykpIHJldHVybjsKICAgICAgaGFzQ29tcGFzcy5jdXJyZW50ID0gdHJ1ZTsKICAgICAgcHVzaChkZWcsICJjb21wYXNzIik7CiAgICB9OwoKICAgIGNvbnN0IGF0dGFjaCA9ICgpID0+IHsKICAgICAgaWYgKCJvbmRldmljZW9yaWVudGF0aW9uYWJzb2x1dGUiIGluIHdpbmRvdykgewogICAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJkZXZpY2VvcmllbnRhdGlvbmFic29sdXRlIiwgb25PcmllbnQsIHRydWUpOwogICAgICB9CiAgICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCJkZXZpY2VvcmllbnRhdGlvbiIsIG9uT3JpZW50LCB0cnVlKTsKICAgIH07CgogICAgY29uc3QgYW55RE9FID0gRGV2aWNlT3JpZW50YXRpb25FdmVudCBhcyB1bmtub3duIGFzIHsKICAgICAgcmVxdWVzdFBlcm1pc3Npb24/OiAoKSA9PiBQcm9taXNlPCJncmFudGVkIiB8ICJkZW5pZWQiPjsKICAgIH07CiAgICBpZiAodHlwZW9mIGFueURPRT8ucmVxdWVzdFBlcm1pc3Npb24gPT09ICJmdW5jdGlvbiIpIHsKICAgICAgYW55RE9FCiAgICAgICAgLnJlcXVlc3RQZXJtaXNzaW9uKCkKICAgICAgICAudGhlbigocikgPT4gewogICAgICAgICAgaWYgKHIgPT09ICJncmFudGVkIikgYXR0YWNoKCk7CiAgICAgICAgfSkKICAgICAgICAuY2F0Y2goKCkgPT4ge30pOwogICAgfSBlbHNlIHsKICAgICAgYXR0YWNoKCk7CiAgICB9CgogICAgcmV0dXJuICgpID0+IHsKICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoImRldmljZW9yaWVudGF0aW9uYWJzb2x1dGUiLCBvbk9yaWVudCwgdHJ1ZSk7CiAgICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJkZXZpY2VvcmllbnRhdGlvbiIsIG9uT3JpZW50LCB0cnVlKTsKICAgIH07CiAgfSwgW3B1c2hdKTsKCiAgY29uc3QgZGV0YWNoUmVmID0gdXNlUmVmPCgoKSA9PiB2b2lkKSB8IHZvaWQ+KHVuZGVmaW5lZCk7CiAgY29uc3QgYmVnaW4gPSB1c2VDYWxsYmFjaygoKSA9PiB7CiAgICBpZiAoZGV0YWNoUmVmLmN1cnJlbnQpIHJldHVybjsKICAgIGRldGFjaFJlZi5jdXJyZW50ID0gc3RhcnQoKTsKICB9LCBbc3RhcnRdKTsKCiAgdXNlRWZmZWN0KAogICAgKCkgPT4gKCkgPT4gewogICAgICBkZXRhY2hSZWYuY3VycmVudD8uKCk7CiAgICAgIGlmIChmcmFtZS5jdXJyZW50KSBjYW5jZWxBbmltYXRpb25GcmFtZShmcmFtZS5jdXJyZW50KTsKICAgIH0sCiAgICBbXSwKICApOwoKICBjb25zdCBwdXNoR3BzID0gdXNlQ2FsbGJhY2soKGRlZzogbnVtYmVyKSA9PiBwdXNoKGRlZywgImdwcyIpLCBbcHVzaF0pOwoKICByZXR1cm4geyBoZWFkaW5nLCBzb3VyY2UsIGJlZ2luLCBwdXNoR3BzIH07Cn0K
+import { useCallback, useEffect, useRef, useState } from "react";
+
+type OrientationEvent = DeviceOrientationEvent & { webkitCompassHeading?: number };
+
+/**
+ * Live compass heading in degrees (0 = north, clockwise).
+ * Uses the device magnetometer when available (the only thing that reacts when
+ * you turn on the spot); GPS course is used as a fallback while moving.
+ */
+export function useHeading() {
+  const [heading, setHeading] = useState<number | null>(null);
+  const [source, setSource] = useState<"compass" | "gps" | null>(null);
+  const smoothed = useRef<number | null>(null);
+  const hasCompass = useRef(false);
+  const frame = useRef(0);
+  const pending = useRef<{ heading: number; source: "compass" | "gps" } | null>(null);
+
+  const push = useCallback((deg: number, src: "compass" | "gps") => {
+    if (src === "gps" && hasCompass.current) return;
+    const norm = ((deg % 360) + 360) % 360;
+    const prev = smoothed.current;
+    // circular smoothing to kill magnetometer jitter
+    let next = norm;
+    if (prev !== null) {
+      const delta = ((norm - prev + 540) % 360) - 180;
+      next = (((prev + delta * 0.35) % 360) + 360) % 360;
+    }
+    smoothed.current = next;
+    pending.current = { heading: next, source: src };
+    if (frame.current) return;
+    frame.current = requestAnimationFrame(() => {
+      frame.current = 0;
+      const value = pending.current;
+      if (!value) return;
+      setHeading((current) => {
+        if (current !== null) {
+          const delta = Math.abs(((value.heading - current + 540) % 360) - 180);
+          if (delta < 1) return current;
+        }
+        return value.heading;
+      });
+      setSource((current) => (current === value.source ? current : value.source));
+    });
+  }, []);
+
+  const start = useCallback(() => {
+    if (typeof window === "undefined") return;
+
+    const onOrient = (e: Event) => {
+      const ev = e as OrientationEvent;
+      let deg: number | null = null;
+      if (typeof ev.webkitCompassHeading === "number") {
+        deg = ev.webkitCompassHeading;
+      } else if (ev.alpha !== null && ev.alpha !== undefined) {
+        deg =
+          ev.absolute || e.type === "deviceorientationabsolute" ? 360 - ev.alpha : 360 - ev.alpha;
+      }
+      if (deg === null || Number.isNaN(deg)) return;
+      hasCompass.current = true;
+      push(deg, "compass");
+    };
+
+    const attach = () => {
+      if ("ondeviceorientationabsolute" in window) {
+        window.addEventListener("deviceorientationabsolute", onOrient, true);
+      }
+      window.addEventListener("deviceorientation", onOrient, true);
+    };
+
+    const anyDOE = DeviceOrientationEvent as unknown as {
+      requestPermission?: () => Promise<"granted" | "denied">;
+    };
+    if (typeof anyDOE?.requestPermission === "function") {
+      anyDOE
+        .requestPermission()
+        .then((r) => {
+          if (r === "granted") attach();
+        })
+        .catch(() => {});
+    } else {
+      attach();
+    }
+
+    return () => {
+      window.removeEventListener("deviceorientationabsolute", onOrient, true);
+      window.removeEventListener("deviceorientation", onOrient, true);
+    };
+  }, [push]);
+
+  const detachRef = useRef<(() => void) | void>(undefined);
+  const begin = useCallback(() => {
+    if (detachRef.current) return;
+    detachRef.current = start();
+  }, [start]);
+
+  useEffect(
+    () => () => {
+      detachRef.current?.();
+      if (frame.current) cancelAnimationFrame(frame.current);
+    },
+    [],
+  );
+
+  const pushGps = useCallback((deg: number) => push(deg, "gps"), [push]);
+
+  return { heading, source, begin, pushGps };
+}

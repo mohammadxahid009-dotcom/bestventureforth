@@ -1,1 +1,166 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgewogIGJlYXJpbmdEZWdyZWVzLAogIGRlc3RpbmF0aW9uRnJvbSwKICBkaXN0YW5jZU1ldGVycywKICB0eXBlIExhdExuZywKfSBmcm9tICJAL2xpYi9leHBlZGl0aW9uIjsKCmV4cG9ydCBjb25zdCBSRURaT05FX1JBRElVU19NID0gMTg7CmV4cG9ydCBjb25zdCBSRURaT05FX0RVUkFUSU9OX01TID0gNjBfMDAwOwpleHBvcnQgY29uc3QgUkVEWk9ORV9ESVNDT1ZFUllfUkFESVVTX00gPSAxMjU7CmV4cG9ydCBjb25zdCBSRURaT05FX1RJTUVfTVVMVElQTElFUiA9IDEuNzsKCmV4cG9ydCB0eXBlIFJlZHpvbmUgPSB7CiAgaWQ6IHN0cmluZzsKICBjZW50ZXI6IExhdExuZzsKICByYWRpdXM6IG51bWJlcjsKICBleHBpcmVzQXQ6IG51bWJlcjsKfTsKCnR5cGUgUmVkem9uZU9wdGlvbnMgPSB7CiAgYWN0aXZlOiBib29sZWFuOwogIHJvb21JZDogc3RyaW5nIHwgbnVsbDsKICB1c2VySWQ6IHN0cmluZyB8IG51bGwgfCB1bmRlZmluZWQ7CiAgcGxheWVyOiBMYXRMbmcgfCBudWxsOwogIGRlc3RpbmF0aW9uOiBMYXRMbmcgfCBudWxsOwogIGhlYWRpbmc6IG51bWJlciB8IG51bGw7Cn07CgpmdW5jdGlvbiBzZWVkZWRSYW5kb20oc2VlZDogc3RyaW5nKSB7CiAgbGV0IHN0YXRlID0gMjE2NjEzNjI2MTsKICBmb3IgKGxldCBpID0gMDsgaSA8IHNlZWQubGVuZ3RoOyBpICs9IDEpIHsKICAgIHN0YXRlIF49IHNlZWQuY2hhckNvZGVBdChpKTsKICAgIHN0YXRlID0gTWF0aC5pbXVsKHN0YXRlLCAxNjc3NzYxOSk7CiAgfQogIHJldHVybiAoKSA9PiB7CiAgICBzdGF0ZSArPSAweDZkMmI3OWY1OwogICAgbGV0IHZhbHVlID0gTWF0aC5pbXVsKHN0YXRlIF4gKHN0YXRlID4+PiAxNSksIDEgfCBzdGF0ZSk7CiAgICB2YWx1ZSBePSB2YWx1ZSArIE1hdGguaW11bCh2YWx1ZSBeICh2YWx1ZSA+Pj4gNyksIDYxIHwgdmFsdWUpOwogICAgcmV0dXJuICgodmFsdWUgXiAodmFsdWUgPj4+IDE0KSkgPj4+IDApIC8gNDI5NDk2NzI5NjsKICB9Owp9CgpmdW5jdGlvbiBuZXh0RGVsYXkocmFuZG9tOiAoKSA9PiBudW1iZXIpIHsKICAvLyBBIHF1aWV0IGNhZGVuY2Uga2VlcHMgUmVkem9uZXMgc3BlY2lhbDogcm91Z2hseSA1NeKAkzk1IHNlY29uZHMgYmV0d2VlbiBhdHRlbXB0cy4KICByZXR1cm4gNTVfMDAwICsgcmFuZG9tKCkgKiA0MF8wMDA7Cn0KCmZ1bmN0aW9uIGNob29zZUNlbnRlcigKICBwbGF5ZXI6IExhdExuZywKICBkZXN0aW5hdGlvbjogTGF0TG5nLAogIGhlYWRpbmc6IG51bWJlciB8IG51bGwsCiAgcmFuZG9tOiAoKSA9PiBudW1iZXIsCikgewogIGNvbnN0IHJvdXRlQmVhcmluZyA9IGJlYXJpbmdEZWdyZWVzKHBsYXllciwgZGVzdGluYXRpb24pOwogIGNvbnN0IGZvcndhcmRCZWFyaW5nID0KICAgIGhlYWRpbmcgIT09IG51bGwgJiYgTnVtYmVyLmlzRmluaXRlKGhlYWRpbmcpCiAgICAgID8gcm91dGVCZWFyaW5nICogMC43MiArIGhlYWRpbmcgKiAwLjI4CiAgICAgIDogcm91dGVCZWFyaW5nOwogIGNvbnN0IGZvcndhcmRNZXRlcnMgPSA1NSArIHJhbmRvbSgpICogMTA1OwogIGNvbnN0IGxhdGVyYWxNZXRlcnMgPSAocmFuZG9tKCkgLSAwLjUpICogNzA7CiAgY29uc3QgZm9yd2FyZCA9IGRlc3RpbmF0aW9uRnJvbShwbGF5ZXIsIGZvcndhcmRCZWFyaW5nLCBmb3J3YXJkTWV0ZXJzKTsKICByZXR1cm4gZGVzdGluYXRpb25Gcm9tKGZvcndhcmQsIGZvcndhcmRCZWFyaW5nICsgOTAsIGxhdGVyYWxNZXRlcnMpOwp9CgovKioKICogQSBkZWxpYmVyYXRlbHkgbG9jYWwgaGF6YXJkIGxvb3AuIEl0IGRvZXMgbm90IGFkZCBkYXRhYmFzZSB3cml0ZXMsIHBvbGxpbmcsCiAqIG9yIFJlYWx0aW1lIGV2ZW50cyB0byBhIGh1bnQ6IG9uZSBpbnRlcnZhbCwgb25lIGNpcmNsZSwgYW5kIG9uZSBwZW5hbHR5CiAqIGFjY3VtdWxhdG9yIHBlciBhY3RpdmUgcGxheWVyLgogKi8KZXhwb3J0IGZ1bmN0aW9uIHVzZVJlZHpvbmUoeyBhY3RpdmUsIHJvb21JZCwgdXNlcklkLCBwbGF5ZXIsIGRlc3RpbmF0aW9uLCBoZWFkaW5nIH06IFJlZHpvbmVPcHRpb25zKSB7CiAgY29uc3QgW3pvbmUsIHNldFpvbmVdID0gdXNlU3RhdGU8UmVkem9uZSB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtkaXNjb3ZlcmVkLCBzZXREaXNjb3ZlcmVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbcGVuYWx0eU1zLCBzZXRQZW5hbHR5TXNdID0gdXNlU3RhdGUoMCk7CiAgY29uc3Qgem9uZVJlZiA9IHVzZVJlZjxSZWR6b25lIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgZGlzY292ZXJlZFJlZiA9IHVzZVJlZihmYWxzZSk7CiAgY29uc3Qgcm91dGVSZWYgPSB1c2VSZWYoeyBwbGF5ZXIsIGRlc3RpbmF0aW9uLCBoZWFkaW5nIH0pOwogIGNvbnN0IHJhbmRvbVJlZiA9IHVzZVJlZjwoKCkgPT4gbnVtYmVyKSB8IG51bGw+KG51bGwpOwogIGNvbnN0IG5leHRTcGF3bkF0UmVmID0gdXNlUmVmKDApOwogIGNvbnN0IGxhc3RUaWNrQXRSZWYgPSB1c2VSZWYoMCk7CiAgY29uc3Qgc2VxdWVuY2VSZWYgPSB1c2VSZWYoMCk7CiAgcm91dGVSZWYuY3VycmVudCA9IHsgcGxheWVyLCBkZXN0aW5hdGlvbiwgaGVhZGluZyB9OwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFhY3RpdmUgfHwgIXJvb21JZCB8fCAhdXNlcklkKSB7CiAgICAgIHpvbmVSZWYuY3VycmVudCA9IG51bGw7CiAgICAgIGRpc2NvdmVyZWRSZWYuY3VycmVudCA9IGZhbHNlOwogICAgICBzZXRab25lKG51bGwpOwogICAgICBzZXREaXNjb3ZlcmVkKGZhbHNlKTsKICAgICAgc2V0UGVuYWx0eU1zKDApOwogICAgICByYW5kb21SZWYuY3VycmVudCA9IG51bGw7CiAgICAgIG5leHRTcGF3bkF0UmVmLmN1cnJlbnQgPSAwOwogICAgICBsYXN0VGlja0F0UmVmLmN1cnJlbnQgPSAwOwogICAgICByZXR1cm47CiAgICB9CiAgICBjb25zdCByYW5kb20gPSBzZWVkZWRSYW5kb20oYCR7cm9vbUlkfToke3VzZXJJZH1gKTsKICAgIHJhbmRvbVJlZi5jdXJyZW50ID0gcmFuZG9tOwogICAgc2VxdWVuY2VSZWYuY3VycmVudCA9IDA7CiAgICB6b25lUmVmLmN1cnJlbnQgPSBudWxsOwogICAgZGlzY292ZXJlZFJlZi5jdXJyZW50ID0gZmFsc2U7CiAgICBzZXRab25lKG51bGwpOwogICAgc2V0RGlzY292ZXJlZChmYWxzZSk7CiAgICBzZXRQZW5hbHR5TXMoMCk7CiAgICBuZXh0U3Bhd25BdFJlZi5jdXJyZW50ID0gRGF0ZS5ub3coKSArIDE4XzAwMCArIHJhbmRvbSgpICogMThfMDAwOwogICAgbGFzdFRpY2tBdFJlZi5jdXJyZW50ID0gRGF0ZS5ub3coKTsKICB9LCBbYWN0aXZlLCByb29tSWQsIHVzZXJJZF0pOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFhY3RpdmUgfHwgIXJvb21JZCB8fCAhdXNlcklkKSByZXR1cm47CiAgICBjb25zdCBpbnRlcnZhbCA9IHdpbmRvdy5zZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgIGNvbnN0IG5vdyA9IERhdGUubm93KCk7CiAgICAgIGNvbnN0IHJhbmRvbSA9IHJhbmRvbVJlZi5jdXJyZW50OwogICAgICBpZiAoIXJhbmRvbSkgcmV0dXJuOwoKICAgICAgbGV0IGN1cnJlbnQgPSB6b25lUmVmLmN1cnJlbnQ7CiAgICAgIGlmIChjdXJyZW50ICYmIG5vdyA+PSBjdXJyZW50LmV4cGlyZXNBdCkgewogICAgICAgIGN1cnJlbnQgPSBudWxsOwogICAgICAgIHpvbmVSZWYuY3VycmVudCA9IG51bGw7CiAgICAgICAgZGlzY292ZXJlZFJlZi5jdXJyZW50ID0gZmFsc2U7CiAgICAgICAgc2V0Wm9uZShudWxsKTsKICAgICAgICBzZXREaXNjb3ZlcmVkKGZhbHNlKTsKICAgICAgICBuZXh0U3Bhd25BdFJlZi5jdXJyZW50ID0gbm93ICsgbmV4dERlbGF5KHJhbmRvbSk7CiAgICAgIH0KCiAgICAgIGNvbnN0IHJvdXRlID0gcm91dGVSZWYuY3VycmVudDsKICAgICAgaWYgKCFjdXJyZW50ICYmIG5vdyA+PSBuZXh0U3Bhd25BdFJlZi5jdXJyZW50ICYmIHJvdXRlLnBsYXllciAmJiByb3V0ZS5kZXN0aW5hdGlvbikgewogICAgICAgIC8vIE9ubHkgY3JlYXRlIGEgaGF6YXJkIHdoZW4gdGhlcmUgaXMgYSBsaXZlIHJvdXRlIHRvIHBsYWNlIGl0IG9uLgogICAgICAgIHNlcXVlbmNlUmVmLmN1cnJlbnQgKz0gMTsKICAgICAgICBjdXJyZW50ID0gewogICAgICAgICAgaWQ6IGAke3Jvb21JZH06JHt1c2VySWR9OiR7c2VxdWVuY2VSZWYuY3VycmVudH1gLAogICAgICAgICAgY2VudGVyOiBjaG9vc2VDZW50ZXIocm91dGUucGxheWVyLCByb3V0ZS5kZXN0aW5hdGlvbiwgcm91dGUuaGVhZGluZywgcmFuZG9tKSwKICAgICAgICAgIHJhZGl1czogUkVEWk9ORV9SQURJVVNfTSwKICAgICAgICAgIGV4cGlyZXNBdDogbm93ICsgUkVEWk9ORV9EVVJBVElPTl9NUywKICAgICAgICB9OwogICAgICAgIHpvbmVSZWYuY3VycmVudCA9IGN1cnJlbnQ7CiAgICAgICAgc2V0Wm9uZShjdXJyZW50KTsKICAgICAgICBuZXh0U3Bhd25BdFJlZi5jdXJyZW50ID0gbm93ICsgbmV4dERlbGF5KHJhbmRvbSk7CiAgICAgICAgbGFzdFRpY2tBdFJlZi5jdXJyZW50ID0gbm93OwogICAgICB9CgogICAgICBpZiAoIWN1cnJlbnQpIHsKICAgICAgICBsYXN0VGlja0F0UmVmLmN1cnJlbnQgPSBub3c7CiAgICAgICAgcmV0dXJuOwogICAgICB9CgogICAgICBjb25zdCBkaXN0YW5jZSA9IHJvdXRlLnBsYXllciA/IGRpc3RhbmNlTWV0ZXJzKHJvdXRlLnBsYXllciwgY3VycmVudC5jZW50ZXIpIDogSW5maW5pdHk7CiAgICAgIGlmICghZGlzY292ZXJlZFJlZi5jdXJyZW50ICYmIGRpc3RhbmNlIDw9IFJFRFpPTkVfRElTQ09WRVJZX1JBRElVU19NKSB7CiAgICAgICAgZGlzY292ZXJlZFJlZi5jdXJyZW50ID0gdHJ1ZTsKICAgICAgICBzZXREaXNjb3ZlcmVkKHRydWUpOwogICAgICB9CiAgICAgIGlmIChkaXN0YW5jZSA8PSBjdXJyZW50LnJhZGl1cykgewogICAgICAgIGNvbnN0IGVsYXBzZWQgPSBNYXRoLm1heCgwLCBub3cgLSBsYXN0VGlja0F0UmVmLmN1cnJlbnQpOwogICAgICAgIGlmIChlbGFwc2VkID4gMCkgewogICAgICAgICAgc2V0UGVuYWx0eU1zKCh2YWx1ZSkgPT4gdmFsdWUgKyBlbGFwc2VkICogKFJFRFpPTkVfVElNRV9NVUxUSVBMSUVSIC0gMSkpOwogICAgICAgIH0KICAgICAgfQogICAgICBsYXN0VGlja0F0UmVmLmN1cnJlbnQgPSBub3c7CiAgICB9LCAxMDAwKTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cuY2xlYXJJbnRlcnZhbChpbnRlcnZhbCk7CiAgfSwgW2FjdGl2ZSwgcm9vbUlkLCB1c2VySWRdKTsKCiAgY29uc3QgaW5zaWRlID0gQm9vbGVhbigKICAgIHpvbmUgJiYgcGxheWVyICYmIGRpc3RhbmNlTWV0ZXJzKHBsYXllciwgem9uZS5jZW50ZXIpIDw9IHpvbmUucmFkaXVzLAogICk7CiAgcmV0dXJuIHsgem9uZSwgZGlzY292ZXJlZCwgaW5zaWRlLCBwZW5hbHR5TXMgfTsKfQ==
+import { useEffect, useRef, useState } from "react";
+import {
+  bearingDegrees,
+  destinationFrom,
+  distanceMeters,
+  type LatLng,
+} from "@/lib/expedition";
+
+export const REDZONE_RADIUS_M = 18;
+export const REDZONE_DURATION_MS = 60_000;
+export const REDZONE_DISCOVERY_RADIUS_M = 125;
+export const REDZONE_TIME_MULTIPLIER = 1.7;
+
+export type Redzone = {
+  id: string;
+  center: LatLng;
+  radius: number;
+  expiresAt: number;
+};
+
+type RedzoneOptions = {
+  active: boolean;
+  roomId: string | null;
+  userId: string | null | undefined;
+  player: LatLng | null;
+  destination: LatLng | null;
+  heading: number | null;
+};
+
+function seededRandom(seed: string) {
+  let state = 2166136261;
+  for (let i = 0; i < seed.length; i += 1) {
+    state ^= seed.charCodeAt(i);
+    state = Math.imul(state, 16777619);
+  }
+  return () => {
+    state += 0x6d2b79f5;
+    let value = Math.imul(state ^ (state >>> 15), 1 | state);
+    value ^= value + Math.imul(value ^ (value >>> 7), 61 | value);
+    return ((value ^ (value >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function nextDelay(random: () => number) {
+  // A quiet cadence keeps Redzones special: roughly 55–95 seconds between attempts.
+  return 55_000 + random() * 40_000;
+}
+
+function chooseCenter(
+  player: LatLng,
+  destination: LatLng,
+  heading: number | null,
+  random: () => number,
+) {
+  const routeBearing = bearingDegrees(player, destination);
+  const forwardBearing =
+    heading !== null && Number.isFinite(heading)
+      ? routeBearing * 0.72 + heading * 0.28
+      : routeBearing;
+  const forwardMeters = 55 + random() * 105;
+  const lateralMeters = (random() - 0.5) * 70;
+  const forward = destinationFrom(player, forwardBearing, forwardMeters);
+  return destinationFrom(forward, forwardBearing + 90, lateralMeters);
+}
+
+/**
+ * A deliberately local hazard loop. It does not add database writes, polling,
+ * or Realtime events to a hunt: one interval, one circle, and one penalty
+ * accumulator per active player.
+ */
+export function useRedzone({ active, roomId, userId, player, destination, heading }: RedzoneOptions) {
+  const [zone, setZone] = useState<Redzone | null>(null);
+  const [discovered, setDiscovered] = useState(false);
+  const [penaltyMs, setPenaltyMs] = useState(0);
+  const zoneRef = useRef<Redzone | null>(null);
+  const discoveredRef = useRef(false);
+  const routeRef = useRef({ player, destination, heading });
+  const randomRef = useRef<(() => number) | null>(null);
+  const nextSpawnAtRef = useRef(0);
+  const lastTickAtRef = useRef(0);
+  const sequenceRef = useRef(0);
+  routeRef.current = { player, destination, heading };
+
+  useEffect(() => {
+    if (!active || !roomId || !userId) {
+      zoneRef.current = null;
+      discoveredRef.current = false;
+      setZone(null);
+      setDiscovered(false);
+      setPenaltyMs(0);
+      randomRef.current = null;
+      nextSpawnAtRef.current = 0;
+      lastTickAtRef.current = 0;
+      return;
+    }
+    const random = seededRandom(`${roomId}:${userId}`);
+    randomRef.current = random;
+    sequenceRef.current = 0;
+    zoneRef.current = null;
+    discoveredRef.current = false;
+    setZone(null);
+    setDiscovered(false);
+    setPenaltyMs(0);
+    nextSpawnAtRef.current = Date.now() + 18_000 + random() * 18_000;
+    lastTickAtRef.current = Date.now();
+  }, [active, roomId, userId]);
+
+  useEffect(() => {
+    if (!active || !roomId || !userId) return;
+    const interval = window.setInterval(() => {
+      const now = Date.now();
+      const random = randomRef.current;
+      if (!random) return;
+
+      let current = zoneRef.current;
+      if (current && now >= current.expiresAt) {
+        current = null;
+        zoneRef.current = null;
+        discoveredRef.current = false;
+        setZone(null);
+        setDiscovered(false);
+        nextSpawnAtRef.current = now + nextDelay(random);
+      }
+
+      const route = routeRef.current;
+      if (!current && now >= nextSpawnAtRef.current && route.player && route.destination) {
+        // Only create a hazard when there is a live route to place it on.
+        sequenceRef.current += 1;
+        current = {
+          id: `${roomId}:${userId}:${sequenceRef.current}`,
+          center: chooseCenter(route.player, route.destination, route.heading, random),
+          radius: REDZONE_RADIUS_M,
+          expiresAt: now + REDZONE_DURATION_MS,
+        };
+        zoneRef.current = current;
+        setZone(current);
+        nextSpawnAtRef.current = now + nextDelay(random);
+        lastTickAtRef.current = now;
+      }
+
+      if (!current) {
+        lastTickAtRef.current = now;
+        return;
+      }
+
+      const distance = route.player ? distanceMeters(route.player, current.center) : Infinity;
+      if (!discoveredRef.current && distance <= REDZONE_DISCOVERY_RADIUS_M) {
+        discoveredRef.current = true;
+        setDiscovered(true);
+      }
+      if (distance <= current.radius) {
+        const elapsed = Math.max(0, now - lastTickAtRef.current);
+        if (elapsed > 0) {
+          setPenaltyMs((value) => value + elapsed * (REDZONE_TIME_MULTIPLIER - 1));
+        }
+      }
+      lastTickAtRef.current = now;
+    }, 1000);
+    return () => window.clearInterval(interval);
+  }, [active, roomId, userId]);
+
+  const inside = Boolean(
+    zone && player && distanceMeters(player, zone.center) <= zone.radius,
+  );
+  return { zone, discovered, inside, penaltyMs };
+}

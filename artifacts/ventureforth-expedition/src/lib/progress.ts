@@ -1,1 +1,71 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgdHlwZSB7IExhdExuZyB9IGZyb20gIkAvbGliL2V4cGVkaXRpb24iOwoKZXhwb3J0IHR5cGUgUHJvZ3Jlc3MgPSB7CiAgbGV2ZWw6IG51bWJlcjsKICBjb21wbGV0ZWQ6IG51bWJlcjsKICB0cmFpbDogTGF0TG5nW107CiAgZGVzdGluYXRpb246IExhdExuZyB8IG51bGw7CiAgZXhwZWRpdGlvbkFjdGl2ZTogYm9vbGVhbjsKfTsKCmV4cG9ydCBjb25zdCBFTVBUWV9QUk9HUkVTUzogUHJvZ3Jlc3MgPSB7CiAgbGV2ZWw6IDEsCiAgY29tcGxldGVkOiAwLAogIHRyYWlsOiBbXSwKICBkZXN0aW5hdGlvbjogbnVsbCwKICBleHBlZGl0aW9uQWN0aXZlOiBmYWxzZSwKfTsKCmZ1bmN0aW9uIGlzTGF0TG5nKHY6IHVua25vd24pOiB2IGlzIExhdExuZyB7CiAgcmV0dXJuICgKICAgICEhdiAmJgogICAgdHlwZW9mIHYgPT09ICJvYmplY3QiICYmCiAgICB0eXBlb2YgKHYgYXMgTGF0TG5nKS5sYXQgPT09ICJudW1iZXIiICYmCiAgICB0eXBlb2YgKHYgYXMgTGF0TG5nKS5sbmcgPT09ICJudW1iZXIiCiAgKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvYWRQcm9ncmVzcyh1c2VySWQ6IHN0cmluZyk6IFByb21pc2U8UHJvZ3Jlc3M+IHsKICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgLmZyb20oImdhbWVfcHJvZ3Jlc3MiKQogICAgLnNlbGVjdCgibGV2ZWwsIGNvbXBsZXRlZCwgdHJhaWwsIGRlc3RpbmF0aW9uLCBleHBlZGl0aW9uX2FjdGl2ZSIpCiAgICAuZXEoInVzZXJfaWQiLCB1c2VySWQpCiAgICAubWF5YmVTaW5nbGUoKTsKCiAgaWYgKGVycm9yIHx8ICFkYXRhKSByZXR1cm4gRU1QVFlfUFJPR1JFU1M7CgogIGNvbnN0IHRyYWlsID0gQXJyYXkuaXNBcnJheShkYXRhLnRyYWlsKSA/IChkYXRhLnRyYWlsIGFzIHVua25vd25bXSkuZmlsdGVyKGlzTGF0TG5nKSA6IFtdOwogIHJldHVybiB7CiAgICBsZXZlbDogZGF0YS5sZXZlbCA/PyAxLAogICAgY29tcGxldGVkOiBkYXRhLmNvbXBsZXRlZCA/PyAwLAogICAgdHJhaWwsCiAgICBkZXN0aW5hdGlvbjogaXNMYXRMbmcoZGF0YS5kZXN0aW5hdGlvbikgPyBkYXRhLmRlc3RpbmF0aW9uIDogbnVsbCwKICAgIGV4cGVkaXRpb25BY3RpdmU6ICEhZGF0YS5leHBlZGl0aW9uX2FjdGl2ZSwKICB9Owp9CgovKiogQ2FwIHN0b3JlZCB0cmFpbCBzbyBsb25nLXRlcm0gcGxheSBzdGF5cyBjaGVhcCB3aGlsZSBrZWVwaW5nIHRoZSB3aG9sZSBtYXAuICovCmZ1bmN0aW9uIGNvbXBhY3RUcmFpbCh0cmFpbDogTGF0TG5nW10pOiBMYXRMbmdbXSB7CiAgY29uc3QgTUFYID0gNDAwMDsKICBpZiAodHJhaWwubGVuZ3RoIDw9IE1BWCkgcmV0dXJuIHRyYWlsOwogIGNvbnN0IHN0cmlkZSA9IE1hdGguY2VpbCh0cmFpbC5sZW5ndGggLyBNQVgpOwogIGNvbnN0IG91dCA9IHRyYWlsLmZpbHRlcigoXywgaSkgPT4gaSAlIHN0cmlkZSA9PT0gMCk7CiAgY29uc3QgbGFzdCA9IHRyYWlsW3RyYWlsLmxlbmd0aCAtIDFdOwogIGlmIChsYXN0ICYmIG91dFtvdXQubGVuZ3RoIC0gMV0gIT09IGxhc3QpIG91dC5wdXNoKGxhc3QpOwogIHJldHVybiBvdXQ7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYXZlUHJvZ3Jlc3ModXNlcklkOiBzdHJpbmcsIHA6IFByb2dyZXNzKSB7CiAgYXdhaXQgc3VwYWJhc2UuZnJvbSgiZ2FtZV9wcm9ncmVzcyIpLnVwc2VydCgKICAgIHsKICAgICAgdXNlcl9pZDogdXNlcklkLAogICAgICBsZXZlbDogcC5sZXZlbCwKICAgICAgY29tcGxldGVkOiBwLmNvbXBsZXRlZCwKICAgICAgdHJhaWw6IGNvbXBhY3RUcmFpbChwLnRyYWlsKSwKICAgICAgZGVzdGluYXRpb246IHAuZGVzdGluYXRpb24sCiAgICAgIGV4cGVkaXRpb25fYWN0aXZlOiBwLmV4cGVkaXRpb25BY3RpdmUsCiAgICB9LAogICAgeyBvbkNvbmZsaWN0OiAidXNlcl9pZCIgfSwKICApOwp9Cg==
+import { supabase } from "@/integrations/supabase/client";
+import type { LatLng } from "@/lib/expedition";
+
+export type Progress = {
+  level: number;
+  completed: number;
+  trail: LatLng[];
+  destination: LatLng | null;
+  expeditionActive: boolean;
+};
+
+export const EMPTY_PROGRESS: Progress = {
+  level: 1,
+  completed: 0,
+  trail: [],
+  destination: null,
+  expeditionActive: false,
+};
+
+function isLatLng(v: unknown): v is LatLng {
+  return (
+    !!v &&
+    typeof v === "object" &&
+    typeof (v as LatLng).lat === "number" &&
+    typeof (v as LatLng).lng === "number"
+  );
+}
+
+export async function loadProgress(userId: string): Promise<Progress> {
+  const { data, error } = await supabase
+    .from("game_progress")
+    .select("level, completed, trail, destination, expedition_active")
+    .eq("user_id", userId)
+    .maybeSingle();
+
+  if (error || !data) return EMPTY_PROGRESS;
+
+  const trail = Array.isArray(data.trail) ? (data.trail as unknown[]).filter(isLatLng) : [];
+  return {
+    level: data.level ?? 1,
+    completed: data.completed ?? 0,
+    trail,
+    destination: isLatLng(data.destination) ? data.destination : null,
+    expeditionActive: !!data.expedition_active,
+  };
+}
+
+/** Cap stored trail so long-term play stays cheap while keeping the whole map. */
+function compactTrail(trail: LatLng[]): LatLng[] {
+  const MAX = 4000;
+  if (trail.length <= MAX) return trail;
+  const stride = Math.ceil(trail.length / MAX);
+  const out = trail.filter((_, i) => i % stride === 0);
+  const last = trail[trail.length - 1];
+  if (last && out[out.length - 1] !== last) out.push(last);
+  return out;
+}
+
+export async function saveProgress(userId: string, p: Progress) {
+  await supabase.from("game_progress").upsert(
+    {
+      user_id: userId,
+      level: p.level,
+      completed: p.completed,
+      trail: compactTrail(p.trail),
+      destination: p.destination,
+      expedition_active: p.expeditionActive,
+    },
+    { onConflict: "user_id" },
+  );
+}

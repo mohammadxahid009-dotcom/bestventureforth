@@ -1,1 +1,62 @@
-aW1wb3J0IHBhdGggZnJvbSAncGF0aCc7CmltcG9ydCByZWFjdCBmcm9tICdAdml0ZWpzL3BsdWdpbi1yZWFjdCc7CmltcG9ydCB0YWlsd2luZGNzcyBmcm9tICdAdGFpbHdpbmRjc3Mvdml0ZSc7CmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gJ3ZpdGUnOwoKY29uc3QgaXNSZXBsaXREZXYgPSBwcm9jZXNzLmVudi5OT0RFX0VOViAhPT0gJ3Byb2R1Y3Rpb24nICYmIHByb2Nlc3MuZW52LlJFUExfSUQgIT09IHVuZGVmaW5lZDsKCmNvbnN0IHJlcGxpdFBsdWdpbnMgPSBpc1JlcGxpdERldgogID8gWwogICAgICAoYXdhaXQgaW1wb3J0KCdAcmVwbGl0L3ZpdGUtcGx1Z2luLXJ1bnRpbWUtZXJyb3ItbW9kYWwnKSkuZGVmYXVsdCgpLAogICAgICBhd2FpdCBpbXBvcnQoJ0ByZXBsaXQvdml0ZS1wbHVnaW4tY2FydG9ncmFwaGVyJykudGhlbigobSkgPT4KICAgICAgICBtLmNhcnRvZ3JhcGhlcih7CiAgICAgICAgICByb290OiBwYXRoLnJlc29sdmUoaW1wb3J0Lm1ldGEuZGlybmFtZSwgJy4uJyksCiAgICAgICAgfSksCiAgICAgICksCiAgICAgIGF3YWl0IGltcG9ydCgnQHJlcGxpdC92aXRlLXBsdWdpbi1kZXYtYmFubmVyJykudGhlbigobSkgPT4gbS5kZXZCYW5uZXIoKSksCiAgICBdCiAgOiBbXTsKCi8vIFBPUlQgaXMgYSBydW50aW1lL2Rldi1zZXJ2ZXIgc2V0dGluZywgbm90IGEgcmVxdWlyZW1lbnQgZm9yIGEgcHJvZHVjdGlvbiBidWlsZC4KLy8gUmVwbGl0IHByb3ZpZGVzIGl0IGF1dG9tYXRpY2FsbHksIHdoaWxlIFZlcmNlbCBkb2VzIG5vdCBwcm92aWRlIGl0IGR1cmluZyBgdml0ZSBidWlsZGAuCmNvbnN0IHBvcnQgPSBOdW1iZXIocHJvY2Vzcy5lbnYuUE9SVCB8fCA1MTczKTsKCi8vIFJlcGxpdCdzIEJBU0VfUEFUSCBpcyBvbmx5IG5lZWRlZCBpbiBpdHMgaG9zdGVkIGVudmlyb25tZW50LiBBIG5vcm1hbCBWZXJjZWwKLy8gZGVwbG95bWVudCBzZXJ2ZXMgdGhlIFZpdGUgYXBwIGZyb20gdGhlIHNpdGUgcm9vdC4KY29uc3QgYmFzZVBhdGggPSBwcm9jZXNzLmVudi5CQVNFX1BBVEggfHwgJy8nOwoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBiYXNlOiBiYXNlUGF0aCwKICBwbHVnaW5zOiBbcmVhY3QoKSwgdGFpbHdpbmRjc3MoKSwgLi4ucmVwbGl0UGx1Z2luc10sCiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgJ0AnOiBwYXRoLnJlc29sdmUoaW1wb3J0Lm1ldGEuZGlybmFtZSwgJ3NyYycpLAogICAgICAnQGFzc2V0cyc6IHBhdGgucmVzb2x2ZSgKICAgICAgICBpbXBvcnQubWV0YS5kaXJuYW1lLAogICAgICAgICcuLicsCiAgICAgICAgJy4uJywKICAgICAgICAnYXR0YWNoZWRfYXNzZXRzJywKICAgICAgKSwKICAgIH0sCiAgICBkZWR1cGU6IFsncmVhY3QnLCAncmVhY3QtZG9tJ10sCiAgfSwKICByb290OiBwYXRoLnJlc29sdmUoaW1wb3J0Lm1ldGEuZGlybmFtZSksCiAgYnVpbGQ6IHsKICAgIG91dERpcjogcGF0aC5yZXNvbHZlKGltcG9ydC5tZXRhLmRpcm5hbWUsICdkaXN0L3B1YmxpYycpLAogICAgZW1wdHlPdXREaXI6IHRydWUsCiAgfSwKICBzZXJ2ZXI6IHsKICAgIHBvcnQsCiAgICBzdHJpY3RQb3J0OiB0cnVlLAogICAgaG9zdDogJzAuMC4wLjAnLAogICAgYWxsb3dlZEhvc3RzOiB0cnVlLAogICAgZnM6IHsKICAgICAgc3RyaWN0OiB0cnVlLAogICAgfSwKICB9LAogIHByZXZpZXc6IHsKICAgIHBvcnQsCiAgICBob3N0OiAnMC4wLjAuMCcsCiAgICBhbGxvd2VkSG9zdHM6IHRydWUsCiAgfSwKfSk7Cg==
+import path from 'path';
+import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
+import { defineConfig } from 'vite';
+
+const isReplitDev = process.env.NODE_ENV !== 'production' && process.env.REPL_ID !== undefined;
+
+const replitPlugins = isReplitDev
+  ? [
+      (await import('@replit/vite-plugin-runtime-error-modal')).default(),
+      await import('@replit/vite-plugin-cartographer').then((m) =>
+        m.cartographer({
+          root: path.resolve(import.meta.dirname, '..'),
+        }),
+      ),
+      await import('@replit/vite-plugin-dev-banner').then((m) => m.devBanner()),
+    ]
+  : [];
+
+// PORT is a runtime/dev-server setting, not a requirement for a production build.
+// Replit provides it automatically, while Vercel does not provide it during `vite build`.
+const port = Number(process.env.PORT || 5173);
+
+// Replit's BASE_PATH is only needed in its hosted environment. A normal Vercel
+// deployment serves the Vite app from the site root.
+const basePath = process.env.BASE_PATH || '/';
+
+export default defineConfig({
+  base: basePath,
+  plugins: [react(), tailwindcss(), ...replitPlugins],
+  resolve: {
+    alias: {
+      '@': path.resolve(import.meta.dirname, 'src'),
+      '@assets': path.resolve(
+        import.meta.dirname,
+        '..',
+        '..',
+        'attached_assets',
+      ),
+    },
+    dedupe: ['react', 'react-dom'],
+  },
+  root: path.resolve(import.meta.dirname),
+  build: {
+    outDir: path.resolve(import.meta.dirname, 'dist/public'),
+    emptyOutDir: true,
+  },
+  server: {
+    port,
+    strictPort: true,
+    host: '0.0.0.0',
+    allowedHosts: true,
+    fs: {
+      strict: true,
+    },
+  },
+  preview: {
+    port,
+    host: '0.0.0.0',
+    allowedHosts: true,
+  },
+});

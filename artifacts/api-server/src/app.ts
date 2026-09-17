@@ -1,1 +1,34 @@
-aW1wb3J0IGV4cHJlc3MsIHsgdHlwZSBFeHByZXNzIH0gZnJvbSAiZXhwcmVzcyI7CmltcG9ydCBjb3JzIGZyb20gImNvcnMiOwppbXBvcnQgeyBwaW5vSHR0cCB9IGZyb20gInBpbm8taHR0cCI7CmltcG9ydCByb3V0ZXIgZnJvbSAiLi9yb3V0ZXMiOwppbXBvcnQgeyBsb2dnZXIgfSBmcm9tICIuL2xpYi9sb2dnZXIiOwoKY29uc3QgYXBwOiBFeHByZXNzID0gZXhwcmVzcygpOwoKYXBwLnVzZSgKICBwaW5vSHR0cCh7CiAgICBsb2dnZXIsCiAgICBzZXJpYWxpemVyczogewogICAgICByZXEocmVxKSB7CiAgICAgICAgcmV0dXJuIHsKICAgICAgICAgIGlkOiByZXEuaWQsCiAgICAgICAgICBtZXRob2Q6IHJlcS5tZXRob2QsCiAgICAgICAgICB1cmw6IHJlcS51cmw/LnNwbGl0KCI/IilbMF0sCiAgICAgICAgfTsKICAgICAgfSwKICAgICAgcmVzKHJlcykgewogICAgICAgIHJldHVybiB7CiAgICAgICAgICBzdGF0dXNDb2RlOiByZXMuc3RhdHVzQ29kZSwKICAgICAgICB9OwogICAgICB9LAogICAgfSwKICB9KSwKKTsKYXBwLnVzZShjb3JzKCkpOwphcHAudXNlKGV4cHJlc3MuanNvbigpKTsKYXBwLnVzZShleHByZXNzLnVybGVuY29kZWQoeyBleHRlbmRlZDogdHJ1ZSB9KSk7CgphcHAudXNlKCIvYXBpIiwgcm91dGVyKTsKCmV4cG9ydCBkZWZhdWx0IGFwcDsK
+import express, { type Express } from "express";
+import cors from "cors";
+import { pinoHttp } from "pino-http";
+import router from "./routes";
+import { logger } from "./lib/logger";
+
+const app: Express = express();
+
+app.use(
+  pinoHttp({
+    logger,
+    serializers: {
+      req(req) {
+        return {
+          id: req.id,
+          method: req.method,
+          url: req.url?.split("?")[0],
+        };
+      },
+      res(res) {
+        return {
+          statusCode: res.statusCode,
+        };
+      },
+    },
+  }),
+);
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+app.use("/api", router);
+
+export default app;

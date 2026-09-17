@@ -1,1 +1,207 @@
-aW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VSZWYsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgTCBmcm9tICJsZWFmbGV0IjsKaW1wb3J0IHR5cGUgeyBDb25lLCBMYXRMbmcgfSBmcm9tICJAL2xpYi9leHBlZGl0aW9uIjsKaW1wb3J0IHsgZGVzdGluYXRpb25Gcm9tLCBmb3JtYXREaXN0YW5jZSB9IGZyb20gIkAvbGliL2V4cGVkaXRpb24iOwoKdHlwZSBQcm9wcyA9IHsKICBtYXA6IEwuTWFwOwogIHBsYXllcjogTGF0TG5nOwogIGNvbmU6IENvbmU7CiAgb25DaGFuZ2U6IChjOiBDb25lKSA9PiB2b2lkOwogIG9uQ29uZmlybTogKCkgPT4gdm9pZDsKICBvbkNhbmNlbDogKCkgPT4gdm9pZDsKICBidXN5OiBib29sZWFuOwp9OwoKY29uc3QgREVHID0gTWF0aC5QSSAvIDE4MDsKCmZ1bmN0aW9uIG1ldHJlc1RvUGl4ZWxzKG1hcDogTC5NYXAsIG1ldHJlczogbnVtYmVyKSB7CiAgY29uc3QgYyA9IG1hcC5nZXRDZW50ZXIoKTsKICBjb25zdCBhID0gbWFwLmxhdExuZ1RvQ29udGFpbmVyUG9pbnQoYyk7CiAgY29uc3QgZWFzdCA9IGRlc3RpbmF0aW9uRnJvbSh7IGxhdDogYy5sYXQsIGxuZzogYy5sbmcgfSwgOTAsIG1ldHJlcyk7CiAgY29uc3QgYiA9IG1hcC5sYXRMbmdUb0NvbnRhaW5lclBvaW50KEwubGF0TG5nKGVhc3QubGF0LCBlYXN0LmxuZykpOwogIHJldHVybiBNYXRoLm1heCgxLCBNYXRoLmFicyhiLnggLSBhLngpKTsKfQoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRGlyZWN0aW9uVG9vbCh7CiAgbWFwLAogIHBsYXllciwKICBjb25lLAogIG9uQ2hhbmdlLAogIG9uQ29uZmlybSwKICBvbkNhbmNlbCwKICBidXN5LAp9OiBQcm9wcykgewogIGNvbnN0IHN2Z1JlZiA9IHVzZVJlZjxTVkdTVkdFbGVtZW50PihudWxsKTsKICBjb25zdCBbLCBzZXRUaWNrXSA9IHVzZVN0YXRlKDApOwogIGNvbnN0IGRyYWcgPSB1c2VSZWY8InRpcCIgfCAid2lkdGgiIHwgbnVsbD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCByID0gKCkgPT4gc2V0VGljaygodCkgPT4gdCArIDEpOwogICAgbWFwLm9uKCJtb3ZlIHpvb20gcmVzaXplIiwgcik7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBtYXAub2ZmKCJtb3ZlIHpvb20gcmVzaXplIiwgcik7CiAgICB9OwogIH0sIFttYXBdKTsKCiAgY29uc3Qgc2l6ZSA9IG1hcC5nZXRTaXplKCk7CiAgY29uc3Qgb3JpZ2luID0gbWFwLmxhdExuZ1RvQ29udGFpbmVyUG9pbnQoTC5sYXRMbmcocGxheWVyLmxhdCwgcGxheWVyLmxuZykpOwogIGNvbnN0IHB4UGVyTSA9IG1ldHJlc1RvUGl4ZWxzKG1hcCwgMTAwMCkgLyAxMDAwOwogIGNvbnN0IGxlbiA9IGNvbmUubGVuZ3RoICogcHhQZXJNOwoKICBjb25zdCBwdCA9IChiZWFyaW5nOiBudW1iZXIsIGRpc3Q6IG51bWJlcikgPT4gKHsKICAgIHg6IG9yaWdpbi54ICsgTWF0aC5zaW4oYmVhcmluZyAqIERFRykgKiBkaXN0LAogICAgeTogb3JpZ2luLnkgLSBNYXRoLmNvcyhiZWFyaW5nICogREVHKSAqIGRpc3QsCiAgfSk7CgogIGNvbnN0IGxlZnQgPSBwdChjb25lLmJlYXJpbmcgLSBjb25lLmhhbGZXaWR0aCwgbGVuKTsKICBjb25zdCByaWdodCA9IHB0KGNvbmUuYmVhcmluZyArIGNvbmUuaGFsZldpZHRoLCBsZW4pOwogIGNvbnN0IHRpcCA9IHB0KGNvbmUuYmVhcmluZywgbGVuKTsKICBjb25zdCB3aWR0aEhhbmRsZSA9IHB0KGNvbmUuYmVhcmluZyArIGNvbmUuaGFsZldpZHRoLCBsZW4gKiAwLjcyKTsKCiAgY29uc3Qgb25Qb2ludGVyTW92ZSA9IChlOiBSZWFjdC5Qb2ludGVyRXZlbnQpID0+IHsKICAgIGlmICghZHJhZy5jdXJyZW50IHx8ICFzdmdSZWYuY3VycmVudCkgcmV0dXJuOwogICAgY29uc3QgcmVjdCA9IHN2Z1JlZi5jdXJyZW50LmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgY29uc3QgeCA9IGUuY2xpZW50WCAtIHJlY3QubGVmdCAtIG9yaWdpbi54OwogICAgY29uc3QgeSA9IGUuY2xpZW50WSAtIHJlY3QudG9wIC0gb3JpZ2luLnk7CiAgICBjb25zdCBkaXN0ID0gTWF0aC5oeXBvdCh4LCB5KTsKICAgIGNvbnN0IGFuZyA9IChNYXRoLmF0YW4yKHgsIC15KSAvIERFRyArIDM2MCkgJSAzNjA7CiAgICBpZiAoZHJhZy5jdXJyZW50ID09PSAidGlwIikgewogICAgICBjb25zdCBtZXRyZXMgPSBNYXRoLm1pbigxMjAwMCwgTWF0aC5tYXgoODAwLCBkaXN0IC8gcHhQZXJNKSk7CiAgICAgIG9uQ2hhbmdlKHsgLi4uY29uZSwgYmVhcmluZzogYW5nLCBsZW5ndGg6IG1ldHJlcyB9KTsKICAgIH0gZWxzZSB7CiAgICAgIGNvbnN0IGRlbHRhID0gKChhbmcgLSBjb25lLmJlYXJpbmcgKyA1NDApICUgMzYwKSAtIDE4MDsKICAgICAgb25DaGFuZ2UoeyAuLi5jb25lLCBoYWxmV2lkdGg6IE1hdGgubWluKDcwLCBNYXRoLm1heCg2LCBNYXRoLmFicyhkZWx0YSkpKSB9KTsKICAgIH0KICB9OwoKICBjb25zdCBlbmQgPSAoKSA9PiAoZHJhZy5jdXJyZW50ID0gbnVsbCk7CgogIHJldHVybiAoCiAgICA8PgogICAgICA8c3ZnCiAgICAgICAgcmVmPXtzdmdSZWZ9CiAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIHotWzUyMF0gdG91Y2gtbm9uZSIKICAgICAgICB3aWR0aD17c2l6ZS54fQogICAgICAgIGhlaWdodD17c2l6ZS55fQogICAgICAgIHN0eWxlPXt7IHBvaW50ZXJFdmVudHM6IGRyYWcuY3VycmVudCA/ICJhdXRvIiA6ICJub25lIiB9fQogICAgICAgIG9uUG9pbnRlck1vdmU9e29uUG9pbnRlck1vdmV9CiAgICAgICAgb25Qb2ludGVyVXA9e2VuZH0KICAgICAgICBvblBvaW50ZXJDYW5jZWw9e2VuZH0KICAgICAgPgogICAgICAgIDxkZWZzPgogICAgICAgICAgPHJhZGlhbEdyYWRpZW50IGlkPSJjb25lRmlsbCIgY3g9IjUwJSIgY3k9IjEwMCUiIHI9IjEwMCUiPgogICAgICAgICAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wQ29sb3I9Im9rbGNoKDAuOCAwLjE1IDc4KSIgc3RvcE9wYWNpdHk9IjAuMzIiIC8+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcENvbG9yPSJva2xjaCgwLjggMC4xNSA3OCkiIHN0b3BPcGFjaXR5PSIwLjA4IiAvPgogICAgICAgICAgPC9yYWRpYWxHcmFkaWVudD4KICAgICAgICA8L2RlZnM+CiAgICAgICAgPHBhdGgKICAgICAgICAgIGQ9e2BNICR7b3JpZ2luLnh9ICR7b3JpZ2luLnl9IEwgJHtsZWZ0Lnh9ICR7bGVmdC55fSBBICR7bGVufSAke2xlbn0gMCAwIDEgJHtyaWdodC54fSAke3JpZ2h0Lnl9IFpgfQogICAgICAgICAgZmlsbD0idXJsKCNjb25lRmlsbCkiCiAgICAgICAgICBzdHJva2U9Im9rbGNoKDAuODYgMC4xNSA3OCkiCiAgICAgICAgICBzdHJva2VXaWR0aD17MS41fQogICAgICAgICAgc3Ryb2tlRGFzaGFycmF5PSI2IDYiCiAgICAgICAgLz4KICAgICAgICA8bGluZQogICAgICAgICAgeDE9e29yaWdpbi54fQogICAgICAgICAgeTE9e29yaWdpbi55fQogICAgICAgICAgeDI9e3RpcC54fQogICAgICAgICAgeTI9e3RpcC55fQogICAgICAgICAgc3Ryb2tlPSJva2xjaCgwLjg2IDAuMTUgNzggLyAwLjUpIgogICAgICAgICAgc3Ryb2tlV2lkdGg9ezF9CiAgICAgICAgLz4KICAgICAgICA8dGV4dAogICAgICAgICAgeD17b3JpZ2luLnggKyAxNH0KICAgICAgICAgIHk9e29yaWdpbi55ICsgNH0KICAgICAgICAgIGZpbGw9Im9rbGNoKDAuOTQgMC4wMTIgOTApIgogICAgICAgICAgZm9udFNpemU9IjEwIgogICAgICAgICAgbGV0dGVyU3BhY2luZz0iMiIKICAgICAgICA+CiAgICAgICAgICBZT1UKICAgICAgICA8L3RleHQ+CgogICAgICAgIHsvKiBkaXN0YW5jZSAvIGRpcmVjdGlvbiBoYW5kbGUgKi99CiAgICAgICAgPGcKICAgICAgICAgIHN0eWxlPXt7IHBvaW50ZXJFdmVudHM6ICJhdXRvIiwgY3Vyc29yOiAiZ3JhYiIgfX0KICAgICAgICAgIG9uUG9pbnRlckRvd249eyhlKSA9PiB7CiAgICAgICAgICAgIChlLnRhcmdldCBhcyBFbGVtZW50KS5zZXRQb2ludGVyQ2FwdHVyZT8uKGUucG9pbnRlcklkKTsKICAgICAgICAgICAgZHJhZy5jdXJyZW50ID0gInRpcCI7CiAgICAgICAgICB9fQogICAgICAgID4KICAgICAgICAgIDxjaXJjbGUgY3g9e3RpcC54fSBjeT17dGlwLnl9IHI9ezIwfSBmaWxsPSJ0cmFuc3BhcmVudCIgLz4KICAgICAgICAgIDxjaXJjbGUKICAgICAgICAgICAgY3g9e3RpcC54fQogICAgICAgICAgICBjeT17dGlwLnl9CiAgICAgICAgICAgIHI9ezExfQogICAgICAgICAgICBmaWxsPSJva2xjaCgwLjIgMC4wMiAyNTApIgogICAgICAgICAgICBzdHJva2U9Im9rbGNoKDAuODYgMC4xNSA3OCkiCiAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgLz4KICAgICAgICAgIDx0ZXh0CiAgICAgICAgICAgIHg9e3RpcC54fQogICAgICAgICAgICB5PXt0aXAueSAtIDIwfQogICAgICAgICAgICB0ZXh0QW5jaG9yPSJtaWRkbGUiCiAgICAgICAgICAgIGZpbGw9Im9rbGNoKDAuODYgMC4xNSA3OCkiCiAgICAgICAgICAgIGZvbnRTaXplPSIxMCIKICAgICAgICAgID4KICAgICAgICAgICAge2Zvcm1hdERpc3RhbmNlKGNvbmUubGVuZ3RoKX0KICAgICAgICAgIDwvdGV4dD4KICAgICAgICA8L2c+CgogICAgICAgIHsvKiB3aWR0aCBoYW5kbGUgKi99CiAgICAgICAgPGcKICAgICAgICAgIHN0eWxlPXt7IHBvaW50ZXJFdmVudHM6ICJhdXRvIiwgY3Vyc29yOiAiZ3JhYiIgfX0KICAgICAgICAgIG9uUG9pbnRlckRvd249eyhlKSA9PiB7CiAgICAgICAgICAgIChlLnRhcmdldCBhcyBFbGVtZW50KS5zZXRQb2ludGVyQ2FwdHVyZT8uKGUucG9pbnRlcklkKTsKICAgICAgICAgICAgZHJhZy5jdXJyZW50ID0gIndpZHRoIjsKICAgICAgICAgIH19CiAgICAgICAgPgogICAgICAgICAgPGNpcmNsZSBjeD17d2lkdGhIYW5kbGUueH0gY3k9e3dpZHRoSGFuZGxlLnl9IHI9ezIwfSBmaWxsPSJ0cmFuc3BhcmVudCIgLz4KICAgICAgICAgIDxjaXJjbGUKICAgICAgICAgICAgY3g9e3dpZHRoSGFuZGxlLnh9CiAgICAgICAgICAgIGN5PXt3aWR0aEhhbmRsZS55fQogICAgICAgICAgICByPXs5fQogICAgICAgICAgICBmaWxsPSJva2xjaCgwLjIgMC4wMiAyNTApIgogICAgICAgICAgICBzdHJva2U9Im9rbGNoKDAuOTQgMC4wMTIgOTApIgogICAgICAgICAgICBzdHJva2VXaWR0aD17Mn0KICAgICAgICAgIC8+CiAgICAgICAgICA8dGV4dAogICAgICAgICAgICB4PXt3aWR0aEhhbmRsZS54ICsgMTR9CiAgICAgICAgICAgIHk9e3dpZHRoSGFuZGxlLnkgKyA0fQogICAgICAgICAgICBmaWxsPSJva2xjaCgwLjk0IDAuMDEyIDkwKSIKICAgICAgICAgICAgZm9udFNpemU9IjEwIgogICAgICAgICAgPgogICAgICAgICAgICB7TWF0aC5yb3VuZChjb25lLmhhbGZXaWR0aCAqIDIpfcKwCiAgICAgICAgICA8L3RleHQ+CiAgICAgICAgPC9nPgogICAgICA8L3N2Zz4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIGluc2V0LXgtMCBib3R0b20tMCB6LVs1NDBdIHAtMyI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InBhbmVsIHBvaW50ZXItZXZlbnRzLWF1dG8gcm91bmRlZC0yeGwgcC00Ij4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1bMTBweF0gdXBwZXJjYXNlIHRyYWNraW5nLVswLjI4ZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIENob29zZSBhIGRpcmVjdGlvbiB0byBleHBsb3JlCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1bMTFweF0gbGVhZGluZy1yZWxheGVkIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgIERyYWcgdGhlIGZhciBoYW5kbGUgdG8gYWltIGFuZCBzZXQgcmFuZ2UuIERyYWcgdGhlIHNpZGUgaGFuZGxlIHRvIHdpZGVuIHRoZSBzZWFyY2ggem9uZS4KICAgICAgICAgICAgVGhlIGFwcCBwaWNrcyB0aGUgc3BvdC4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0zIGZsZXggZ2FwLTIiPgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgb25DbGljaz17b25DYW5jZWx9CiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4LTEgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTMgdGV4dC1bMTBweF0gdHJhY2tpbmctWzAuMThlbV0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgQ0FOQ0VMCiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgb25DbGljaz17b25Db25maXJtfQogICAgICAgICAgICAgIGRpc2FibGVkPXtidXN5fQogICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC1bMl0gcm91bmRlZC14bCBiZy1wcmltYXJ5IHB4LTMgcHktMyB0ZXh0LVsxMHB4XSBmb250LWJvbGQgdHJhY2tpbmctWzAuMmVtXSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBkaXNhYmxlZDpvcGFjaXR5LTcwIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge2J1c3kgPyAiU0NPVVRJTkfigKYiIDogIlNFTkQgTUUgVEhFUkUifQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvPgogICk7Cn0K
+import { useEffect, useRef, useState } from "react";
+import L from "leaflet";
+import type { Cone, LatLng } from "@/lib/expedition";
+import { destinationFrom, formatDistance } from "@/lib/expedition";
+
+type Props = {
+  map: L.Map;
+  player: LatLng;
+  cone: Cone;
+  onChange: (c: Cone) => void;
+  onConfirm: () => void;
+  onCancel: () => void;
+  busy: boolean;
+};
+
+const DEG = Math.PI / 180;
+
+function metresToPixels(map: L.Map, metres: number) {
+  const c = map.getCenter();
+  const a = map.latLngToContainerPoint(c);
+  const east = destinationFrom({ lat: c.lat, lng: c.lng }, 90, metres);
+  const b = map.latLngToContainerPoint(L.latLng(east.lat, east.lng));
+  return Math.max(1, Math.abs(b.x - a.x));
+}
+
+export default function DirectionTool({
+  map,
+  player,
+  cone,
+  onChange,
+  onConfirm,
+  onCancel,
+  busy,
+}: Props) {
+  const svgRef = useRef<SVGSVGElement>(null);
+  const [, setTick] = useState(0);
+  const drag = useRef<"tip" | "width" | null>(null);
+
+  useEffect(() => {
+    const r = () => setTick((t) => t + 1);
+    map.on("move zoom resize", r);
+    return () => {
+      map.off("move zoom resize", r);
+    };
+  }, [map]);
+
+  const size = map.getSize();
+  const origin = map.latLngToContainerPoint(L.latLng(player.lat, player.lng));
+  const pxPerM = metresToPixels(map, 1000) / 1000;
+  const len = cone.length * pxPerM;
+
+  const pt = (bearing: number, dist: number) => ({
+    x: origin.x + Math.sin(bearing * DEG) * dist,
+    y: origin.y - Math.cos(bearing * DEG) * dist,
+  });
+
+  const left = pt(cone.bearing - cone.halfWidth, len);
+  const right = pt(cone.bearing + cone.halfWidth, len);
+  const tip = pt(cone.bearing, len);
+  const widthHandle = pt(cone.bearing + cone.halfWidth, len * 0.72);
+
+  const onPointerMove = (e: React.PointerEvent) => {
+    if (!drag.current || !svgRef.current) return;
+    const rect = svgRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left - origin.x;
+    const y = e.clientY - rect.top - origin.y;
+    const dist = Math.hypot(x, y);
+    const ang = (Math.atan2(x, -y) / DEG + 360) % 360;
+    if (drag.current === "tip") {
+      const metres = Math.min(12000, Math.max(800, dist / pxPerM));
+      onChange({ ...cone, bearing: ang, length: metres });
+    } else {
+      const delta = ((ang - cone.bearing + 540) % 360) - 180;
+      onChange({ ...cone, halfWidth: Math.min(70, Math.max(6, Math.abs(delta))) });
+    }
+  };
+
+  const end = () => (drag.current = null);
+
+  return (
+    <>
+      <svg
+        ref={svgRef}
+        className="absolute inset-0 z-[520] touch-none"
+        width={size.x}
+        height={size.y}
+        style={{ pointerEvents: drag.current ? "auto" : "none" }}
+        onPointerMove={onPointerMove}
+        onPointerUp={end}
+        onPointerCancel={end}
+      >
+        <defs>
+          <radialGradient id="coneFill" cx="50%" cy="100%" r="100%">
+            <stop offset="0%" stopColor="oklch(0.8 0.15 78)" stopOpacity="0.32" />
+            <stop offset="100%" stopColor="oklch(0.8 0.15 78)" stopOpacity="0.08" />
+          </radialGradient>
+        </defs>
+        <path
+          d={`M ${origin.x} ${origin.y} L ${left.x} ${left.y} A ${len} ${len} 0 0 1 ${right.x} ${right.y} Z`}
+          fill="url(#coneFill)"
+          stroke="oklch(0.86 0.15 78)"
+          strokeWidth={1.5}
+          strokeDasharray="6 6"
+        />
+        <line
+          x1={origin.x}
+          y1={origin.y}
+          x2={tip.x}
+          y2={tip.y}
+          stroke="oklch(0.86 0.15 78 / 0.5)"
+          strokeWidth={1}
+        />
+        <text
+          x={origin.x + 14}
+          y={origin.y + 4}
+          fill="oklch(0.94 0.012 90)"
+          fontSize="10"
+          letterSpacing="2"
+        >
+          YOU
+        </text>
+
+        {/* distance / direction handle */}
+        <g
+          style={{ pointerEvents: "auto", cursor: "grab" }}
+          onPointerDown={(e) => {
+            (e.target as Element).setPointerCapture?.(e.pointerId);
+            drag.current = "tip";
+          }}
+        >
+          <circle cx={tip.x} cy={tip.y} r={20} fill="transparent" />
+          <circle
+            cx={tip.x}
+            cy={tip.y}
+            r={11}
+            fill="oklch(0.2 0.02 250)"
+            stroke="oklch(0.86 0.15 78)"
+            strokeWidth={2}
+          />
+          <text
+            x={tip.x}
+            y={tip.y - 20}
+            textAnchor="middle"
+            fill="oklch(0.86 0.15 78)"
+            fontSize="10"
+          >
+            {formatDistance(cone.length)}
+          </text>
+        </g>
+
+        {/* width handle */}
+        <g
+          style={{ pointerEvents: "auto", cursor: "grab" }}
+          onPointerDown={(e) => {
+            (e.target as Element).setPointerCapture?.(e.pointerId);
+            drag.current = "width";
+          }}
+        >
+          <circle cx={widthHandle.x} cy={widthHandle.y} r={20} fill="transparent" />
+          <circle
+            cx={widthHandle.x}
+            cy={widthHandle.y}
+            r={9}
+            fill="oklch(0.2 0.02 250)"
+            stroke="oklch(0.94 0.012 90)"
+            strokeWidth={2}
+          />
+          <text
+            x={widthHandle.x + 14}
+            y={widthHandle.y + 4}
+            fill="oklch(0.94 0.012 90)"
+            fontSize="10"
+          >
+            {Math.round(cone.halfWidth * 2)}°
+          </text>
+        </g>
+      </svg>
+
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[540] p-3">
+        <div className="panel pointer-events-auto rounded-2xl p-4">
+          <p className="text-[10px] uppercase tracking-[0.28em] text-muted-foreground">
+            Choose a direction to explore
+          </p>
+          <p className="mt-1 text-[11px] leading-relaxed text-muted-foreground">
+            Drag the far handle to aim and set range. Drag the side handle to widen the search zone.
+            The app picks the spot.
+          </p>
+          <div className="mt-3 flex gap-2">
+            <button
+              onClick={onCancel}
+              className="flex-1 rounded-xl border border-border px-3 py-3 text-[10px] tracking-[0.18em] text-muted-foreground"
+            >
+              CANCEL
+            </button>
+            <button
+              onClick={onConfirm}
+              disabled={busy}
+              className="flex-[2] rounded-xl bg-primary px-3 py-3 text-[10px] font-bold tracking-[0.2em] text-primary-foreground disabled:opacity-70"
+            >
+              {busy ? "SCOUTING…" : "SEND ME THERE"}
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}

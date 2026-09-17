@@ -1,1 +1,94 @@
-aW1wb3J0IHsgY3JlYXRlRmlsZVJvdXRlLCB1c2VOYXZpZ2F0ZSB9IGZyb20gIkB0YW5zdGFjay9yZWFjdC1yb3V0ZXIiOwppbXBvcnQgeyB1c2VTdGF0ZSwgdHlwZSBGb3JtRXZlbnQgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IExvYWRlcjIgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBzdXBhYmFzZSB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL2NsaWVudCI7CgpleHBvcnQgY29uc3QgUm91dGUgPSBjcmVhdGVGaWxlUm91dGUoIi9yZXNldC1wYXNzd29yZCIpKHsKICBoZWFkOiAoKSA9PiAoewogICAgbWV0YTogWwogICAgICB7IHRpdGxlOiAiU2V0IGEgbmV3IHBhc3N3b3JkIOKAlCBFeHBlZGl0aW9uIiB9LAogICAgICB7CiAgICAgICAgbmFtZTogImRlc2NyaXB0aW9uIiwKICAgICAgICBjb250ZW50OiAiQ2hvb3NlIGEgbmV3IHBhc3N3b3JkIGZvciB5b3VyIEV4cGVkaXRpb24gZXhwbG9yZXIgYWNjb3VudC4iLAogICAgICB9LAogICAgICB7IHByb3BlcnR5OiAib2c6dGl0bGUiLCBjb250ZW50OiAiU2V0IGEgbmV3IHBhc3N3b3JkIOKAlCBFeHBlZGl0aW9uIiB9LAogICAgICB7IHByb3BlcnR5OiAib2c6ZGVzY3JpcHRpb24iLCBjb250ZW50OiAiQ2hvb3NlIGEgbmV3IHBhc3N3b3JkIGZvciB5b3VyIEV4cGVkaXRpb24gYWNjb3VudC4iIH0sCiAgICAgIHsgcHJvcGVydHk6ICJvZzp0eXBlIiwgY29udGVudDogIndlYnNpdGUiIH0sCiAgICAgIHsgbmFtZTogInR3aXR0ZXI6Y2FyZCIsIGNvbnRlbnQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiB9LAogICAgXSwKICB9KSwKICBjb21wb25lbnQ6IFJlc2V0UGFzc3dvcmQsCn0pOwoKZnVuY3Rpb24gUmVzZXRQYXNzd29yZCgpIHsKICBjb25zdCBuYXZpZ2F0ZSA9IHVzZU5hdmlnYXRlKCk7CiAgY29uc3QgW3Bhc3N3b3JkLCBzZXRQYXNzd29yZF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2NvbmZpcm0sIHNldENvbmZpcm1dID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtidXN5LCBzZXRCdXN5XSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbZXJyb3IsIHNldEVycm9yXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtkb25lLCBzZXREb25lXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3Qgc3VibWl0ID0gYXN5bmMgKGU6IEZvcm1FdmVudCkgPT4gewogICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgc2V0RXJyb3IobnVsbCk7CiAgICBpZiAocGFzc3dvcmQgIT09IGNvbmZpcm0pIHJldHVybiBzZXRFcnJvcigiUGFzc3dvcmRzIGRvbid0IG1hdGNoLiIpOwogICAgaWYgKHBhc3N3b3JkLmxlbmd0aCA8IDYpIHJldHVybiBzZXRFcnJvcigiUGFzc3dvcmQgbXVzdCBiZSBhdCBsZWFzdCA2IGNoYXJhY3RlcnMuIik7CiAgICBzZXRCdXN5KHRydWUpOwogICAgdHJ5IHsKICAgICAgY29uc3QgeyBlcnJvcjogZXJyIH0gPSBhd2FpdCBzdXBhYmFzZS5hdXRoLnVwZGF0ZVVzZXIoeyBwYXNzd29yZCB9KTsKICAgICAgaWYgKGVycikgdGhyb3cgZXJyOwogICAgICBzZXREb25lKHRydWUpOwogICAgICBzZXRUaW1lb3V0KCgpID0+IG5hdmlnYXRlKHsgdG86ICIvIiwgcmVwbGFjZTogdHJ1ZSB9KSwgMTIwMCk7CiAgICB9IGNhdGNoIChlcnIpIHsKICAgICAgc2V0RXJyb3IoZXJyIGluc3RhbmNlb2YgRXJyb3IgPyBlcnIubWVzc2FnZSA6ICJDb3VsZCBub3QgdXBkYXRlIHRoZSBwYXNzd29yZC4iKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldEJ1c3koZmFsc2UpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8bWFpbiBjbGFzc05hbWU9ImdyaWQgbWluLWgtWzEwMGR2aF0gcGxhY2UtaXRlbXMtY2VudGVyIGJnLWJhY2tncm91bmQgcHgtNSBweS0xMCB0ZXh0LWZvcmVncm91bmQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LXNtIj4KICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4zNWVtXSB0ZXh0LWFjY2VudCI+QWNjb3VudDwvcD4KICAgICAgICA8aDEgY2xhc3NOYW1lPSJtdC0zIHRleHQtWzEuNHJlbV0gZm9udC1ib2xkIGxlYWRpbmctc251ZyI+U2V0IGEgbmV3IHBhc3N3b3JkPC9oMT4KICAgICAgICA8Zm9ybSBvblN1Ym1pdD17c3VibWl0fSBjbGFzc05hbWU9InBhbmVsIG10LTYgcm91bmRlZC0yeGwgcC00Ij4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LVsxMHB4XSB0cmFja2luZy1bMC4yOGVtXSB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgIE5FVyBQQVNTV09SRAogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgdmFsdWU9e3Bhc3N3b3JkfQogICAgICAgICAgICAgIGF1dG9Db21wbGV0ZT0ibmV3LXBhc3N3b3JkIgogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0UGFzc3dvcmQoZS50YXJnZXQudmFsdWUpfQogICAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtMS41IHctZnVsbCByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItYm9yZGVyLzcwIGJnLXNlY29uZGFyeS80MCBweC0zIHB5LTIuNSB0ZXh0LXNtIG91dGxpbmUtbm9uZSBmb2N1czpib3JkZXItYWNjZW50IgogICAgICAgICAgICAvPgogICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9Im10LTMgYmxvY2siPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtWzEwcHhdIHRyYWNraW5nLVswLjI4ZW1dIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+CiAgICAgICAgICAgICAgQ09ORklSTSBQQVNTV09SRAogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgIHJlcXVpcmVkCiAgICAgICAgICAgICAgdHlwZT0icGFzc3dvcmQiCiAgICAgICAgICAgICAgdmFsdWU9e2NvbmZpcm19CiAgICAgICAgICAgICAgYXV0b0NvbXBsZXRlPSJuZXctcGFzc3dvcmQiCiAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRDb25maXJtKGUudGFyZ2V0LnZhbHVlKX0KICAgICAgICAgICAgICBjbGFzc05hbWU9Im10LTEuNSB3LWZ1bGwgcm91bmRlZC14bCBib3JkZXIgYm9yZGVyLWJvcmRlci83MCBiZy1zZWNvbmRhcnkvNDAgcHgtMyBweS0yLjUgdGV4dC1zbSBvdXRsaW5lLW5vbmUgZm9jdXM6Ym9yZGVyLWFjY2VudCIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIHR5cGU9InN1Ym1pdCIKICAgICAgICAgICAgZGlzYWJsZWQ9e2J1c3kgfHwgZG9uZX0KICAgICAgICAgICAgY2xhc3NOYW1lPSJtdC01IGlubGluZS1mbGV4IHctZnVsbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZ2FwLTIgcm91bmRlZC14bCBiZy1wcmltYXJ5IHB4LTQgcHktMy41IHRleHQteHMgZm9udC1ib2xkIHRyYWNraW5nLVswLjIyZW1dIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIGRpc2FibGVkOm9wYWNpdHktNzAiCiAgICAgICAgICA+CiAgICAgICAgICAgIHtidXN5ICYmIDxMb2FkZXIyIGNsYXNzTmFtZT0iaC00IHctNCBhbmltYXRlLXNwaW4iIC8+fQogICAgICAgICAgICB7ZG9uZSA/ICJQQVNTV09SRCBVUERBVEVEIiA6ICJVUERBVEUgUEFTU1dPUkQifQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgPC9mb3JtPgogICAgICAgIHtlcnJvciAmJiA8cCBjbGFzc05hbWU9Im10LTQgdGV4dC1bMTFweF0gdGV4dC1kZXN0cnVjdGl2ZSI+e2Vycm9yfTwvcD59CiAgICAgIDwvZGl2PgogICAgPC9tYWluPgogICk7Cn0K
+import { createFileRoute, useNavigate } from "@tanstack/react-router";
+import { useState, type FormEvent } from "react";
+import { Loader2 } from "lucide-react";
+import { supabase } from "@/integrations/supabase/client";
+
+export const Route = createFileRoute("/reset-password")({
+  head: () => ({
+    meta: [
+      { title: "Set a new password — Expedition" },
+      {
+        name: "description",
+        content: "Choose a new password for your Expedition explorer account.",
+      },
+      { property: "og:title", content: "Set a new password — Expedition" },
+      { property: "og:description", content: "Choose a new password for your Expedition account." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+  }),
+  component: ResetPassword,
+});
+
+function ResetPassword() {
+  const navigate = useNavigate();
+  const [password, setPassword] = useState("");
+  const [confirm, setConfirm] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [done, setDone] = useState(false);
+
+  const submit = async (e: FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    if (password !== confirm) return setError("Passwords don't match.");
+    if (password.length < 6) return setError("Password must be at least 6 characters.");
+    setBusy(true);
+    try {
+      const { error: err } = await supabase.auth.updateUser({ password });
+      if (err) throw err;
+      setDone(true);
+      setTimeout(() => navigate({ to: "/", replace: true }), 1200);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Could not update the password.");
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  return (
+    <main className="grid min-h-[100dvh] place-items-center bg-background px-5 py-10 text-foreground">
+      <div className="w-full max-w-sm">
+        <p className="text-[10px] uppercase tracking-[0.35em] text-accent">Account</p>
+        <h1 className="mt-3 text-[1.4rem] font-bold leading-snug">Set a new password</h1>
+        <form onSubmit={submit} className="panel mt-6 rounded-2xl p-4">
+          <label className="block">
+            <span className="text-[10px] tracking-[0.28em] text-muted-foreground">
+              NEW PASSWORD
+            </span>
+            <input
+              required
+              type="password"
+              value={password}
+              autoComplete="new-password"
+              onChange={(e) => setPassword(e.target.value)}
+              className="mt-1.5 w-full rounded-xl border border-border/70 bg-secondary/40 px-3 py-2.5 text-sm outline-none focus:border-accent"
+            />
+          </label>
+          <label className="mt-3 block">
+            <span className="text-[10px] tracking-[0.28em] text-muted-foreground">
+              CONFIRM PASSWORD
+            </span>
+            <input
+              required
+              type="password"
+              value={confirm}
+              autoComplete="new-password"
+              onChange={(e) => setConfirm(e.target.value)}
+              className="mt-1.5 w-full rounded-xl border border-border/70 bg-secondary/40 px-3 py-2.5 text-sm outline-none focus:border-accent"
+            />
+          </label>
+          <button
+            type="submit"
+            disabled={busy || done}
+            className="mt-5 inline-flex w-full items-center justify-center gap-2 rounded-xl bg-primary px-4 py-3.5 text-xs font-bold tracking-[0.22em] text-primary-foreground disabled:opacity-70"
+          >
+            {busy && <Loader2 className="h-4 w-4 animate-spin" />}
+            {done ? "PASSWORD UPDATED" : "UPDATE PASSWORD"}
+          </button>
+        </form>
+        {error && <p className="mt-4 text-[11px] text-destructive">{error}</p>}
+      </div>
+    </main>
+  );
+}

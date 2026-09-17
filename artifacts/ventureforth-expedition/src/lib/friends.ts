@@ -1,1 +1,84 @@
-aW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwoKZXhwb3J0IHR5cGUgRnJpZW5kUHJvZmlsZSA9IHsKICB1c2VySWQ6IHN0cmluZzsKICBkaXNwbGF5TmFtZTogc3RyaW5nOwogIGNyZWF0ZWRBdDogc3RyaW5nOwogIHVwZGF0ZWRBdDogc3RyaW5nOwp9OwoKZXhwb3J0IHR5cGUgRnJpZW5kID0gewogIHVzZXJJZDogc3RyaW5nOwogIGRpc3BsYXlOYW1lOiBzdHJpbmc7CiAgY29ubmVjdGVkQXQ6IHN0cmluZzsKfTsKCmV4cG9ydCB0eXBlIEZyaWVuZFJlcXVlc3QgPSB7CiAgaWQ6IHN0cmluZzsKICBzZW5kZXJVc2VySWQ6IHN0cmluZzsKICBzZW5kZXJEaXNwbGF5TmFtZTogc3RyaW5nOwogIHJlY2VpdmVyVXNlcklkOiBzdHJpbmc7CiAgcmVjZWl2ZXJEaXNwbGF5TmFtZTogc3RyaW5nOwogIHN0YXR1czogInBlbmRpbmciIHwgImFjY2VwdGVkIiB8ICJkZWNsaW5lZCI7CiAgY3JlYXRlZEF0OiBzdHJpbmc7CiAgcmVzcG9uZGVkQXQ6IHN0cmluZyB8IG51bGw7Cn07CgpleHBvcnQgdHlwZSBGcmllbmRzT3ZlcnZpZXcgPSB7CiAgcHJvZmlsZTogRnJpZW5kUHJvZmlsZTsKICBmcmllbmRzOiBGcmllbmRbXTsKICBpbmNvbWluZzogRnJpZW5kUmVxdWVzdFtdOwogIG91dGdvaW5nOiBGcmllbmRSZXF1ZXN0W107Cn07CgpleHBvcnQgdHlwZSBGcmllbmRTZWFyY2hSZXN1bHQgPSB7CiAgdXNlcklkOiBzdHJpbmc7CiAgZGlzcGxheU5hbWU6IHN0cmluZzsKfTsKCmFzeW5jIGZ1bmN0aW9uIHJlcXVlc3Q8VD4ocGF0aDogc3RyaW5nLCBpbml0OiBSZXF1ZXN0SW5pdCA9IHt9KTogUHJvbWlzZTxUPiB7CiAgY29uc3QgewogICAgZGF0YTogeyBzZXNzaW9uIH0sCiAgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0U2Vzc2lvbigpOwogIGlmICghc2Vzc2lvbikgdGhyb3cgbmV3IEVycm9yKCJZb3VyIHNlc3Npb24gaGFzIGV4cGlyZWQuIFBsZWFzZSBzaWduIGluIGFnYWluLiIpOwoKICBjb25zdCBoZWFkZXJzID0gbmV3IEhlYWRlcnMoaW5pdC5oZWFkZXJzKTsKICBoZWFkZXJzLnNldCgiQXV0aG9yaXphdGlvbiIsIGBCZWFyZXIgJHtzZXNzaW9uLmFjY2Vzc190b2tlbn1gKTsKICBoZWFkZXJzLnNldCgiYXBpa2V5IiwgaW1wb3J0Lm1ldGEuZW52LlZJVEVfU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZKTsKICBoZWFkZXJzLnNldCgieC1zdXBhYmFzZS11cmwiLCBpbXBvcnQubWV0YS5lbnYuVklURV9TVVBBQkFTRV9VUkwpOwogIGlmIChpbml0LmJvZHkgJiYgIWhlYWRlcnMuaGFzKCJDb250ZW50LVR5cGUiKSkgaGVhZGVycy5zZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIik7CgogIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYC9hcGkke3BhdGh9YCwgeyAuLi5pbml0LCBoZWFkZXJzIH0pOwogIGlmICghcmVzcG9uc2Uub2spIHsKICAgIGNvbnN0IGJvZHkgPSAoYXdhaXQgcmVzcG9uc2UuanNvbigpLmNhdGNoKCgpID0+IG51bGwpKSBhcyB7IGVycm9yPzogc3RyaW5nIH0gfCBudWxsOwogICAgdGhyb3cgbmV3IEVycm9yKGJvZHk/LmVycm9yIHx8ICJDb3VsZCBub3QgcmVhY2ggdGhlIGV4cGVkaXRpb24gbmV0d29yay4iKTsKICB9CiAgaWYgKHJlc3BvbnNlLnN0YXR1cyA9PT0gMjA0KSByZXR1cm4gdW5kZWZpbmVkIGFzIFQ7CiAgcmV0dXJuIChhd2FpdCByZXNwb25zZS5qc29uKCkpIGFzIFQ7Cn0KCmV4cG9ydCBjb25zdCBnZXRGcmllbmRzT3ZlcnZpZXcgPSAoKSA9PiByZXF1ZXN0PEZyaWVuZHNPdmVydmlldz4oIi9mcmllbmRzIik7CgpleHBvcnQgY29uc3Qgc2VhcmNoRnJpZW5kUHJvZmlsZXMgPSAocXVlcnk6IHN0cmluZykgPT4KICByZXF1ZXN0PEZyaWVuZFNlYXJjaFJlc3VsdFtdPihgL2ZyaWVuZHMvc2VhcmNoP3E9JHtlbmNvZGVVUklDb21wb25lbnQocXVlcnkpfWApOwoKZXhwb3J0IGNvbnN0IHNhdmVGcmllbmRQcm9maWxlID0gKGRpc3BsYXlOYW1lOiBzdHJpbmcpID0+CiAgcmVxdWVzdDxGcmllbmRQcm9maWxlPigiL2ZyaWVuZHMvcHJvZmlsZSIsIHsKICAgIG1ldGhvZDogIlBVVCIsCiAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IGRpc3BsYXlOYW1lIH0pLAogIH0pOwoKZXhwb3J0IGNvbnN0IHNlbmRGcmllbmRSZXF1ZXN0ID0gKHJlY2VpdmVyVXNlcklkOiBzdHJpbmcpID0+CiAgcmVxdWVzdDxGcmllbmRSZXF1ZXN0PigiL2ZyaWVuZHMvcmVxdWVzdHMiLCB7CiAgICBtZXRob2Q6ICJQT1NUIiwKICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgcmVjZWl2ZXJVc2VySWQgfSksCiAgfSk7CgpleHBvcnQgY29uc3QgYWNjZXB0RnJpZW5kUmVxdWVzdCA9IChyZXF1ZXN0SWQ6IHN0cmluZykgPT4KICByZXF1ZXN0PEZyaWVuZD4oYC9mcmllbmRzL3JlcXVlc3RzLyR7cmVxdWVzdElkfS9hY2NlcHRgLCB7IG1ldGhvZDogIlBPU1QiIH0pOwoKZXhwb3J0IGNvbnN0IGRlY2xpbmVGcmllbmRSZXF1ZXN0ID0gKHJlcXVlc3RJZDogc3RyaW5nKSA9PgogIHJlcXVlc3Q8RnJpZW5kUmVxdWVzdD4oYC9mcmllbmRzL3JlcXVlc3RzLyR7cmVxdWVzdElkfS9kZWNsaW5lYCwgeyBtZXRob2Q6ICJQT1NUIiB9KTsKCmV4cG9ydCBjb25zdCByZW1vdmVGcmllbmQgPSAodXNlcklkOiBzdHJpbmcpID0+CiAgcmVxdWVzdDx2b2lkPihgL2ZyaWVuZHM/dXNlcklkPSR7ZW5jb2RlVVJJQ29tcG9uZW50KHVzZXJJZCl9YCwgeyBtZXRob2Q6ICJERUxFVEUiIH0pOw==
+import { supabase } from "@/integrations/supabase/client";
+
+export type FriendProfile = {
+  userId: string;
+  displayName: string;
+  createdAt: string;
+  updatedAt: string;
+};
+
+export type Friend = {
+  userId: string;
+  displayName: string;
+  connectedAt: string;
+};
+
+export type FriendRequest = {
+  id: string;
+  senderUserId: string;
+  senderDisplayName: string;
+  receiverUserId: string;
+  receiverDisplayName: string;
+  status: "pending" | "accepted" | "declined";
+  createdAt: string;
+  respondedAt: string | null;
+};
+
+export type FriendsOverview = {
+  profile: FriendProfile;
+  friends: Friend[];
+  incoming: FriendRequest[];
+  outgoing: FriendRequest[];
+};
+
+export type FriendSearchResult = {
+  userId: string;
+  displayName: string;
+};
+
+async function request<T>(path: string, init: RequestInit = {}): Promise<T> {
+  const {
+    data: { session },
+  } = await supabase.auth.getSession();
+  if (!session) throw new Error("Your session has expired. Please sign in again.");
+
+  const headers = new Headers(init.headers);
+  headers.set("Authorization", `Bearer ${session.access_token}`);
+  headers.set("apikey", import.meta.env.VITE_SUPABASE_PUBLISHABLE_KEY);
+  headers.set("x-supabase-url", import.meta.env.VITE_SUPABASE_URL);
+  if (init.body && !headers.has("Content-Type")) headers.set("Content-Type", "application/json");
+
+  const response = await fetch(`/api${path}`, { ...init, headers });
+  if (!response.ok) {
+    const body = (await response.json().catch(() => null)) as { error?: string } | null;
+    throw new Error(body?.error || "Could not reach the expedition network.");
+  }
+  if (response.status === 204) return undefined as T;
+  return (await response.json()) as T;
+}
+
+export const getFriendsOverview = () => request<FriendsOverview>("/friends");
+
+export const searchFriendProfiles = (query: string) =>
+  request<FriendSearchResult[]>(`/friends/search?q=${encodeURIComponent(query)}`);
+
+export const saveFriendProfile = (displayName: string) =>
+  request<FriendProfile>("/friends/profile", {
+    method: "PUT",
+    body: JSON.stringify({ displayName }),
+  });
+
+export const sendFriendRequest = (receiverUserId: string) =>
+  request<FriendRequest>("/friends/requests", {
+    method: "POST",
+    body: JSON.stringify({ receiverUserId }),
+  });
+
+export const acceptFriendRequest = (requestId: string) =>
+  request<Friend>(`/friends/requests/${requestId}/accept`, { method: "POST" });
+
+export const declineFriendRequest = (requestId: string) =>
+  request<FriendRequest>(`/friends/requests/${requestId}/decline`, { method: "POST" });
+
+export const removeFriend = (userId: string) =>
+  request<void>(`/friends?userId=${encodeURIComponent(userId)}`, { method: "DELETE" });

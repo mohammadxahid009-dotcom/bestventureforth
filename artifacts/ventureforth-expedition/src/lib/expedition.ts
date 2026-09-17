@@ -1,1 +1,218 @@
-ZXhwb3J0IHR5cGUgTGF0TG5nID0geyBsYXQ6IG51bWJlcjsgbG5nOiBudW1iZXIgfTsKCmNvbnN0IFIgPSA2MzcxMDAwOwpjb25zdCB0b1JhZCA9IChkOiBudW1iZXIpID0+IChkICogTWF0aC5QSSkgLyAxODA7CmNvbnN0IHRvRGVnID0gKHI6IG51bWJlcikgPT4gKHIgKiAxODApIC8gTWF0aC5QSTsKCmV4cG9ydCBmdW5jdGlvbiBkaXN0YW5jZU1ldGVycyhhOiBMYXRMbmcsIGI6IExhdExuZykgewogIGNvbnN0IGRMYXQgPSB0b1JhZChiLmxhdCAtIGEubGF0KTsKICBjb25zdCBkTG5nID0gdG9SYWQoYi5sbmcgLSBhLmxuZyk7CiAgY29uc3QgbGF0MSA9IHRvUmFkKGEubGF0KTsKICBjb25zdCBsYXQyID0gdG9SYWQoYi5sYXQpOwogIGNvbnN0IGggPSBNYXRoLnNpbihkTGF0IC8gMikgKiogMiArIE1hdGguY29zKGxhdDEpICogTWF0aC5jb3MobGF0MikgKiBNYXRoLnNpbihkTG5nIC8gMikgKiogMjsKICByZXR1cm4gMiAqIFIgKiBNYXRoLmFzaW4oTWF0aC5zcXJ0KGgpKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJlYXJpbmdEZWdyZWVzKGE6IExhdExuZywgYjogTGF0TG5nKSB7CiAgY29uc3QgbGF0MSA9IHRvUmFkKGEubGF0KTsKICBjb25zdCBsYXQyID0gdG9SYWQoYi5sYXQpOwogIGNvbnN0IGRMbmcgPSB0b1JhZChiLmxuZyAtIGEubG5nKTsKICBjb25zdCB5ID0gTWF0aC5zaW4oZExuZykgKiBNYXRoLmNvcyhsYXQyKTsKICBjb25zdCB4ID0gTWF0aC5jb3MobGF0MSkgKiBNYXRoLnNpbihsYXQyKSAtIE1hdGguc2luKGxhdDEpICogTWF0aC5jb3MobGF0MikgKiBNYXRoLmNvcyhkTG5nKTsKICByZXR1cm4gKHRvRGVnKE1hdGguYXRhbjIoeSwgeCkpICsgMzYwKSAlIDM2MDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNvbXBhc3NMYWJlbChkZWc6IG51bWJlcikgewogIGNvbnN0IGRpcnMgPSBbIk4iLCAiTkUiLCAiRSIsICJTRSIsICJTIiwgIlNXIiwgIlciLCAiTlciXTsKICByZXR1cm4gZGlyc1tNYXRoLnJvdW5kKGRlZyAvIDQ1KSAlIDhdID8/ICJOIjsKfQoKZXhwb3J0IGZ1bmN0aW9uIGRlc3RpbmF0aW9uRnJvbShvcmlnaW46IExhdExuZywgYmVhcmluZzogbnVtYmVyLCBtZXRlcnM6IG51bWJlcik6IExhdExuZyB7CiAgY29uc3QgYnIgPSB0b1JhZChiZWFyaW5nKTsKICBjb25zdCBsYXQxID0gdG9SYWQob3JpZ2luLmxhdCk7CiAgY29uc3QgbG5nMSA9IHRvUmFkKG9yaWdpbi5sbmcpOwogIGNvbnN0IGRyID0gbWV0ZXJzIC8gUjsKICBjb25zdCBsYXQyID0gTWF0aC5hc2luKAogICAgTWF0aC5zaW4obGF0MSkgKiBNYXRoLmNvcyhkcikgKyBNYXRoLmNvcyhsYXQxKSAqIE1hdGguc2luKGRyKSAqIE1hdGguY29zKGJyKSwKICApOwogIGNvbnN0IGxuZzIgPQogICAgbG5nMSArCiAgICBNYXRoLmF0YW4yKAogICAgICBNYXRoLnNpbihicikgKiBNYXRoLnNpbihkcikgKiBNYXRoLmNvcyhsYXQxKSwKICAgICAgTWF0aC5jb3MoZHIpIC0gTWF0aC5zaW4obGF0MSkgKiBNYXRoLnNpbihsYXQyKSwKICAgICk7CiAgcmV0dXJuIHsgbGF0OiB0b0RlZyhsYXQyKSwgbG5nOiAoKHRvRGVnKGxuZzIpICsgNTQwKSAlIDM2MCkgLSAxODAgfTsKfQoKLyoqIFBpY2sgYSBmaXhlZCByYW5kb20gZGVzdGluYXRpb24gMi03IGttIGF3YXkuICovCmV4cG9ydCBmdW5jdGlvbiByb2xsRGVzdGluYXRpb24ob3JpZ2luOiBMYXRMbmcpOiBMYXRMbmcgewogIGNvbnN0IGJlYXJpbmcgPSBNYXRoLnJhbmRvbSgpICogMzYwOwogIGNvbnN0IG1ldGVycyA9IDIwMDAgKyBNYXRoLnJhbmRvbSgpICogNTAwMDsKICByZXR1cm4gZGVzdGluYXRpb25Gcm9tKG9yaWdpbiwgYmVhcmluZywgbWV0ZXJzKTsKfQoKY29uc3QgU0VDVE9SX0RFR1JFRVMgPSAwLjA0Owpjb25zdCBDT09SRFNfUEVSX01FVFJFID0gNTsKY29uc3QgTEFUX01FVFJFU19QRVJfREVHUkVFID0gMTEwNTQwOwpjb25zdCBMTkdfTUVUUkVTX1BFUl9ERUdSRUUgPSAxMTEzMjA7CmNvbnN0IExBVF9TRUNUT1JfQ09VTlQgPSBNYXRoLmNlaWwoMTgwIC8gU0VDVE9SX0RFR1JFRVMpOwpjb25zdCBMTkdfU0VDVE9SX0NPVU5UID0gTWF0aC5jZWlsKDM2MCAvIFNFQ1RPUl9ERUdSRUVTKTsKCmV4cG9ydCB0eXBlIEdsb2JhbEFkZHJlc3MgPSB7CiAgc2VjdG9yOiBzdHJpbmc7CiAgeDogbnVtYmVyOwogIHo6IG51bWJlcjsKfTsKCmZ1bmN0aW9uIHNlY3RvckluZGV4KHZhbHVlOiBudW1iZXIsIG1pbmltdW06IG51bWJlciwgY291bnQ6IG51bWJlcikgewogIHJldHVybiBNYXRoLm1pbihjb3VudCAtIDEsIE1hdGgubWF4KDAsIE1hdGguZmxvb3IoKHZhbHVlIC0gbWluaW11bSkgLyBTRUNUT1JfREVHUkVFUykpKTsKfQoKZnVuY3Rpb24gZW5jb2RlU2VjdG9yKHJvdzogbnVtYmVyLCBjb2x1bW46IG51bWJlcikgewogIHJldHVybiBgJHtjb2x1bW4udG9TdHJpbmcoMzYpLnRvVXBwZXJDYXNlKCkucGFkU3RhcnQoMywgIjAiKX0tJHtyb3cKICAgIC50b1N0cmluZygzNikKICAgIC50b1VwcGVyQ2FzZSgpCiAgICAucGFkU3RhcnQoMywgIjAiKX1gOwp9CgpmdW5jdGlvbiBkZWNvZGVTZWN0b3Ioc2VjdG9yOiBzdHJpbmcpIHsKICBjb25zdCBtYXRjaCA9IC9eKFswLTlBLVpdezN9KS0oWzAtOUEtWl17M30pJC9pLmV4ZWMoc2VjdG9yLnRyaW0oKSk7CiAgaWYgKCFtYXRjaD8uWzFdIHx8ICFtYXRjaFsyXSkgcmV0dXJuIG51bGw7CiAgY29uc3QgY29sdW1uID0gTnVtYmVyLnBhcnNlSW50KG1hdGNoWzFdLCAzNik7CiAgY29uc3Qgcm93ID0gTnVtYmVyLnBhcnNlSW50KG1hdGNoWzJdLCAzNik7CiAgaWYgKGNvbHVtbiA+PSBMTkdfU0VDVE9SX0NPVU5UIHx8IHJvdyA+PSBMQVRfU0VDVE9SX0NPVU5UKSByZXR1cm4gbnVsbDsKICByZXR1cm4geyByb3csIGNvbHVtbiB9Owp9CgovKiogQSBwZXJtYW5lbnQgd29ybGQgYWRkcmVzcy4gVGhlIHNlY3RvciBwbHVzIFgvWiBpZGVudGlmaWVzIG9uZSBHUFMgcG9pbnQKICogZm9yIGV2ZXJ5IHBsYXllcjsgaXQgbmV2ZXIgZGVwZW5kcyBvbiB3aGVyZSBhIHNlc3Npb24gYmVnYW4uICovCmV4cG9ydCBmdW5jdGlvbiBnbG9iYWxBZGRyZXNzKHA6IExhdExuZyk6IEdsb2JhbEFkZHJlc3MgewogIGNvbnN0IHJvdyA9IHNlY3RvckluZGV4KHAubGF0LCAtOTAsIExBVF9TRUNUT1JfQ09VTlQpOwogIGNvbnN0IGNvbHVtbiA9IHNlY3RvckluZGV4KHAubG5nLCAtMTgwLCBMTkdfU0VDVE9SX0NPVU5UKTsKICBjb25zdCBjZW50cmVMYXQgPSAtOTAgKyAocm93ICsgMC41KSAqIFNFQ1RPUl9ERUdSRUVTOwogIGNvbnN0IGNlbnRyZUxuZyA9IC0xODAgKyAoY29sdW1uICsgMC41KSAqIFNFQ1RPUl9ERUdSRUVTOwogIGNvbnN0IHggPSBNYXRoLnJvdW5kKAogICAgKHAubG5nIC0gY2VudHJlTG5nKSAqIExOR19NRVRSRVNfUEVSX0RFR1JFRSAqIE1hdGguY29zKHRvUmFkKGNlbnRyZUxhdCkpICogQ09PUkRTX1BFUl9NRVRSRSwKICApOwogIGNvbnN0IHogPSBNYXRoLnJvdW5kKC0ocC5sYXQgLSBjZW50cmVMYXQpICogTEFUX01FVFJFU19QRVJfREVHUkVFICogQ09PUkRTX1BFUl9NRVRSRSk7CiAgcmV0dXJuIHsgc2VjdG9yOiBlbmNvZGVTZWN0b3Iocm93LCBjb2x1bW4pLCB4LCB6IH07Cn0KCi8qKiBSZXNvbHZlIGEgc2hhcmVkIHNlY3Rvci9YL1ogYWRkcmVzcyBiYWNrIHRvIGl0cyByZWFsLXdvcmxkIHBvaW50LiAqLwpleHBvcnQgZnVuY3Rpb24gYWRkcmVzc1RvTGF0TG5nKGFkZHJlc3M6IEdsb2JhbEFkZHJlc3MpOiBMYXRMbmcgfCBudWxsIHsKICBpZiAoIU51bWJlci5pc0Zpbml0ZShhZGRyZXNzLngpIHx8ICFOdW1iZXIuaXNGaW5pdGUoYWRkcmVzcy56KSkgcmV0dXJuIG51bGw7CiAgY29uc3QgaW5kaWNlcyA9IGRlY29kZVNlY3RvcihhZGRyZXNzLnNlY3Rvcik7CiAgaWYgKCFpbmRpY2VzKSByZXR1cm4gbnVsbDsKICBjb25zdCBjZW50cmVMYXQgPSAtOTAgKyAoaW5kaWNlcy5yb3cgKyAwLjUpICogU0VDVE9SX0RFR1JFRVM7CiAgY29uc3QgY2VudHJlTG5nID0gLTE4MCArIChpbmRpY2VzLmNvbHVtbiArIDAuNSkgKiBTRUNUT1JfREVHUkVFUzsKICBjb25zdCBsbmdTY2FsZSA9IExOR19NRVRSRVNfUEVSX0RFR1JFRSAqIE1hdGguY29zKHRvUmFkKGNlbnRyZUxhdCkpICogQ09PUkRTX1BFUl9NRVRSRTsKICBpZiAoTWF0aC5hYnMobG5nU2NhbGUpIDwgMC4wMDAwMDEpIHJldHVybiBudWxsOwogIGNvbnN0IHBvaW50ID0gewogICAgbGF0OiBjZW50cmVMYXQgLSBhZGRyZXNzLnogLyAoTEFUX01FVFJFU19QRVJfREVHUkVFICogQ09PUkRTX1BFUl9NRVRSRSksCiAgICBsbmc6IGNlbnRyZUxuZyArIGFkZHJlc3MueCAvIGxuZ1NjYWxlLAogIH07CiAgaWYgKHBvaW50LmxhdCA8IC05MCB8fCBwb2ludC5sYXQgPiA5MCB8fCBwb2ludC5sbmcgPCAtMTgwIHx8IHBvaW50LmxuZyA+IDE4MCkgcmV0dXJuIG51bGw7CiAgY29uc3QgY2Fub25pY2FsID0gZ2xvYmFsQWRkcmVzcyhwb2ludCk7CiAgcmV0dXJuIGNhbm9uaWNhbC5zZWN0b3IgPT09IGVuY29kZVNlY3RvcihpbmRpY2VzLnJvdywgaW5kaWNlcy5jb2x1bW4pID8gcG9pbnQgOiBudWxsOwp9CgovKiogQmFja3dhcmRzLWNvbXBhdGlibGUgY29vcmRpbmF0ZSBoZWxwZXIgZm9yIHRoZSBIVUQuICovCmV4cG9ydCBmdW5jdGlvbiBnYW1lQ29vcmRzKHA6IExhdExuZykgewogIGNvbnN0IHsgeCwgeiB9ID0gZ2xvYmFsQWRkcmVzcyhwKTsKICByZXR1cm4geyB4LCB6IH07Cn0KCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXREaXN0YW5jZShtOiBudW1iZXIpIHsKICByZXR1cm4gbSA8IDEwMDAgPyBgJHtNYXRoLnJvdW5kKG0pfSBNYCA6IGAkeyhtIC8gMTAwMCkudG9GaXhlZCgyKX0gS01gOwp9CgpleHBvcnQgY29uc3QgQVJSSVZBTF9SQURJVVMgPSA0MDsKCi8qKiBIdW1hbi1yZWFkYWJsZSBzZWN0b3IgY29kZSBmb3IgdGhlIGZpY3Rpb25hbCBncmlkLCBlLmcuICJLLTE0Ii4gKi8KZXhwb3J0IGZ1bmN0aW9uIHNlY3RvckNvZGUocDogTGF0TG5nKSB7CiAgcmV0dXJuIGdsb2JhbEFkZHJlc3MocCkuc2VjdG9yOwp9CgovKiogUm91Z2ggd2Fsa2luZyB0aW1lIGluIG1pbnV0ZXMgYXQgfjQuOCBrbS9oLiAqLwpleHBvcnQgZnVuY3Rpb24gd2Fsa01pbnV0ZXMobWV0ZXJzOiBudW1iZXIpIHsKICByZXR1cm4gTWF0aC5tYXgoMSwgTWF0aC5yb3VuZChtZXRlcnMgLyA4MCkpOwp9CgovKiogSG93IG11Y2ggbWFwIChpbiBtZXRyZXMpIHRoZSBwbGF5ZXIgcmV2ZWFscyBhcm91bmQgdGhlbXNlbHZlcyBhcyB0aGV5IHdhbGsuICovCmV4cG9ydCBjb25zdCBSRVZFQUxfUkFESVVTID0gNzA7CgovKiogSGFzIHRoaXMgcG9pbnQgYmVlbiB1bmNvdmVyZWQgYnkgdGhlIHBsYXllcidzIGV4cGxvcmF0aW9uIHRyYWlsPyAqLwpleHBvcnQgZnVuY3Rpb24gaXNEaXNjb3ZlcmVkKHA6IExhdExuZywgdHJhaWw6IExhdExuZ1tdLCByYWRpdXMgPSBSRVZFQUxfUkFESVVTKSB7CiAgcmV0dXJuIHRyYWlsLnNvbWUoKHQpID0+IGRpc3RhbmNlTWV0ZXJzKHQsIHApIDw9IHJhZGl1cyk7Cn0KCmV4cG9ydCB0eXBlIENvbmUgPSB7CiAgLyoqIGNlbnRyZSBiZWFyaW5nIG9mIHRoZSBjb25lLCBkZWdyZWVzIGZyb20gbm9ydGggKi8KICBiZWFyaW5nOiBudW1iZXI7CiAgLyoqIGhhbGYgYW5nbGUgb2YgdGhlIGNvbmUgaW4gZGVncmVlcyAqLwogIGhhbGZXaWR0aDogbnVtYmVyOwogIC8qKiBmdXJ0aGVzdCBhbGxvd2VkIGRpc3RhbmNlIGluIG1ldHJlcyAqLwogIGxlbmd0aDogbnVtYmVyOwp9OwoKLyoqIFJhbmRvbSBwb2ludCBpbnNpZGUgYSBkaXJlY3Rpb25hbCBjb25lIGFuY2hvcmVkIGF0IHRoZSBwbGF5ZXIuICovCmV4cG9ydCBmdW5jdGlvbiByYW5kb21Qb2ludEluQ29uZShvcmlnaW46IExhdExuZywgY29uZTogQ29uZSk6IExhdExuZyB7CiAgY29uc3QgbWluTSA9IE1hdGgubWF4KDQwMCwgY29uZS5sZW5ndGggKiAwLjM1KTsKICBjb25zdCBtYXhNID0gTWF0aC5tYXgobWluTSArIDIwMCwgY29uZS5sZW5ndGgpOwogIC8vIHNxcnQga2VlcHMgdGhlIHBpY2tzIGFyZWEtdW5pZm9ybSBpbnN0ZWFkIG9mIGNsdXN0ZXJpbmcgbmVhciB0aGUgcGxheWVyCiAgY29uc3QgbWV0ZXJzID0gTWF0aC5zcXJ0KG1pbk0gKiBtaW5NICsgTWF0aC5yYW5kb20oKSAqIChtYXhNICogbWF4TSAtIG1pbk0gKiBtaW5NKSk7CiAgY29uc3QgYmVhcmluZyA9IGNvbmUuYmVhcmluZyArIChNYXRoLnJhbmRvbSgpICogMiAtIDEpICogY29uZS5oYWxmV2lkdGg7CiAgcmV0dXJuIGRlc3RpbmF0aW9uRnJvbShvcmlnaW4sIGJlYXJpbmcsIG1ldGVycyk7Cn0KCmNvbnN0IEJBRF9DTEFTUyA9IG5ldyBTZXQoWyJ3YXRlciIsICJ3YXRlcndheSIsICJtaWxpdGFyeSIsICJhZXJvd2F5IiwgInJhaWx3YXkiXSk7CmNvbnN0IEJBRF9UWVBFID0gbmV3IFNldChbCiAgIndhdGVyIiwKICAiYmF5IiwKICAic3RyYWl0IiwKICAic2VhIiwKICAib2NlYW4iLAogICJyZXNlcnZvaXIiLAogICJyaXZlciIsCiAgImxha2UiLAogICJtb3RvcndheSIsCiAgIm1vdG9yd2F5X2xpbmsiLAogICJ0cnVuayIsCiAgInRydW5rX2xpbmsiLAogICJydW53YXkiLAogICJxdWFycnkiLApdKTsKCi8qKiBDaGVhcCBPU00gc2FuaXR5IGNoZWNrIOKAlCByZWplY3RzIHdhdGVyLCBtb3RvcndheXMgYW5kIHJlc3RyaWN0ZWQgbGFuZC4gKi8KYXN5bmMgZnVuY3Rpb24gbG9va3NSZWFjaGFibGUocDogTGF0TG5nKTogUHJvbWlzZTxib29sZWFuPiB7CiAgdHJ5IHsKICAgIGNvbnN0IGN0cmwgPSBuZXcgQWJvcnRDb250cm9sbGVyKCk7CiAgICBjb25zdCB0ID0gc2V0VGltZW91dCgoKSA9PiBjdHJsLmFib3J0KCksIDI1MDApOwogICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goCiAgICAgIGBodHRwczovL25vbWluYXRpbS5vcGVuc3RyZWV0bWFwLm9yZy9yZXZlcnNlP2Zvcm1hdD1qc29udjImem9vbT0xNiZsYXQ9JHtwLmxhdH0mbG9uPSR7cC5sbmd9YCwKICAgICAgeyBzaWduYWw6IGN0cmwuc2lnbmFsLCBoZWFkZXJzOiB7IEFjY2VwdDogImFwcGxpY2F0aW9uL2pzb24iIH0gfSwKICAgICk7CiAgICBjbGVhclRpbWVvdXQodCk7CiAgICBpZiAoIXJlcy5vaykgcmV0dXJuIHRydWU7CiAgICBjb25zdCBqID0gKGF3YWl0IHJlcy5qc29uKCkpIGFzIHsgY2xhc3M/OiBzdHJpbmc7IHR5cGU/OiBzdHJpbmc7IGVycm9yPzogc3RyaW5nIH07CiAgICBpZiAoai5lcnJvcikgcmV0dXJuIGZhbHNlOyAvLyBub3RoaW5nIG1hcHBlZCBoZXJlIGF0IGFsbCDigJQgdXN1YWxseSBvcGVuIHdhdGVyCiAgICBpZiAoai5jbGFzcyAmJiBCQURfQ0xBU1MuaGFzKGouY2xhc3MpKSByZXR1cm4gZmFsc2U7CiAgICBpZiAoai50eXBlICYmIEJBRF9UWVBFLmhhcyhqLnR5cGUpKSByZXR1cm4gZmFsc2U7CiAgICByZXR1cm4gdHJ1ZTsKICB9IGNhdGNoIHsKICAgIHJldHVybiB0cnVlOyAvLyBvZmZsaW5lIC8gcmF0ZS1saW1pdGVkOiBkb24ndCBibG9jayB0aGUgZ2FtZQogIH0KfQoKLyoqIFBpY2sgYSByYW5kb20sIHBsYXVzaWJseSByZWFjaGFibGUgZGVzdGluYXRpb24gaW5zaWRlIHRoZSBjaG9zZW4gem9uZS4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHBpY2tEZXN0aW5hdGlvbkluQ29uZShvcmlnaW46IExhdExuZywgY29uZTogQ29uZSk6IFByb21pc2U8TGF0TG5nPiB7CiAgbGV0IGZpcnN0OiBMYXRMbmcgfCBudWxsID0gbnVsbDsKICBmb3IgKGxldCBpID0gMDsgaSA8IDU7IGkrKykgewogICAgY29uc3QgY2FuZCA9IHJhbmRvbVBvaW50SW5Db25lKG9yaWdpbiwgY29uZSk7CiAgICBpZiAoIWZpcnN0KSBmaXJzdCA9IGNhbmQ7CiAgICBpZiAoYXdhaXQgbG9va3NSZWFjaGFibGUoY2FuZCkpIHJldHVybiBjYW5kOwogIH0KICByZXR1cm4gZmlyc3QgPz8gcmFuZG9tUG9pbnRJbkNvbmUob3JpZ2luLCBjb25lKTsKfQoKZXhwb3J0IGNvbnN0IERFRkFVTFRfQ09ORTogQ29uZSA9IHsgYmVhcmluZzogMCwgaGFsZldpZHRoOiAyNSwgbGVuZ3RoOiA0MDAwIH07Cg==
+export type LatLng = { lat: number; lng: number };
+
+const R = 6371000;
+const toRad = (d: number) => (d * Math.PI) / 180;
+const toDeg = (r: number) => (r * 180) / Math.PI;
+
+export function distanceMeters(a: LatLng, b: LatLng) {
+  const dLat = toRad(b.lat - a.lat);
+  const dLng = toRad(b.lng - a.lng);
+  const lat1 = toRad(a.lat);
+  const lat2 = toRad(b.lat);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+  return 2 * R * Math.asin(Math.sqrt(h));
+}
+
+export function bearingDegrees(a: LatLng, b: LatLng) {
+  const lat1 = toRad(a.lat);
+  const lat2 = toRad(b.lat);
+  const dLng = toRad(b.lng - a.lng);
+  const y = Math.sin(dLng) * Math.cos(lat2);
+  const x = Math.cos(lat1) * Math.sin(lat2) - Math.sin(lat1) * Math.cos(lat2) * Math.cos(dLng);
+  return (toDeg(Math.atan2(y, x)) + 360) % 360;
+}
+
+export function compassLabel(deg: number) {
+  const dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"];
+  return dirs[Math.round(deg / 45) % 8] ?? "N";
+}
+
+export function destinationFrom(origin: LatLng, bearing: number, meters: number): LatLng {
+  const br = toRad(bearing);
+  const lat1 = toRad(origin.lat);
+  const lng1 = toRad(origin.lng);
+  const dr = meters / R;
+  const lat2 = Math.asin(
+    Math.sin(lat1) * Math.cos(dr) + Math.cos(lat1) * Math.sin(dr) * Math.cos(br),
+  );
+  const lng2 =
+    lng1 +
+    Math.atan2(
+      Math.sin(br) * Math.sin(dr) * Math.cos(lat1),
+      Math.cos(dr) - Math.sin(lat1) * Math.sin(lat2),
+    );
+  return { lat: toDeg(lat2), lng: ((toDeg(lng2) + 540) % 360) - 180 };
+}
+
+/** Pick a fixed random destination 2-7 km away. */
+export function rollDestination(origin: LatLng): LatLng {
+  const bearing = Math.random() * 360;
+  const meters = 2000 + Math.random() * 5000;
+  return destinationFrom(origin, bearing, meters);
+}
+
+const SECTOR_DEGREES = 0.04;
+const COORDS_PER_METRE = 5;
+const LAT_METRES_PER_DEGREE = 110540;
+const LNG_METRES_PER_DEGREE = 111320;
+const LAT_SECTOR_COUNT = Math.ceil(180 / SECTOR_DEGREES);
+const LNG_SECTOR_COUNT = Math.ceil(360 / SECTOR_DEGREES);
+
+export type GlobalAddress = {
+  sector: string;
+  x: number;
+  z: number;
+};
+
+function sectorIndex(value: number, minimum: number, count: number) {
+  return Math.min(count - 1, Math.max(0, Math.floor((value - minimum) / SECTOR_DEGREES)));
+}
+
+function encodeSector(row: number, column: number) {
+  return `${column.toString(36).toUpperCase().padStart(3, "0")}-${row
+    .toString(36)
+    .toUpperCase()
+    .padStart(3, "0")}`;
+}
+
+function decodeSector(sector: string) {
+  const match = /^([0-9A-Z]{3})-([0-9A-Z]{3})$/i.exec(sector.trim());
+  if (!match?.[1] || !match[2]) return null;
+  const column = Number.parseInt(match[1], 36);
+  const row = Number.parseInt(match[2], 36);
+  if (column >= LNG_SECTOR_COUNT || row >= LAT_SECTOR_COUNT) return null;
+  return { row, column };
+}
+
+/** A permanent world address. The sector plus X/Z identifies one GPS point
+ * for every player; it never depends on where a session began. */
+export function globalAddress(p: LatLng): GlobalAddress {
+  const row = sectorIndex(p.lat, -90, LAT_SECTOR_COUNT);
+  const column = sectorIndex(p.lng, -180, LNG_SECTOR_COUNT);
+  const centreLat = -90 + (row + 0.5) * SECTOR_DEGREES;
+  const centreLng = -180 + (column + 0.5) * SECTOR_DEGREES;
+  const x = Math.round(
+    (p.lng - centreLng) * LNG_METRES_PER_DEGREE * Math.cos(toRad(centreLat)) * COORDS_PER_METRE,
+  );
+  const z = Math.round(-(p.lat - centreLat) * LAT_METRES_PER_DEGREE * COORDS_PER_METRE);
+  return { sector: encodeSector(row, column), x, z };
+}
+
+/** Resolve a shared sector/X/Z address back to its real-world point. */
+export function addressToLatLng(address: GlobalAddress): LatLng | null {
+  if (!Number.isFinite(address.x) || !Number.isFinite(address.z)) return null;
+  const indices = decodeSector(address.sector);
+  if (!indices) return null;
+  const centreLat = -90 + (indices.row + 0.5) * SECTOR_DEGREES;
+  const centreLng = -180 + (indices.column + 0.5) * SECTOR_DEGREES;
+  const lngScale = LNG_METRES_PER_DEGREE * Math.cos(toRad(centreLat)) * COORDS_PER_METRE;
+  if (Math.abs(lngScale) < 0.000001) return null;
+  const point = {
+    lat: centreLat - address.z / (LAT_METRES_PER_DEGREE * COORDS_PER_METRE),
+    lng: centreLng + address.x / lngScale,
+  };
+  if (point.lat < -90 || point.lat > 90 || point.lng < -180 || point.lng > 180) return null;
+  const canonical = globalAddress(point);
+  return canonical.sector === encodeSector(indices.row, indices.column) ? point : null;
+}
+
+/** Backwards-compatible coordinate helper for the HUD. */
+export function gameCoords(p: LatLng) {
+  const { x, z } = globalAddress(p);
+  return { x, z };
+}
+
+export function formatDistance(m: number) {
+  return m < 1000 ? `${Math.round(m)} M` : `${(m / 1000).toFixed(2)} KM`;
+}
+
+export const ARRIVAL_RADIUS = 40;
+
+/** Human-readable sector code for the fictional grid, e.g. "K-14". */
+export function sectorCode(p: LatLng) {
+  return globalAddress(p).sector;
+}
+
+/** Rough walking time in minutes at ~4.8 km/h. */
+export function walkMinutes(meters: number) {
+  return Math.max(1, Math.round(meters / 80));
+}
+
+/** How much map (in metres) the player reveals around themselves as they walk. */
+export const REVEAL_RADIUS = 70;
+
+/** Has this point been uncovered by the player's exploration trail? */
+export function isDiscovered(p: LatLng, trail: LatLng[], radius = REVEAL_RADIUS) {
+  return trail.some((t) => distanceMeters(t, p) <= radius);
+}
+
+export type Cone = {
+  /** centre bearing of the cone, degrees from north */
+  bearing: number;
+  /** half angle of the cone in degrees */
+  halfWidth: number;
+  /** furthest allowed distance in metres */
+  length: number;
+};
+
+/** Random point inside a directional cone anchored at the player. */
+export function randomPointInCone(origin: LatLng, cone: Cone): LatLng {
+  const minM = Math.max(400, cone.length * 0.35);
+  const maxM = Math.max(minM + 200, cone.length);
+  // sqrt keeps the picks area-uniform instead of clustering near the player
+  const meters = Math.sqrt(minM * minM + Math.random() * (maxM * maxM - minM * minM));
+  const bearing = cone.bearing + (Math.random() * 2 - 1) * cone.halfWidth;
+  return destinationFrom(origin, bearing, meters);
+}
+
+const BAD_CLASS = new Set(["water", "waterway", "military", "aeroway", "railway"]);
+const BAD_TYPE = new Set([
+  "water",
+  "bay",
+  "strait",
+  "sea",
+  "ocean",
+  "reservoir",
+  "river",
+  "lake",
+  "motorway",
+  "motorway_link",
+  "trunk",
+  "trunk_link",
+  "runway",
+  "quarry",
+]);
+
+/** Cheap OSM sanity check — rejects water, motorways and restricted land. */
+async function looksReachable(p: LatLng): Promise<boolean> {
+  try {
+    const ctrl = new AbortController();
+    const t = setTimeout(() => ctrl.abort(), 2500);
+    const res = await fetch(
+      `https://nominatim.openstreetmap.org/reverse?format=jsonv2&zoom=16&lat=${p.lat}&lon=${p.lng}`,
+      { signal: ctrl.signal, headers: { Accept: "application/json" } },
+    );
+    clearTimeout(t);
+    if (!res.ok) return true;
+    const j = (await res.json()) as { class?: string; type?: string; error?: string };
+    if (j.error) return false; // nothing mapped here at all — usually open water
+    if (j.class && BAD_CLASS.has(j.class)) return false;
+    if (j.type && BAD_TYPE.has(j.type)) return false;
+    return true;
+  } catch {
+    return true; // offline / rate-limited: don't block the game
+  }
+}
+
+/** Pick a random, plausibly reachable destination inside the chosen zone. */
+export async function pickDestinationInCone(origin: LatLng, cone: Cone): Promise<LatLng> {
+  let first: LatLng | null = null;
+  for (let i = 0; i < 5; i++) {
+    const cand = randomPointInCone(origin, cone);
+    if (!first) first = cand;
+    if (await looksReachable(cand)) return cand;
+  }
+  return first ?? randomPointInCone(origin, cone);
+}
+
+export const DEFAULT_CONE: Cone = { bearing: 0, halfWidth: 25, length: 4000 };

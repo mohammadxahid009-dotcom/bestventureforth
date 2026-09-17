@@ -1,1 +1,38 @@
-aW1wb3J0IHsgbGF6eSwgdHlwZSBDb21wb25lbnRUeXBlIH0gZnJvbSAicmVhY3QiOwoKLyoqCiAqIExhenktbG9hZCBhIHNjcmVlbiBjaHVuayB3aXRoIHJldHJpZXMuCiAqCiAqIEEgZHJvcHBlZCBtb2JpbGUgY29ubmVjdGlvbiAob3IgYSBzdGFsZSBjaHVuayBhZnRlciBhIG5ldyBkZXBsb3kpIG1ha2VzIHRoZQogKiBkeW5hbWljIGltcG9ydCByZWplY3QsIHdoaWNoIFJlYWN0IHJldGhyb3dzIGR1cmluZyByZW5kZXIgYW5kIGJsYW5rcyB0aGUgYXBwCiAqIHdpdGggdGhlIGdsb2JhbCBlcnJvciBwYWdlLiBSZXRyeWluZyBhIGNvdXBsZSBvZiB0aW1lcyDigJQgYW5kIHJlbG9hZGluZyBvbmNlCiAqIHdoZW4gdGhlIGNodW5rIHNpbXBseSBubyBsb25nZXIgZXhpc3RzIOKAlCBrZWVwcyB0aGF0IGZyb20gaGFwcGVuaW5nLgogKi8KZXhwb3J0IGZ1bmN0aW9uIGxhenlSZXRyeTxUIGV4dGVuZHMgQ29tcG9uZW50VHlwZTx1bmtub3duPj4oCiAgZmFjdG9yeTogKCkgPT4gUHJvbWlzZTx7IGRlZmF1bHQ6IFQgfT4sCiAga2V5OiBzdHJpbmcsCikgewogIHJldHVybiBsYXp5KGFzeW5jICgpID0+IHsKICAgIGxldCBsYXN0RXJyb3I6IHVua25vd247CiAgICBmb3IgKGxldCBhdHRlbXB0ID0gMDsgYXR0ZW1wdCA8IDM7IGF0dGVtcHQrKykgewogICAgICB0cnkgewogICAgICAgIHJldHVybiBhd2FpdCBmYWN0b3J5KCk7CiAgICAgIH0gY2F0Y2ggKGNhdXNlKSB7CiAgICAgICAgbGFzdEVycm9yID0gY2F1c2U7CiAgICAgICAgYXdhaXQgbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgMzAwICogKGF0dGVtcHQgKyAxKSkpOwogICAgICB9CiAgICB9CgogICAgLy8gVGhlIGRlcGxveWVkIGNodW5rIGlzIGdvbmUgKG5ldyByZWxlYXNlKTogcmVsb2FkIG9uY2UgdG8gcGljayB1cCB0aGUKICAgIC8vIGZyZXNoIGFzc2V0IG1hbmlmZXN0IGluc3RlYWQgb2Ygc2hvd2luZyBhbiBlcnJvciBzY3JlZW4uCiAgICBpZiAodHlwZW9mIHdpbmRvdyAhPT0gInVuZGVmaW5lZCIpIHsKICAgICAgY29uc3QgZmxhZyA9IGBjaHVuay1yZWxvYWQ6JHtrZXl9YDsKICAgICAgaWYgKCFzZXNzaW9uU3RvcmFnZS5nZXRJdGVtKGZsYWcpKSB7CiAgICAgICAgc2Vzc2lvblN0b3JhZ2Uuc2V0SXRlbShmbGFnLCAiMSIpOwogICAgICAgIHdpbmRvdy5sb2NhdGlvbi5yZWxvYWQoKTsKICAgICAgICByZXR1cm4geyBkZWZhdWx0OiAoKCkgPT4gbnVsbCkgYXMgdW5rbm93biBhcyBUIH07CiAgICAgIH0KICAgIH0KICAgIHRocm93IGxhc3RFcnJvcjsKICB9KTsKfQo=
+import { lazy, type ComponentType } from "react";
+
+/**
+ * Lazy-load a screen chunk with retries.
+ *
+ * A dropped mobile connection (or a stale chunk after a new deploy) makes the
+ * dynamic import reject, which React rethrows during render and blanks the app
+ * with the global error page. Retrying a couple of times — and reloading once
+ * when the chunk simply no longer exists — keeps that from happening.
+ */
+export function lazyRetry<T extends ComponentType<unknown>>(
+  factory: () => Promise<{ default: T }>,
+  key: string,
+) {
+  return lazy(async () => {
+    let lastError: unknown;
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        return await factory();
+      } catch (cause) {
+        lastError = cause;
+        await new Promise((resolve) => setTimeout(resolve, 300 * (attempt + 1)));
+      }
+    }
+
+    // The deployed chunk is gone (new release): reload once to pick up the
+    // fresh asset manifest instead of showing an error screen.
+    if (typeof window !== "undefined") {
+      const flag = `chunk-reload:${key}`;
+      if (!sessionStorage.getItem(flag)) {
+        sessionStorage.setItem(flag, "1");
+        window.location.reload();
+        return { default: (() => null) as unknown as T };
+      }
+    }
+    throw lastError;
+  });
+}

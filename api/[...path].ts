@@ -1,1 +1,3 @@
-aW1wb3J0IGFwcCBmcm9tICIuLi9hcnRpZmFjdHMvYXBpLXNlcnZlci9zcmMvYXBwIjsKCmV4cG9ydCBkZWZhdWx0IGFwcDs=
+import app from "../artifacts/api-server/src/app";
+
+export default app;

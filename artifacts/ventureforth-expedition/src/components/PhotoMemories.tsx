@@ -1,1 +1,335 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlUmVkdWNlciwgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IEwgZnJvbSAibGVhZmxldCI7CmltcG9ydCB7IFRyYXNoMiwgWCBhcyBYSWNvbiB9IGZyb20gImx1Y2lkZS1yZWFjdCI7CmltcG9ydCB0eXBlIHsgUGhvdG9NZW1vcnkgfSBmcm9tICJAL2xpYi9waG90b3MiOwoKdHlwZSBQcm9wcyA9IHsKICBtYXA6IEwuTWFwIHwgbnVsbDsKICBwaG90b3M6IFBob3RvTWVtb3J5W107CiAgb25Nb3ZlOiAoaWQ6IHN0cmluZywgYXQ6IHsgbGF0OiBudW1iZXI7IGxuZzogbnVtYmVyIH0pID0+IHZvaWQ7CiAgb25SZXNpemU6IChpZDogc3RyaW5nLCBzaXplTTogbnVtYmVyKSA9PiB2b2lkOwogIG9uRGVsZXRlOiAocGhvdG86IFBob3RvTWVtb3J5KSA9PiB2b2lkOwogIC8qKiBjdXJyZW50IG1hcCB0d2lzdCBhbmdsZSBpbiBkZWdyZWVzLCBzbyBwaG90b3Mgc3RheSBwaW5uZWQgdG8gdGhlIGdyb3VuZCAqLwogIHJvdGF0aW9uPzogbnVtYmVyOwp9OwoKLyoqIHRydWUgb25jZSBMZWFmbGV0J3MgcGFuZXMgYXJlIHBvc2l0aW9uZWQgYW5kIHByb2plY3Rpb24gbWF0aHMgaXMgc2FmZSAqLwpmdW5jdGlvbiBtYXBSZWFkeShtYXA6IEwuTWFwIHwgbnVsbCk6IG1hcCBpcyBMLk1hcCB7CiAgaWYgKCFtYXApIHJldHVybiBmYWxzZTsKICB0cnkgewogICAgY29uc3QgcGFuZSA9IG1hcC5nZXRQYW5lKCJtYXBQYW5lIikgYXMgKEhUTUxFbGVtZW50ICYgeyBfbGVhZmxldF9wb3M/OiB1bmtub3duIH0pIHwgdW5kZWZpbmVkOwogICAgcmV0dXJuICEhcGFuZSAmJiBwYW5lWyJfbGVhZmxldF9wb3MiXSAhPT0gdW5kZWZpbmVkOwogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlOwogIH0KfQoKLyoqIHNjcmVlbiBwaXhlbHMgcGVyIG1ldHJlIGF0IHRoZSBtYXAncyBjdXJyZW50IHpvb20gKi8KZnVuY3Rpb24gcHhQZXJNZXRyZShtYXA6IEwuTWFwKSB7CiAgY29uc3QgYSA9IG1hcC5jb250YWluZXJQb2ludFRvTGF0TG5nKEwucG9pbnQoMCwgMCkpOwogIGNvbnN0IGIgPSBtYXAuY29udGFpbmVyUG9pbnRUb0xhdExuZyhMLnBvaW50KDEwMCwgMCkpOwogIGNvbnN0IGQgPSBtYXAuZGlzdGFuY2UoYSwgYik7CiAgcmV0dXJuIGQgPiAwID8gMTAwIC8gZCA6IDE7Cn0KCnR5cGUgRHJhZyA9IHsKICBpZDogc3RyaW5nOwogIG1vZGU6ICJtb3ZlIiB8ICJyZXNpemUiOwogIHN0YXJ0WDogbnVtYmVyOwogIHN0YXJ0WTogbnVtYmVyOwogIG9yaWdYOiBudW1iZXI7CiAgb3JpZ1k6IG51bWJlcjsKICBvcmlnUHg6IG51bWJlcjsKICBtb3ZlZDogYm9vbGVhbjsKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBob3RvTWVtb3JpZXMoewogIG1hcCwKICBwaG90b3MsCiAgb25Nb3ZlLAogIG9uUmVzaXplLAogIG9uRGVsZXRlLAogIHJvdGF0aW9uID0gMCwKfTogUHJvcHMpIHsKICBjb25zdCBbdmlld1ZlcnNpb24sIGJ1bXBdID0gdXNlUmVkdWNlcigobjogbnVtYmVyKSA9PiBuICsgMSwgMCk7CiAgY29uc3QgW3NlbGVjdGVkSWQsIHNldFNlbGVjdGVkSWRdID0gdXNlU3RhdGU8c3RyaW5nIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW29wZW5JZCwgc2V0T3BlbklkXSA9IHVzZVN0YXRlPHN0cmluZyB8IG51bGw+KG51bGwpOwogIGNvbnN0IFtsaXZlLCBzZXRMaXZlXSA9IHVzZVN0YXRlPHsgaWQ6IHN0cmluZzsgeDogbnVtYmVyOyB5OiBudW1iZXI7IHB4OiBudW1iZXIgfSB8IG51bGw+KG51bGwpOwogIGNvbnN0IGRyYWcgPSB1c2VSZWY8RHJhZyB8IG51bGw+KG51bGwpOwoKICAvLyBSZXBvc2l0aW9uIG9ubHkgd2hlbiB0aGUgdmlldyBzZXR0bGVzOyB3aGlsZSBwYW5uaW5nL3pvb21pbmcgdGhlIHdob2xlCiAgLy8gbGF5ZXIgaXMgQ1NTLXRyYW5zZm9ybWVkIGluc3RlYWQgb2YgcmUtcmVuZGVyaW5nIGV2ZXJ5IGZyYW1lLgogIGNvbnN0IGxheWVyUmVmID0gdXNlUmVmPEhUTUxEaXZFbGVtZW50PihudWxsKTsKICBjb25zdCBhbmNob3IgPSB1c2VSZWY8eyB0bDogTC5MYXRMbmc7IHpvb206IG51bWJlciB9IHwgbnVsbD4obnVsbCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBpZiAoIW1hcCkgcmV0dXJuOwogICAgY29uc3Qgb25DaGFuZ2UgPSAoKSA9PiBidW1wKCk7CiAgICBtYXAud2hlblJlYWR5KG9uQ2hhbmdlKTsKICAgIG1hcC5vbigibW92ZWVuZCB6b29tZW5kIHJlc2l6ZSIsIG9uQ2hhbmdlKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIG1hcC5vZmYoIm1vdmVlbmQgem9vbWVuZCByZXNpemUiLCBvbkNoYW5nZSk7CiAgICB9OwogIH0sIFttYXBdKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghbWFwKSByZXR1cm47CiAgICBsZXQgcmFmID0gMDsKICAgIGNvbnN0IHN5bmMgPSAoKSA9PiB7CiAgICAgIHJhZiA9IDA7CiAgICAgIGNvbnN0IGVsID0gbGF5ZXJSZWYuY3VycmVudDsKICAgICAgY29uc3QgYSA9IGFuY2hvci5jdXJyZW50OwogICAgICBpZiAoIWVsIHx8ICFhKSByZXR1cm47CiAgICAgIGNvbnN0IHNjYWxlID0gbWFwLmdldFpvb21TY2FsZShtYXAuZ2V0Wm9vbSgpLCBhLnpvb20pOwogICAgICBjb25zdCBwID0gbWFwLmxhdExuZ1RvQ29udGFpbmVyUG9pbnQoYS50bCk7CiAgICAgIGVsLnN0eWxlLnRyYW5zZm9ybU9yaWdpbiA9ICIwIDAiOwogICAgICBlbC5zdHlsZS50cmFuc2Zvcm0gPSBgdHJhbnNsYXRlM2QoJHtwLnh9cHgsICR7cC55fXB4LCAwKSBzY2FsZSgke3NjYWxlfSlgOwogICAgfTsKICAgIGNvbnN0IG9uTW92ZSA9ICgpID0+IHsKICAgICAgaWYgKCFyYWYpIHJhZiA9IHJlcXVlc3RBbmltYXRpb25GcmFtZShzeW5jKTsKICAgIH07CiAgICBtYXAub24oIm1vdmUgem9vbSIsIG9uTW92ZSk7CiAgICByZXR1cm4gKCkgPT4gewogICAgICBtYXAub2ZmKCJtb3ZlIHpvb20iLCBvbk1vdmUpOwogICAgICBpZiAocmFmKSBjYW5jZWxBbmltYXRpb25GcmFtZShyYWYpOwogICAgfTsKICB9LCBbbWFwXSk7CgogIC8vIFJlLWFuY2hvciBvbmx5IGFmdGVyIHRoZSBtYXAgdmlldyBzZXR0bGVzLCBub3QgYWZ0ZXIgcGhvdG8gc2VsZWN0aW9uL2RyYWcgcmVuZGVycy4KICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKCFtYXBSZWFkeShtYXApKSByZXR1cm47CiAgICBhbmNob3IuY3VycmVudCA9IHsgdGw6IG1hcC5jb250YWluZXJQb2ludFRvTGF0TG5nKEwucG9pbnQoMCwgMCkpLCB6b29tOiBtYXAuZ2V0Wm9vbSgpIH07CiAgICBpZiAobGF5ZXJSZWYuY3VycmVudCkgbGF5ZXJSZWYuY3VycmVudC5zdHlsZS50cmFuc2Zvcm0gPSAidHJhbnNsYXRlM2QoMCwwLDApIjsKICB9LCBbbWFwLCB2aWV3VmVyc2lvbl0pOwoKICAvLyBkZXNlbGVjdCB3aGVuIHRhcHBpbmcgZW1wdHkgbWFwIHNwYWNlCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghbWFwKSByZXR1cm47CiAgICBjb25zdCBjbGVhciA9ICgpID0+IHNldFNlbGVjdGVkSWQobnVsbCk7CiAgICBtYXAub24oImNsaWNrIiwgY2xlYXIpOwogICAgcmV0dXJuICgpID0+IHsKICAgICAgbWFwLm9mZigiY2xpY2siLCBjbGVhcik7CiAgICB9OwogIH0sIFttYXBdKTsKCiAgY29uc3Qgc3RhcnQgPSB1c2VDYWxsYmFjaygKICAgICgKICAgICAgZTogUmVhY3QuUG9pbnRlckV2ZW50LAogICAgICBwaG90bzogUGhvdG9NZW1vcnksCiAgICAgIG1vZGU6ICJtb3ZlIiB8ICJyZXNpemUiLAogICAgICB4OiBudW1iZXIsCiAgICAgIHk6IG51bWJlciwKICAgICAgcHg6IG51bWJlciwKICAgICkgPT4gewogICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgIGUuc3RvcFByb3BhZ2F0aW9uKCk7CiAgICAgIChlLnRhcmdldCBhcyBFbGVtZW50KS5zZXRQb2ludGVyQ2FwdHVyZT8uKGUucG9pbnRlcklkKTsKICAgICAgbWFwPy5kcmFnZ2luZy5kaXNhYmxlKCk7CiAgICAgIGRyYWcuY3VycmVudCA9IHsKICAgICAgICBpZDogcGhvdG8uaWQsCiAgICAgICAgbW9kZSwKICAgICAgICBzdGFydFg6IGUuY2xpZW50WCwKICAgICAgICBzdGFydFk6IGUuY2xpZW50WSwKICAgICAgICBvcmlnWDogeCwKICAgICAgICBvcmlnWTogeSwKICAgICAgICBvcmlnUHg6IHB4LAogICAgICAgIG1vdmVkOiBmYWxzZSwKICAgICAgfTsKICAgICAgc2V0TGl2ZSh7IGlkOiBwaG90by5pZCwgeCwgeSwgcHggfSk7CiAgICB9LAogICAgW21hcF0sCiAgKTsKCiAgY29uc3Qgb25Qb2ludGVyTW92ZSA9IHVzZUNhbGxiYWNrKAogICAgKGU6IFJlYWN0LlBvaW50ZXJFdmVudCkgPT4gewogICAgICBjb25zdCBkID0gZHJhZy5jdXJyZW50OwogICAgICBpZiAoIWQpIHJldHVybjsKICAgICAgLy8gdW5kbyB0aGUgbWFwIHR3aXN0IHNvIGEgcGhvdG8gZm9sbG93cyB0aGUgZmluZ2VyIHdoaWxlIHRoZSBtYXAgaXMgcm90YXRlZAogICAgICBjb25zdCByYWQgPSAoLXJvdGF0aW9uICogTWF0aC5QSSkgLyAxODA7CiAgICAgIGNvbnN0IHJhd1ggPSBlLmNsaWVudFggLSBkLnN0YXJ0WDsKICAgICAgY29uc3QgcmF3WSA9IGUuY2xpZW50WSAtIGQuc3RhcnRZOwogICAgICBjb25zdCBkeCA9IHJhd1ggKiBNYXRoLmNvcyhyYWQpIC0gcmF3WSAqIE1hdGguc2luKHJhZCk7CiAgICAgIGNvbnN0IGR5ID0gcmF3WCAqIE1hdGguc2luKHJhZCkgKyByYXdZICogTWF0aC5jb3MocmFkKTsKICAgICAgaWYgKE1hdGguYWJzKGR4KSA+IDMgfHwgTWF0aC5hYnMoZHkpID4gMykgZC5tb3ZlZCA9IHRydWU7CiAgICAgIGlmIChkLm1vZGUgPT09ICJtb3ZlIikgewogICAgICAgIHNldExpdmUoeyBpZDogZC5pZCwgeDogZC5vcmlnWCArIGR4LCB5OiBkLm9yaWdZICsgZHksIHB4OiBkLm9yaWdQeCB9KTsKICAgICAgfSBlbHNlIHsKICAgICAgICBjb25zdCBuZXh0ID0gTWF0aC5tYXgoMTgsIGQub3JpZ1B4ICsgKGR4ICsgZHkpIC8gMik7CiAgICAgICAgc2V0TGl2ZSh7IGlkOiBkLmlkLCB4OiBkLm9yaWdYLCB5OiBkLm9yaWdZLCBweDogbmV4dCB9KTsKICAgICAgfQogICAgfSwKICAgIFtyb3RhdGlvbl0sCiAgKTsKCiAgY29uc3Qgb25Qb2ludGVyVXAgPSB1c2VDYWxsYmFjaygKICAgIChlOiBSZWFjdC5Qb2ludGVyRXZlbnQpID0+IHsKICAgICAgY29uc3QgZCA9IGRyYWcuY3VycmVudDsKICAgICAgZHJhZy5jdXJyZW50ID0gbnVsbDsKICAgICAgbWFwPy5kcmFnZ2luZy5lbmFibGUoKTsKICAgICAgaWYgKCFkIHx8ICFtYXBSZWFkeShtYXApKSB7CiAgICAgICAgc2V0TGl2ZShudWxsKTsKICAgICAgICByZXR1cm47CiAgICAgIH0KICAgICAgY29uc3QgcGhvdG8gPSBwaG90b3MuZmluZCgocCkgPT4gcC5pZCA9PT0gZC5pZCk7CiAgICAgIGNvbnN0IGwgPSBsaXZlOwogICAgICBzZXRMaXZlKG51bGwpOwogICAgICBpZiAoIXBob3RvIHx8ICFsKSByZXR1cm47CiAgICAgIGlmICghZC5tb3ZlZCkgewogICAgICAgIC8vIHNpbXBsZSB0YXA6IHNlbGVjdCwgb3Igb3BlbiBpZiBhbHJlYWR5IHNlbGVjdGVkCiAgICAgICAgaWYgKHNlbGVjdGVkSWQgPT09IHBob3RvLmlkKSBzZXRPcGVuSWQocGhvdG8uaWQpOwogICAgICAgIGVsc2Ugc2V0U2VsZWN0ZWRJZChwaG90by5pZCk7CiAgICAgICAgcmV0dXJuOwogICAgICB9CiAgICAgIGlmIChkLm1vZGUgPT09ICJtb3ZlIikgewogICAgICAgIGNvbnN0IGxsID0gbWFwLmNvbnRhaW5lclBvaW50VG9MYXRMbmcoTC5wb2ludChsLngsIGwueSkpOwogICAgICAgIG9uTW92ZShwaG90by5pZCwgeyBsYXQ6IGxsLmxhdCwgbG5nOiBsbC5sbmcgfSk7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgb25SZXNpemUocGhvdG8uaWQsIE1hdGgubWF4KDIsIGwucHggLyBweFBlck1ldHJlKG1hcCkpKTsKICAgICAgfQogICAgICBlLnN0b3BQcm9wYWdhdGlvbigpOwogICAgfSwKICAgIFtsaXZlLCBtYXAsIG9uTW92ZSwgb25SZXNpemUsIHBob3Rvcywgc2VsZWN0ZWRJZF0sCiAgKTsKCiAgaWYgKCFtYXBSZWFkeShtYXApKSByZXR1cm4gbnVsbDsKICBjb25zdCBzY2FsZSA9IHB4UGVyTWV0cmUobWFwKTsKICBjb25zdCBvcGVuID0gcGhvdG9zLmZpbmQoKHApID0+IHAuaWQgPT09IG9wZW5JZCkgPz8gbnVsbDsKICBjb25zdCBzaXplID0gbWFwLmdldFNpemUoKTsKICBjb25zdCB2aWV3TWFyZ2luID0gMTYwOwoKICByZXR1cm4gKAogICAgPD4KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT0icG9pbnRlci1ldmVudHMtbm9uZSBhYnNvbHV0ZSBpbnNldC0wIHotWzUwMF0iCiAgICAgICAgc3R5bGU9e3sgdHJhbnNmb3JtOiBgcm90YXRlKCR7cm90YXRpb259ZGVnKWAsIHRyYW5zZm9ybU9yaWdpbjogIjUwJSA1MCUiIH19CiAgICAgID4KICAgICAgICA8ZGl2CiAgICAgICAgICByZWY9e2xheWVyUmVmfQogICAgICAgICAgY2xhc3NOYW1lPSJwb2ludGVyLWV2ZW50cy1ub25lIGFic29sdXRlIGluc2V0LTAgei1bNTAwXSB3aWxsLWNoYW5nZS10cmFuc2Zvcm0iCiAgICAgICAgICBvblBvaW50ZXJNb3ZlPXtvblBvaW50ZXJNb3ZlfQogICAgICAgICAgb25Qb2ludGVyVXA9e29uUG9pbnRlclVwfQogICAgICAgICAgb25Qb2ludGVyQ2FuY2VsPXtvblBvaW50ZXJVcH0KICAgICAgICAgIHN0eWxlPXt7IHBvaW50ZXJFdmVudHM6IGRyYWcuY3VycmVudCA/ICJhdXRvIiA6ICJub25lIiB9fQogICAgICAgID4KICAgICAgICAgIHtwaG90b3MubWFwKChwaG90bykgPT4gewogICAgICAgICAgICBjb25zdCBsID0gbGl2ZSAmJiBsaXZlLmlkID09PSBwaG90by5pZCA/IGxpdmUgOiBudWxsOwogICAgICAgICAgICBjb25zdCBiYXNlID0gbWFwLmxhdExuZ1RvQ29udGFpbmVyUG9pbnQoTC5sYXRMbmcocGhvdG8ubGF0LCBwaG90by5sbmcpKTsKICAgICAgICAgICAgY29uc3QgeCA9IGwgPyBsLnggOiBiYXNlLng7CiAgICAgICAgICAgIGNvbnN0IHkgPSBsID8gbC55IDogYmFzZS55OwogICAgICAgICAgICBjb25zdCBweCA9IGwgPyBsLnB4IDogTWF0aC5tYXgoMTAsIHBob3RvLnNpemVNICogc2NhbGUpOwogICAgICAgICAgICBpZiAoCiAgICAgICAgICAgICAgIWwgJiYKICAgICAgICAgICAgICAoeCA8IC12aWV3TWFyZ2luIHx8CiAgICAgICAgICAgICAgICB5IDwgLXZpZXdNYXJnaW4gfHwKICAgICAgICAgICAgICAgIHggPiBzaXplLnggKyB2aWV3TWFyZ2luIHx8CiAgICAgICAgICAgICAgICB5ID4gc2l6ZS55ICsgdmlld01hcmdpbikKICAgICAgICAgICAgKSB7CiAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY29uc3Qgc2VsZWN0ZWQgPSBzZWxlY3RlZElkID09PSBwaG90by5pZDsKICAgICAgICAgICAgY29uc3QgcGluID0gTWF0aC5taW4oMTAsIE1hdGgubWF4KDMsIHB4ICogMC4xNikpOwogICAgICAgICAgICByZXR1cm4gKAogICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgIGtleT17cGhvdG8uaWR9CiAgICAgICAgICAgICAgICBkYXRhLXBob3RvCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9InBvaW50ZXItZXZlbnRzLWF1dG8gYWJzb2x1dGUiCiAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICBsZWZ0OiB4LAogICAgICAgICAgICAgICAgICB0b3A6IHksCiAgICAgICAgICAgICAgICAgIHdpZHRoOiBweCwKICAgICAgICAgICAgICAgICAgaGVpZ2h0OiBweCwKICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtOiAidHJhbnNsYXRlKC01MCUsIC01MCUpIiwKICAgICAgICAgICAgICAgICAgdG91Y2hBY3Rpb246ICJub25lIiwKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICBvblBvaW50ZXJEb3duPXsoZSkgPT4gc3RhcnQoZSwgcGhvdG8sICJtb3ZlIiwgYmFzZS54LCBiYXNlLnksIHB4KX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC1mdWxsIHctZnVsbCBvdmVyZmxvdy1oaWRkZW4gYmctYmFja2dyb3VuZCIKICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICBib3JkZXI6IGAke01hdGgubWF4KDEsIHB4ICogMC4wMyl9cHggc29saWQgb2tsY2goMC41NSAwLjIgMjcpYCwKICAgICAgICAgICAgICAgICAgICBib3hTaGFkb3c6IHNlbGVjdGVkCiAgICAgICAgICAgICAgICAgICAgICA/ICIwIDAgMCAycHggb2tsY2goMC43NSAwLjE1IDgwKSwgMCAycHggNnB4IHJnYmEoMCwwLDAsLjQ1KSIKICAgICAgICAgICAgICAgICAgICAgIDogIjAgMnB4IDZweCByZ2JhKDAsMCwwLC40NSkiLAogICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgICAgICAgc3JjPXtwaG90by51cmx9CiAgICAgICAgICAgICAgICAgICAgYWx0PSJQaW5uZWQgcGhvdG8gbWVtb3J5IgogICAgICAgICAgICAgICAgICAgIGRyYWdnYWJsZT17ZmFsc2V9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJoLWZ1bGwgdy1mdWxsIG9iamVjdC1jb3ZlciIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgey8qIHBpbiAqL30KICAgICAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSByb3VuZGVkLWZ1bGwiCiAgICAgICAgICAgICAgICAgIHN0eWxlPXt7CiAgICAgICAgICAgICAgICAgICAgd2lkdGg6IHBpbiwKICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IHBpbiwKICAgICAgICAgICAgICAgICAgICBsZWZ0OiAiNTAlIiwKICAgICAgICAgICAgICAgICAgICB0b3A6IC1waW4gLyAyLAogICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogInRyYW5zbGF0ZVgoLTUwJSkiLAogICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6ICJva2xjaCgwLjU1IDAuMiAyNykiLAogICAgICAgICAgICAgICAgICAgIGJveFNoYWRvdzogIjAgMXB4IDJweCByZ2JhKDAsMCwwLC42KSIsCiAgICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAge3NlbGVjdGVkICYmICgKICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYWJzb2x1dGUgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcm91bmRlZC1mdWxsIGJvcmRlciBib3JkZXItd2hpdGUvNTAgYmctYmxhY2svODAiCiAgICAgICAgICAgICAgICAgICAgc3R5bGU9e3sKICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAyMiwKICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMjIsCiAgICAgICAgICAgICAgICAgICAgICByaWdodDogLTExLAogICAgICAgICAgICAgICAgICAgICAgYm90dG9tOiAtMTEsCiAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6ICJud3NlLXJlc2l6ZSIsCiAgICAgICAgICAgICAgICAgICAgICB0b3VjaEFjdGlvbjogIm5vbmUiLAogICAgICAgICAgICAgICAgICAgICAgYm94U2hhZG93OiAiMCAxcHggM3B4IHJnYmEoMCwwLDAsLjYpIiwKICAgICAgICAgICAgICAgICAgICB9fQogICAgICAgICAgICAgICAgICAgIG9uUG9pbnRlckRvd249eyhlKSA9PiBzdGFydChlLCBwaG90bywgInJlc2l6ZSIsIGJhc2UueCwgYmFzZS55LCBweCl9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icm91bmRlZC1mdWxsIGJnLXdoaXRlIiBzdHlsZT17eyB3aWR0aDogOCwgaGVpZ2h0OiA4IH19IC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKTsKICAgICAgICAgIH0pfQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIHtvcGVuICYmICgKICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgei1bMTAwMF0gZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctYmxhY2svODAgcC02IgogICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0T3BlbklkKG51bGwpfQogICAgICAgID4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBtYXgtaC1mdWxsIHctZnVsbCBtYXgtdy1tZCIgb25DbGljaz17KGUpID0+IGUuc3RvcFByb3BhZ2F0aW9uKCl9PgogICAgICAgICAgICA8aW1nCiAgICAgICAgICAgICAgc3JjPXtvcGVuLnVybH0KICAgICAgICAgICAgICBhbHQ9IlBob3RvIG1lbW9yeSIKICAgICAgICAgICAgICBjbGFzc05hbWU9ImFzcGVjdC1zcXVhcmUgdy1mdWxsIG9iamVjdC1jb3ZlciIKICAgICAgICAgICAgICBzdHlsZT17eyBib3JkZXI6ICI0cHggc29saWQgb2tsY2goMC41NSAwLjIgMjcpIiB9fQogICAgICAgICAgICAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtMyBmbGV4IGp1c3RpZnktYmV0d2VlbiI+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiBib3JkZXIgYm9yZGVyLWJvcmRlciBweC0zIHB5LTIgdGV4dC1zbSB0ZXh0LWZvcmVncm91bmQiCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRPcGVuSWQobnVsbCl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPFhJY29uIGNsYXNzTmFtZT0iaC00IHctNCIgLz4gQ2xvc2UKICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIGJvcmRlciBib3JkZXItZGVzdHJ1Y3RpdmUgcHgtMyBweS0yIHRleHQtc20gdGV4dC1kZXN0cnVjdGl2ZSIKICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHsKICAgICAgICAgICAgICAgICAgb25EZWxldGUob3Blbik7CiAgICAgICAgICAgICAgICAgIHNldE9wZW5JZChudWxsKTsKICAgICAgICAgICAgICAgICAgc2V0U2VsZWN0ZWRJZChudWxsKTsKICAgICAgICAgICAgICAgIH19CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPFRyYXNoMiBjbGFzc05hbWU9ImgtNCB3LTQiIC8+IERlbGV0ZQogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC8+CiAgKTsKfQo=
+import { useCallback, useEffect, useReducer, useRef, useState } from "react";
+import L from "leaflet";
+import { Trash2, X as XIcon } from "lucide-react";
+import type { PhotoMemory } from "@/lib/photos";
+
+type Props = {
+  map: L.Map | null;
+  photos: PhotoMemory[];
+  onMove: (id: string, at: { lat: number; lng: number }) => void;
+  onResize: (id: string, sizeM: number) => void;
+  onDelete: (photo: PhotoMemory) => void;
+  /** current map twist angle in degrees, so photos stay pinned to the ground */
+  rotation?: number;
+};
+
+/** true once Leaflet's panes are positioned and projection maths is safe */
+function mapReady(map: L.Map | null): map is L.Map {
+  if (!map) return false;
+  try {
+    const pane = map.getPane("mapPane") as (HTMLElement & { _leaflet_pos?: unknown }) | undefined;
+    return !!pane && pane["_leaflet_pos"] !== undefined;
+  } catch {
+    return false;
+  }
+}
+
+/** screen pixels per metre at the map's current zoom */
+function pxPerMetre(map: L.Map) {
+  const a = map.containerPointToLatLng(L.point(0, 0));
+  const b = map.containerPointToLatLng(L.point(100, 0));
+  const d = map.distance(a, b);
+  return d > 0 ? 100 / d : 1;
+}
+
+type Drag = {
+  id: string;
+  mode: "move" | "resize";
+  startX: number;
+  startY: number;
+  origX: number;
+  origY: number;
+  origPx: number;
+  moved: boolean;
+};
+
+export default function PhotoMemories({
+  map,
+  photos,
+  onMove,
+  onResize,
+  onDelete,
+  rotation = 0,
+}: Props) {
+  const [viewVersion, bump] = useReducer((n: number) => n + 1, 0);
+  const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [openId, setOpenId] = useState<string | null>(null);
+  const [live, setLive] = useState<{ id: string; x: number; y: number; px: number } | null>(null);
+  const drag = useRef<Drag | null>(null);
+
+  // Reposition only when the view settles; while panning/zooming the whole
+  // layer is CSS-transformed instead of re-rendering every frame.
+  const layerRef = useRef<HTMLDivElement>(null);
+  const anchor = useRef<{ tl: L.LatLng; zoom: number } | null>(null);
+
+  useEffect(() => {
+    if (!map) return;
+    const onChange = () => bump();
+    map.whenReady(onChange);
+    map.on("moveend zoomend resize", onChange);
+    return () => {
+      map.off("moveend zoomend resize", onChange);
+    };
+  }, [map]);
+
+  useEffect(() => {
+    if (!map) return;
+    let raf = 0;
+    const sync = () => {
+      raf = 0;
+      const el = layerRef.current;
+      const a = anchor.current;
+      if (!el || !a) return;
+      const scale = map.getZoomScale(map.getZoom(), a.zoom);
+      const p = map.latLngToContainerPoint(a.tl);
+      el.style.transformOrigin = "0 0";
+      el.style.transform = `translate3d(${p.x}px, ${p.y}px, 0) scale(${scale})`;
+    };
+    const onMove = () => {
+      if (!raf) raf = requestAnimationFrame(sync);
+    };
+    map.on("move zoom", onMove);
+    return () => {
+      map.off("move zoom", onMove);
+      if (raf) cancelAnimationFrame(raf);
+    };
+  }, [map]);
+
+  // Re-anchor only after the map view settles, not after photo selection/drag renders.
+  useEffect(() => {
+    if (!mapReady(map)) return;
+    anchor.current = { tl: map.containerPointToLatLng(L.point(0, 0)), zoom: map.getZoom() };
+    if (layerRef.current) layerRef.current.style.transform = "translate3d(0,0,0)";
+  }, [map, viewVersion]);
+
+  // deselect when tapping empty map space
+  useEffect(() => {
+    if (!map) return;
+    const clear = () => setSelectedId(null);
+    map.on("click", clear);
+    return () => {
+      map.off("click", clear);
+    };
+  }, [map]);
+
+  const start = useCallback(
+    (
+      e: React.PointerEvent,
+      photo: PhotoMemory,
+      mode: "move" | "resize",
+      x: number,
+      y: number,
+      px: number,
+    ) => {
+      e.preventDefault();
+      e.stopPropagation();
+      (e.target as Element).setPointerCapture?.(e.pointerId);
+      map?.dragging.disable();
+      drag.current = {
+        id: photo.id,
+        mode,
+        startX: e.clientX,
+        startY: e.clientY,
+        origX: x,
+        origY: y,
+        origPx: px,
+        moved: false,
+      };
+      setLive({ id: photo.id, x, y, px });
+    },
+    [map],
+  );
+
+  const onPointerMove = useCallback(
+    (e: React.PointerEvent) => {
+      const d = drag.current;
+      if (!d) return;
+      // undo the map twist so a photo follows the finger while the map is rotated
+      const rad = (-rotation * Math.PI) / 180;
+      const rawX = e.clientX - d.startX;
+      const rawY = e.clientY - d.startY;
+      const dx = rawX * Math.cos(rad) - rawY * Math.sin(rad);
+      const dy = rawX * Math.sin(rad) + rawY * Math.cos(rad);
+      if (Math.abs(dx) > 3 || Math.abs(dy) > 3) d.moved = true;
+      if (d.mode === "move") {
+        setLive({ id: d.id, x: d.origX + dx, y: d.origY + dy, px: d.origPx });
+      } else {
+        const next = Math.max(18, d.origPx + (dx + dy) / 2);
+        setLive({ id: d.id, x: d.origX, y: d.origY, px: next });
+      }
+    },
+    [rotation],
+  );
+
+  const onPointerUp = useCallback(
+    (e: React.PointerEvent) => {
+      const d = drag.current;
+      drag.current = null;
+      map?.dragging.enable();
+      if (!d || !mapReady(map)) {
+        setLive(null);
+        return;
+      }
+      const photo = photos.find((p) => p.id === d.id);
+      const l = live;
+      setLive(null);
+      if (!photo || !l) return;
+      if (!d.moved) {
+        // simple tap: select, or open if already selected
+        if (selectedId === photo.id) setOpenId(photo.id);
+        else setSelectedId(photo.id);
+        return;
+      }
+      if (d.mode === "move") {
+        const ll = map.containerPointToLatLng(L.point(l.x, l.y));
+        onMove(photo.id, { lat: ll.lat, lng: ll.lng });
+      } else {
+        onResize(photo.id, Math.max(2, l.px / pxPerMetre(map)));
+      }
+      e.stopPropagation();
+    },
+    [live, map, onMove, onResize, photos, selectedId],
+  );
+
+  if (!mapReady(map)) return null;
+  const scale = pxPerMetre(map);
+  const open = photos.find((p) => p.id === openId) ?? null;
+  const size = map.getSize();
+  const viewMargin = 160;
+
+  return (
+    <>
+      <div
+        className="pointer-events-none absolute inset-0 z-[500]"
+        style={{ transform: `rotate(${rotation}deg)`, transformOrigin: "50% 50%" }}
+      >
+        <div
+          ref={layerRef}
+          className="pointer-events-none absolute inset-0 z-[500] will-change-transform"
+          onPointerMove={onPointerMove}
+          onPointerUp={onPointerUp}
+          onPointerCancel={onPointerUp}
+          style={{ pointerEvents: drag.current ? "auto" : "none" }}
+        >
+          {photos.map((photo) => {
+            const l = live && live.id === photo.id ? live : null;
+            const base = map.latLngToContainerPoint(L.latLng(photo.lat, photo.lng));
+            const x = l ? l.x : base.x;
+            const y = l ? l.y : base.y;
+            const px = l ? l.px : Math.max(10, photo.sizeM * scale);
+            if (
+              !l &&
+              (x < -viewMargin ||
+                y < -viewMargin ||
+                x > size.x + viewMargin ||
+                y > size.y + viewMargin)
+            ) {
+              return null;
+            }
+            const selected = selectedId === photo.id;
+            const pin = Math.min(10, Math.max(3, px * 0.16));
+            return (
+              <div
+                key={photo.id}
+                data-photo
+                className="pointer-events-auto absolute"
+                style={{
+                  left: x,
+                  top: y,
+                  width: px,
+                  height: px,
+                  transform: "translate(-50%, -50%)",
+                  touchAction: "none",
+                }}
+                onPointerDown={(e) => start(e, photo, "move", base.x, base.y, px)}
+              >
+                <div
+                  className="h-full w-full overflow-hidden bg-background"
+                  style={{
+                    border: `${Math.max(1, px * 0.03)}px solid oklch(0.55 0.2 27)`,
+                    boxShadow: selected
+                      ? "0 0 0 2px oklch(0.75 0.15 80), 0 2px 6px rgba(0,0,0,.45)"
+                      : "0 2px 6px rgba(0,0,0,.45)",
+                  }}
+                >
+                  <img
+                    src={photo.url}
+                    alt="Pinned photo memory"
+                    draggable={false}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                {/* pin */}
+                <div
+                  className="absolute rounded-full"
+                  style={{
+                    width: pin,
+                    height: pin,
+                    left: "50%",
+                    top: -pin / 2,
+                    transform: "translateX(-50%)",
+                    background: "oklch(0.55 0.2 27)",
+                    boxShadow: "0 1px 2px rgba(0,0,0,.6)",
+                  }}
+                />
+                {selected && (
+                  <div
+                    className="absolute flex items-center justify-center rounded-full border border-white/50 bg-black/80"
+                    style={{
+                      width: 22,
+                      height: 22,
+                      right: -11,
+                      bottom: -11,
+                      cursor: "nwse-resize",
+                      touchAction: "none",
+                      boxShadow: "0 1px 3px rgba(0,0,0,.6)",
+                    }}
+                    onPointerDown={(e) => start(e, photo, "resize", base.x, base.y, px)}
+                  >
+                    <div className="rounded-full bg-white" style={{ width: 8, height: 8 }} />
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      {open && (
+        <div
+          className="absolute inset-0 z-[1000] flex items-center justify-center bg-black/80 p-6"
+          onClick={() => setOpenId(null)}
+        >
+          <div className="relative max-h-full w-full max-w-md" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={open.url}
+              alt="Photo memory"
+              className="aspect-square w-full object-cover"
+              style={{ border: "4px solid oklch(0.55 0.2 27)" }}
+            />
+            <div className="mt-3 flex justify-between">
+              <button
+                type="button"
+                className="flex items-center gap-2 border border-border px-3 py-2 text-sm text-foreground"
+                onClick={() => setOpenId(null)}
+              >
+                <XIcon className="h-4 w-4" /> Close
+              </button>
+              <button
+                type="button"
+                className="flex items-center gap-2 border border-destructive px-3 py-2 text-sm text-destructive"
+                onClick={() => {
+                  onDelete(open);
+                  setOpenId(null);
+                  setSelectedId(null);
+                }}
+              >
+                <Trash2 className="h-4 w-4" /> Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+}

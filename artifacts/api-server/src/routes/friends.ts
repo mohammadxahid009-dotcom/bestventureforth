@@ -1,1 +1,321 @@
-aW1wb3J0IHsgUm91dGVyLCB0eXBlIElSb3V0ZXIgfSBmcm9tICJleHByZXNzIjsKaW1wb3J0IHsgYW5kLCBkZXNjLCBlcSwgaWxpa2UsIGluQXJyYXksIG5lLCBvciB9IGZyb20gImRyaXp6bGUtb3JtIjsKaW1wb3J0IHsKICBBY2NlcHRGcmllbmRSZXF1ZXN0UGFyYW1zLAogIEFjY2VwdEZyaWVuZFJlcXVlc3RSZXNwb25zZSwKICBDcmVhdGVGcmllbmRSZXF1ZXN0Qm9keSwKICBDcmVhdGVGcmllbmRSZXF1ZXN0UmVzcG9uc2UsCiAgRGVjbGluZUZyaWVuZFJlcXVlc3RQYXJhbXMsCiAgRGVjbGluZUZyaWVuZFJlcXVlc3RSZXNwb25zZSwKICBHZXRGcmllbmRzT3ZlcnZpZXdSZXNwb25zZSwKICBSZW1vdmVGcmllbmRRdWVyeVBhcmFtcywKICBTZWFyY2hGcmllbmRQcm9maWxlc1F1ZXJ5UGFyYW1zLAogIFNlYXJjaEZyaWVuZFByb2ZpbGVzUmVzcG9uc2UsCiAgVXBzZXJ0RnJpZW5kUHJvZmlsZUJvZHksCiAgVXBzZXJ0RnJpZW5kUHJvZmlsZVJlc3BvbnNlLAp9IGZyb20gIkB3b3Jrc3BhY2UvYXBpLXpvZCI7CmltcG9ydCB7IGRiLCBmcmllbmRQcm9maWxlc1RhYmxlLCBmcmllbmRSZXF1ZXN0c1RhYmxlIH0gZnJvbSAiQHdvcmtzcGFjZS9kYiI7CmltcG9ydCB7IHJlcXVpcmVTdXBhYmFzZVVzZXIsIHR5cGUgQXV0aGVudGljYXRlZFJlcXVlc3QgfSBmcm9tICIuLi9taWRkbGV3YXJlL3N1cGFiYXNlLWF1dGgiOwoKY29uc3Qgcm91dGVyOiBJUm91dGVyID0gUm91dGVyKCk7CmNvbnN0IHBlbmRpbmcgPSAicGVuZGluZyI7CmNvbnN0IGFjY2VwdGVkID0gImFjY2VwdGVkIjsKY29uc3QgZGVjbGluZWQgPSAiZGVjbGluZWQiOwoKZnVuY3Rpb24gcmVxdWVzdFNoYXBlKAogIHJlcXVlc3Q6IHR5cGVvZiBmcmllbmRSZXF1ZXN0c1RhYmxlLiRpbmZlclNlbGVjdCwKICBwcm9maWxlczogTWFwPHN0cmluZywgc3RyaW5nPiwKKSB7CiAgcmV0dXJuIHsKICAgIGlkOiByZXF1ZXN0LmlkLAogICAgc2VuZGVyVXNlcklkOiByZXF1ZXN0LnNlbmRlclVzZXJJZCwKICAgIHNlbmRlckRpc3BsYXlOYW1lOiBwcm9maWxlcy5nZXQocmVxdWVzdC5zZW5kZXJVc2VySWQpID8/ICJFeHBsb3JlciIsCiAgICByZWNlaXZlclVzZXJJZDogcmVxdWVzdC5yZWNlaXZlclVzZXJJZCwKICAgIHJlY2VpdmVyRGlzcGxheU5hbWU6IHByb2ZpbGVzLmdldChyZXF1ZXN0LnJlY2VpdmVyVXNlcklkKSA/PyAiRXhwbG9yZXIiLAogICAgc3RhdHVzOiByZXF1ZXN0LnN0YXR1cyBhcyAicGVuZGluZyIgfCAiYWNjZXB0ZWQiIHwgImRlY2xpbmVkIiwKICAgIGNyZWF0ZWRBdDogcmVxdWVzdC5jcmVhdGVkQXQsCiAgICByZXNwb25kZWRBdDogcmVxdWVzdC5yZXNwb25kZWRBdCwKICB9Owp9Cgphc3luYyBmdW5jdGlvbiBlbnN1cmVQcm9maWxlKHVzZXJJZDogc3RyaW5nLCBlbWFpbD86IHN0cmluZykgewogIGNvbnN0IFtleGlzdGluZ10gPSBhd2FpdCBkYgogICAgLnNlbGVjdCgpCiAgICAuZnJvbShmcmllbmRQcm9maWxlc1RhYmxlKQogICAgLndoZXJlKGVxKGZyaWVuZFByb2ZpbGVzVGFibGUudXNlcklkLCB1c2VySWQpKQogICAgLmxpbWl0KDEpOwogIGlmIChleGlzdGluZykgcmV0dXJuIGV4aXN0aW5nOwoKICBjb25zdCBsb2NhbFBhcnQgPSBlbWFpbD8uc3BsaXQoIkAiKVswXT8ucmVwbGFjZSgvW15hLXpBLVowLTkgXy1dL2csICIiKS50cmltKCk7CiAgY29uc3QgZmFsbGJhY2sgPSAobG9jYWxQYXJ0IHx8IGBFeHBsb3JlciAke3VzZXJJZC5zbGljZSgwLCA0KX1gKS5zbGljZSgwLCAzMik7CiAgY29uc3QgW2NyZWF0ZWRdID0gYXdhaXQgZGIKICAgIC5pbnNlcnQoZnJpZW5kUHJvZmlsZXNUYWJsZSkKICAgIC52YWx1ZXMoeyB1c2VySWQsIGRpc3BsYXlOYW1lOiBmYWxsYmFjayB9KQogICAgLnJldHVybmluZygpOwogIHJldHVybiBjcmVhdGVkOwp9Cgphc3luYyBmdW5jdGlvbiBsb2FkUHJvZmlsZXModXNlcklkczogc3RyaW5nW10pIHsKICBpZiAodXNlcklkcy5sZW5ndGggPT09IDApIHJldHVybiBuZXcgTWFwPHN0cmluZywgc3RyaW5nPigpOwogIGNvbnN0IHJvd3MgPSBhd2FpdCBkYgogICAgLnNlbGVjdCgpCiAgICAuZnJvbShmcmllbmRQcm9maWxlc1RhYmxlKQogICAgLndoZXJlKGluQXJyYXkoZnJpZW5kUHJvZmlsZXNUYWJsZS51c2VySWQsIHVzZXJJZHMpKTsKICByZXR1cm4gbmV3IE1hcChyb3dzLm1hcCgocHJvZmlsZSkgPT4gW3Byb2ZpbGUudXNlcklkLCBwcm9maWxlLmRpc3BsYXlOYW1lXSkpOwp9Cgpyb3V0ZXIuZ2V0KCIvZnJpZW5kcyIsIHJlcXVpcmVTdXBhYmFzZVVzZXIsIGFzeW5jIChyZXEsIHJlcyk6IFByb21pc2U8dm9pZD4gPT4gewogIGNvbnN0IHsgaWQsIGVtYWlsIH0gPSAocmVxIGFzIEF1dGhlbnRpY2F0ZWRSZXF1ZXN0KS51c2VyOwogIGNvbnN0IHByb2ZpbGUgPSBhd2FpdCBlbnN1cmVQcm9maWxlKGlkLCBlbWFpbCk7CiAgY29uc3QgW2luY29taW5nLCBvdXRnb2luZywgYWNjZXB0ZWRSZXF1ZXN0c10gPSBhd2FpdCBQcm9taXNlLmFsbChbCiAgICBkYgogICAgICAuc2VsZWN0KCkKICAgICAgLmZyb20oZnJpZW5kUmVxdWVzdHNUYWJsZSkKICAgICAgLndoZXJlKGFuZChlcShmcmllbmRSZXF1ZXN0c1RhYmxlLnJlY2VpdmVyVXNlcklkLCBpZCksIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc3RhdHVzLCBwZW5kaW5nKSkpCiAgICAgIC5vcmRlckJ5KGRlc2MoZnJpZW5kUmVxdWVzdHNUYWJsZS5jcmVhdGVkQXQpKSwKICAgIGRiCiAgICAgIC5zZWxlY3QoKQogICAgICAuZnJvbShmcmllbmRSZXF1ZXN0c1RhYmxlKQogICAgICAud2hlcmUoYW5kKGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc2VuZGVyVXNlcklkLCBpZCksIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc3RhdHVzLCBwZW5kaW5nKSkpCiAgICAgIC5vcmRlckJ5KGRlc2MoZnJpZW5kUmVxdWVzdHNUYWJsZS5jcmVhdGVkQXQpKSwKICAgIGRiCiAgICAgIC5zZWxlY3QoKQogICAgICAuZnJvbShmcmllbmRSZXF1ZXN0c1RhYmxlKQogICAgICAud2hlcmUoCiAgICAgICAgYW5kKAogICAgICAgICAgZXEoZnJpZW5kUmVxdWVzdHNUYWJsZS5zdGF0dXMsIGFjY2VwdGVkKSwKICAgICAgICAgIG9yKGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc2VuZGVyVXNlcklkLCBpZCksIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUucmVjZWl2ZXJVc2VySWQsIGlkKSksCiAgICAgICAgKSwKICAgICAgKQogICAgICAub3JkZXJCeShkZXNjKGZyaWVuZFJlcXVlc3RzVGFibGUucmVzcG9uZGVkQXQpKSwKICBdKTsKCiAgY29uc3QgcmVsYXRlZElkcyA9IFsKICAgIC4uLm5ldyBTZXQoCiAgICAgIFsuLi5pbmNvbWluZywgLi4ub3V0Z29pbmcsIC4uLmFjY2VwdGVkUmVxdWVzdHNdLmZsYXRNYXAoKHJlcXVlc3QpID0+IFsKICAgICAgICByZXF1ZXN0LnNlbmRlclVzZXJJZCwKICAgICAgICByZXF1ZXN0LnJlY2VpdmVyVXNlcklkLAogICAgICBdKSwKICAgICksCiAgXTsKICBjb25zdCBwcm9maWxlcyA9IGF3YWl0IGxvYWRQcm9maWxlcyhbaWQsIC4uLnJlbGF0ZWRJZHNdKTsKICBjb25zdCBmcmllbmRzID0gYWNjZXB0ZWRSZXF1ZXN0cy5tYXAoKHJlcXVlc3QpID0+IHsKICAgIGNvbnN0IG90aGVyVXNlcklkID0KICAgICAgcmVxdWVzdC5zZW5kZXJVc2VySWQgPT09IGlkID8gcmVxdWVzdC5yZWNlaXZlclVzZXJJZCA6IHJlcXVlc3Quc2VuZGVyVXNlcklkOwogICAgcmV0dXJuIHsKICAgICAgdXNlcklkOiBvdGhlclVzZXJJZCwKICAgICAgZGlzcGxheU5hbWU6IHByb2ZpbGVzLmdldChvdGhlclVzZXJJZCkgPz8gIkV4cGxvcmVyIiwKICAgICAgY29ubmVjdGVkQXQ6IHJlcXVlc3QucmVzcG9uZGVkQXQgPz8gcmVxdWVzdC5jcmVhdGVkQXQsCiAgICB9OwogIH0pOwoKICByZXMuanNvbigKICAgIEdldEZyaWVuZHNPdmVydmlld1Jlc3BvbnNlLnBhcnNlKHsKICAgICAgcHJvZmlsZSwKICAgICAgZnJpZW5kcywKICAgICAgaW5jb21pbmc6IGluY29taW5nLm1hcCgocmVxdWVzdCkgPT4gcmVxdWVzdFNoYXBlKHJlcXVlc3QsIHByb2ZpbGVzKSksCiAgICAgIG91dGdvaW5nOiBvdXRnb2luZy5tYXAoKHJlcXVlc3QpID0+IHJlcXVlc3RTaGFwZShyZXF1ZXN0LCBwcm9maWxlcykpLAogICAgfSksCiAgKTsKfSk7Cgpyb3V0ZXIucHV0KCIvZnJpZW5kcy9wcm9maWxlIiwgcmVxdWlyZVN1cGFiYXNlVXNlciwgYXN5bmMgKHJlcSwgcmVzKTogUHJvbWlzZTx2b2lkPiA9PiB7CiAgY29uc3QgeyBpZCB9ID0gKHJlcSBhcyBBdXRoZW50aWNhdGVkUmVxdWVzdCkudXNlcjsKICBjb25zdCBwYXJzZWQgPSBVcHNlcnRGcmllbmRQcm9maWxlQm9keS5zYWZlUGFyc2UocmVxLmJvZHkpOwogIGlmICghcGFyc2VkLnN1Y2Nlc3MpIHsKICAgIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgZXJyb3I6ICJEaXNwbGF5IG5hbWUgbXVzdCBiZSAy4oCTMzIgY2hhcmFjdGVycy4iIH0pOwogICAgcmV0dXJuOwogIH0KICBjb25zdCBkaXNwbGF5TmFtZSA9IHBhcnNlZC5kYXRhLmRpc3BsYXlOYW1lLnRyaW0oKS5yZXBsYWNlKC9ccysvZywgIiAiKTsKICBpZiAoZGlzcGxheU5hbWUubGVuZ3RoIDwgMiB8fCBkaXNwbGF5TmFtZS5sZW5ndGggPiAzMikgewogICAgcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogIkRpc3BsYXkgbmFtZSBtdXN0IGJlIDLigJMzMiBjaGFyYWN0ZXJzLiIgfSk7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBbcHJvZmlsZV0gPSBhd2FpdCBkYgogICAgLmluc2VydChmcmllbmRQcm9maWxlc1RhYmxlKQogICAgLnZhbHVlcyh7IHVzZXJJZDogaWQsIGRpc3BsYXlOYW1lIH0pCiAgICAub25Db25mbGljdERvVXBkYXRlKHsKICAgICAgdGFyZ2V0OiBmcmllbmRQcm9maWxlc1RhYmxlLnVzZXJJZCwKICAgICAgc2V0OiB7IGRpc3BsYXlOYW1lLCB1cGRhdGVkQXQ6IG5ldyBEYXRlKCkgfSwKICAgIH0pCiAgICAucmV0dXJuaW5nKCk7CiAgcmVzLmpzb24oVXBzZXJ0RnJpZW5kUHJvZmlsZVJlc3BvbnNlLnBhcnNlKHByb2ZpbGUpKTsKfSk7Cgpyb3V0ZXIuZ2V0KCIvZnJpZW5kcy9zZWFyY2giLCByZXF1aXJlU3VwYWJhc2VVc2VyLCBhc3luYyAocmVxLCByZXMpOiBQcm9taXNlPHZvaWQ+ID0+IHsKICBjb25zdCB7IGlkIH0gPSAocmVxIGFzIEF1dGhlbnRpY2F0ZWRSZXF1ZXN0KS51c2VyOwogIGNvbnN0IHBhcnNlZCA9IFNlYXJjaEZyaWVuZFByb2ZpbGVzUXVlcnlQYXJhbXMuc2FmZVBhcnNlKHJlcS5xdWVyeSk7CiAgaWYgKCFwYXJzZWQuc3VjY2VzcykgewogICAgcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogIlNlYXJjaCBtdXN0IGJlIGJldHdlZW4gMiBhbmQgNDAgY2hhcmFjdGVycy4iIH0pOwogICAgcmV0dXJuOwogIH0KICBjb25zdCBxdWVyeSA9IHBhcnNlZC5kYXRhLnEudHJpbSgpOwogIGNvbnN0IHJlc3VsdHMgPSBhd2FpdCBkYgogICAgLnNlbGVjdCh7IHVzZXJJZDogZnJpZW5kUHJvZmlsZXNUYWJsZS51c2VySWQsIGRpc3BsYXlOYW1lOiBmcmllbmRQcm9maWxlc1RhYmxlLmRpc3BsYXlOYW1lIH0pCiAgICAuZnJvbShmcmllbmRQcm9maWxlc1RhYmxlKQogICAgLndoZXJlKGFuZChpbGlrZShmcmllbmRQcm9maWxlc1RhYmxlLmRpc3BsYXlOYW1lLCBgJSR7cXVlcnl9JWApLCBuZShmcmllbmRQcm9maWxlc1RhYmxlLnVzZXJJZCwgaWQpKSkKICAgIC5vcmRlckJ5KGZyaWVuZFByb2ZpbGVzVGFibGUuZGlzcGxheU5hbWUpCiAgICAubGltaXQoMjApOwogIHJlcy5qc29uKFNlYXJjaEZyaWVuZFByb2ZpbGVzUmVzcG9uc2UucGFyc2UocmVzdWx0cykpOwp9KTsKCnJvdXRlci5wb3N0KCIvZnJpZW5kcy9yZXF1ZXN0cyIsIHJlcXVpcmVTdXBhYmFzZVVzZXIsIGFzeW5jIChyZXEsIHJlcyk6IFByb21pc2U8dm9pZD4gPT4gewogIGNvbnN0IHsgaWQsIGVtYWlsIH0gPSAocmVxIGFzIEF1dGhlbnRpY2F0ZWRSZXF1ZXN0KS51c2VyOwogIGNvbnN0IHBhcnNlZCA9IENyZWF0ZUZyaWVuZFJlcXVlc3RCb2R5LnNhZmVQYXJzZShyZXEuYm9keSk7CiAgaWYgKCFwYXJzZWQuc3VjY2VzcyB8fCBwYXJzZWQuZGF0YS5yZWNlaXZlclVzZXJJZCA9PT0gaWQpIHsKICAgIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgZXJyb3I6ICJDaG9vc2UgYW5vdGhlciBleHBsb3Jlci4iIH0pOwogICAgcmV0dXJuOwogIH0KICBjb25zdCByZWNlaXZlciA9IGF3YWl0IGVuc3VyZVByb2ZpbGUocGFyc2VkLmRhdGEucmVjZWl2ZXJVc2VySWQpOwogIGlmICghcmVjZWl2ZXIpIHsKICAgIHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgZXJyb3I6ICJFeHBsb3JlciBub3QgZm91bmQuIiB9KTsKICAgIHJldHVybjsKICB9CiAgYXdhaXQgZW5zdXJlUHJvZmlsZShpZCwgZW1haWwpOwoKICBjb25zdCBleGlzdGluZyA9IGF3YWl0IGRiCiAgICAuc2VsZWN0KCkKICAgIC5mcm9tKGZyaWVuZFJlcXVlc3RzVGFibGUpCiAgICAud2hlcmUoCiAgICAgIG9yKAogICAgICAgIGFuZCgKICAgICAgICAgIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc2VuZGVyVXNlcklkLCBpZCksCiAgICAgICAgICBlcShmcmllbmRSZXF1ZXN0c1RhYmxlLnJlY2VpdmVyVXNlcklkLCByZWNlaXZlci51c2VySWQpLAogICAgICAgICksCiAgICAgICAgYW5kKAogICAgICAgICAgZXEoZnJpZW5kUmVxdWVzdHNUYWJsZS5zZW5kZXJVc2VySWQsIHJlY2VpdmVyLnVzZXJJZCksCiAgICAgICAgICBlcShmcmllbmRSZXF1ZXN0c1RhYmxlLnJlY2VpdmVyVXNlcklkLCBpZCksCiAgICAgICAgKSwKICAgICAgKSwKICAgICkKICAgIC5vcmRlckJ5KGRlc2MoZnJpZW5kUmVxdWVzdHNUYWJsZS5jcmVhdGVkQXQpKQogICAgLmxpbWl0KDEpOwogIGlmIChleGlzdGluZ1swXT8uc3RhdHVzID09PSBhY2NlcHRlZCkgewogICAgcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogIllvdSBhcmUgYWxyZWFkeSBmcmllbmRzLiIgfSk7CiAgICByZXR1cm47CiAgfQogIGlmIChleGlzdGluZ1swXT8uc3RhdHVzID09PSBwZW5kaW5nKSB7CiAgICByZXMuc3RhdHVzKDQwMCkuanNvbih7IGVycm9yOiAiQSBmcmllbmQgcmVxdWVzdCBpcyBhbHJlYWR5IHdhaXRpbmcuIiB9KTsKICAgIHJldHVybjsKICB9CgogIGNvbnN0IFtjcmVhdGVkXSA9IGF3YWl0IGRiCiAgICAuaW5zZXJ0KGZyaWVuZFJlcXVlc3RzVGFibGUpCiAgICAudmFsdWVzKHsgc2VuZGVyVXNlcklkOiBpZCwgcmVjZWl2ZXJVc2VySWQ6IHJlY2VpdmVyLnVzZXJJZCB9KQogICAgLnJldHVybmluZygpOwogIGNvbnN0IHByb2ZpbGVzID0gYXdhaXQgbG9hZFByb2ZpbGVzKFtpZCwgcmVjZWl2ZXIudXNlcklkXSk7CiAgcmVzLnN0YXR1cygyMDEpLmpzb24oQ3JlYXRlRnJpZW5kUmVxdWVzdFJlc3BvbnNlLnBhcnNlKHJlcXVlc3RTaGFwZShjcmVhdGVkLCBwcm9maWxlcykpKTsKfSk7Cgpyb3V0ZXIucG9zdCgKICAiL2ZyaWVuZHMvcmVxdWVzdHMvOnJlcXVlc3RJZC9hY2NlcHQiLAogIHJlcXVpcmVTdXBhYmFzZVVzZXIsCiAgYXN5bmMgKHJlcSwgcmVzKTogUHJvbWlzZTx2b2lkPiA9PiB7CiAgICBjb25zdCB7IGlkIH0gPSAocmVxIGFzIEF1dGhlbnRpY2F0ZWRSZXF1ZXN0KS51c2VyOwogICAgY29uc3QgcGFyc2VkID0gQWNjZXB0RnJpZW5kUmVxdWVzdFBhcmFtcy5zYWZlUGFyc2UocmVxLnBhcmFtcyk7CiAgICBpZiAoIXBhcnNlZC5zdWNjZXNzKSB7CiAgICAgIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgZXJyb3I6ICJJbnZhbGlkIGZyaWVuZCByZXF1ZXN0LiIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IFtyZXF1ZXN0XSA9IGF3YWl0IGRiCiAgICAgIC5zZWxlY3QoKQogICAgICAuZnJvbShmcmllbmRSZXF1ZXN0c1RhYmxlKQogICAgICAud2hlcmUoCiAgICAgICAgYW5kKAogICAgICAgICAgZXEoZnJpZW5kUmVxdWVzdHNUYWJsZS5pZCwgcGFyc2VkLmRhdGEucmVxdWVzdElkKSwKICAgICAgICAgIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUucmVjZWl2ZXJVc2VySWQsIGlkKSwKICAgICAgICAgIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc3RhdHVzLCBwZW5kaW5nKSwKICAgICAgICApLAogICAgICApCiAgICAgIC5saW1pdCgxKTsKICAgIGlmICghcmVxdWVzdCkgewogICAgICByZXMuc3RhdHVzKDQwNCkuanNvbih7IGVycm9yOiAiRnJpZW5kIHJlcXVlc3Qgbm90IGZvdW5kLiIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IFt1cGRhdGVkXSA9IGF3YWl0IGRiCiAgICAgIC51cGRhdGUoZnJpZW5kUmVxdWVzdHNUYWJsZSkKICAgICAgLnNldCh7IHN0YXR1czogYWNjZXB0ZWQsIHJlc3BvbmRlZEF0OiBuZXcgRGF0ZSgpIH0pCiAgICAgIC53aGVyZShlcShmcmllbmRSZXF1ZXN0c1RhYmxlLmlkLCByZXF1ZXN0LmlkKSkKICAgICAgLnJldHVybmluZygpOwogICAgY29uc3QgcHJvZmlsZXMgPSBhd2FpdCBsb2FkUHJvZmlsZXMoW3VwZGF0ZWQuc2VuZGVyVXNlcklkXSk7CiAgICByZXMuanNvbigKICAgICAgQWNjZXB0RnJpZW5kUmVxdWVzdFJlc3BvbnNlLnBhcnNlKHsKICAgICAgICB1c2VySWQ6IHVwZGF0ZWQuc2VuZGVyVXNlcklkLAogICAgICAgIGRpc3BsYXlOYW1lOiBwcm9maWxlcy5nZXQodXBkYXRlZC5zZW5kZXJVc2VySWQpID8/ICJFeHBsb3JlciIsCiAgICAgICAgY29ubmVjdGVkQXQ6IHVwZGF0ZWQucmVzcG9uZGVkQXQgPz8gdXBkYXRlZC5jcmVhdGVkQXQsCiAgICAgIH0pLAogICAgKTsKICB9LAopOwoKcm91dGVyLnBvc3QoCiAgIi9mcmllbmRzL3JlcXVlc3RzLzpyZXF1ZXN0SWQvZGVjbGluZSIsCiAgcmVxdWlyZVN1cGFiYXNlVXNlciwKICBhc3luYyAocmVxLCByZXMpOiBQcm9taXNlPHZvaWQ+ID0+IHsKICAgIGNvbnN0IHsgaWQgfSA9IChyZXEgYXMgQXV0aGVudGljYXRlZFJlcXVlc3QpLnVzZXI7CiAgICBjb25zdCBwYXJzZWQgPSBEZWNsaW5lRnJpZW5kUmVxdWVzdFBhcmFtcy5zYWZlUGFyc2UocmVxLnBhcmFtcyk7CiAgICBpZiAoIXBhcnNlZC5zdWNjZXNzKSB7CiAgICAgIHJlcy5zdGF0dXMoNDAwKS5qc29uKHsgZXJyb3I6ICJJbnZhbGlkIGZyaWVuZCByZXF1ZXN0LiIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IFtyZXF1ZXN0XSA9IGF3YWl0IGRiCiAgICAgIC5zZWxlY3QoKQogICAgICAuZnJvbShmcmllbmRSZXF1ZXN0c1RhYmxlKQogICAgICAud2hlcmUoCiAgICAgICAgYW5kKAogICAgICAgICAgZXEoZnJpZW5kUmVxdWVzdHNUYWJsZS5pZCwgcGFyc2VkLmRhdGEucmVxdWVzdElkKSwKICAgICAgICAgIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUucmVjZWl2ZXJVc2VySWQsIGlkKSwKICAgICAgICAgIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUuc3RhdHVzLCBwZW5kaW5nKSwKICAgICAgICApLAogICAgICApCiAgICAgIC5saW1pdCgxKTsKICAgIGlmICghcmVxdWVzdCkgewogICAgICByZXMuc3RhdHVzKDQwNCkuanNvbih7IGVycm9yOiAiRnJpZW5kIHJlcXVlc3Qgbm90IGZvdW5kLiIgfSk7CiAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnN0IFt1cGRhdGVkXSA9IGF3YWl0IGRiCiAgICAgIC51cGRhdGUoZnJpZW5kUmVxdWVzdHNUYWJsZSkKICAgICAgLnNldCh7IHN0YXR1czogZGVjbGluZWQsIHJlc3BvbmRlZEF0OiBuZXcgRGF0ZSgpIH0pCiAgICAgIC53aGVyZShlcShmcmllbmRSZXF1ZXN0c1RhYmxlLmlkLCByZXF1ZXN0LmlkKSkKICAgICAgLnJldHVybmluZygpOwogICAgY29uc3QgcHJvZmlsZXMgPSBhd2FpdCBsb2FkUHJvZmlsZXMoW3VwZGF0ZWQuc2VuZGVyVXNlcklkLCB1cGRhdGVkLnJlY2VpdmVyVXNlcklkXSk7CiAgICByZXMuanNvbihEZWNsaW5lRnJpZW5kUmVxdWVzdFJlc3BvbnNlLnBhcnNlKHJlcXVlc3RTaGFwZSh1cGRhdGVkLCBwcm9maWxlcykpKTsKICB9LAopOwoKcm91dGVyLmRlbGV0ZSgiL2ZyaWVuZHMiLCByZXF1aXJlU3VwYWJhc2VVc2VyLCBhc3luYyAocmVxLCByZXMpOiBQcm9taXNlPHZvaWQ+ID0+IHsKICBjb25zdCB7IGlkIH0gPSAocmVxIGFzIEF1dGhlbnRpY2F0ZWRSZXF1ZXN0KS51c2VyOwogIGNvbnN0IHBhcnNlZCA9IFJlbW92ZUZyaWVuZFF1ZXJ5UGFyYW1zLnNhZmVQYXJzZShyZXEucXVlcnkpOwogIGlmICghcGFyc2VkLnN1Y2Nlc3MgfHwgcGFyc2VkLmRhdGEudXNlcklkID09PSBpZCkgewogICAgcmVzLnN0YXR1cyg0MDApLmpzb24oeyBlcnJvcjogIkludmFsaWQgZnJpZW5kLiIgfSk7CiAgICByZXR1cm47CiAgfQogIGNvbnN0IFtyZXF1ZXN0XSA9IGF3YWl0IGRiCiAgICAuc2VsZWN0KCkKICAgIC5mcm9tKGZyaWVuZFJlcXVlc3RzVGFibGUpCiAgICAud2hlcmUoCiAgICAgIGFuZCgKICAgICAgICBlcShmcmllbmRSZXF1ZXN0c1RhYmxlLnN0YXR1cywgYWNjZXB0ZWQpLAogICAgICAgIG9yKAogICAgICAgICAgYW5kKAogICAgICAgICAgICBlcShmcmllbmRSZXF1ZXN0c1RhYmxlLnNlbmRlclVzZXJJZCwgaWQpLAogICAgICAgICAgICBlcShmcmllbmRSZXF1ZXN0c1RhYmxlLnJlY2VpdmVyVXNlcklkLCBwYXJzZWQuZGF0YS51c2VySWQpLAogICAgICAgICAgKSwKICAgICAgICAgIGFuZCgKICAgICAgICAgICAgZXEoZnJpZW5kUmVxdWVzdHNUYWJsZS5zZW5kZXJVc2VySWQsIHBhcnNlZC5kYXRhLnVzZXJJZCksCiAgICAgICAgICAgIGVxKGZyaWVuZFJlcXVlc3RzVGFibGUucmVjZWl2ZXJVc2VySWQsIGlkKSwKICAgICAgICAgICksCiAgICAgICAgKSwKICAgICAgKSwKICAgICkKICAgIC5saW1pdCgxKTsKICBpZiAoIXJlcXVlc3QpIHsKICAgIHJlcy5zdGF0dXMoNDA0KS5qc29uKHsgZXJyb3I6ICJGcmllbmQgbm90IGZvdW5kLiIgfSk7CiAgICByZXR1cm47CiAgfQogIGF3YWl0IGRiLmRlbGV0ZShmcmllbmRSZXF1ZXN0c1RhYmxlKS53aGVyZShlcShmcmllbmRSZXF1ZXN0c1RhYmxlLmlkLCByZXF1ZXN0LmlkKSk7CiAgcmVzLnNlbmRTdGF0dXMoMjA0KTsKfSk7CgpleHBvcnQgZGVmYXVsdCByb3V0ZXI7
+import { Router, type IRouter } from "express";
+import { and, desc, eq, ilike, inArray, ne, or } from "drizzle-orm";
+import {
+  AcceptFriendRequestParams,
+  AcceptFriendRequestResponse,
+  CreateFriendRequestBody,
+  CreateFriendRequestResponse,
+  DeclineFriendRequestParams,
+  DeclineFriendRequestResponse,
+  GetFriendsOverviewResponse,
+  RemoveFriendQueryParams,
+  SearchFriendProfilesQueryParams,
+  SearchFriendProfilesResponse,
+  UpsertFriendProfileBody,
+  UpsertFriendProfileResponse,
+} from "@workspace/api-zod";
+import { db, friendProfilesTable, friendRequestsTable } from "@workspace/db";
+import { requireSupabaseUser, type AuthenticatedRequest } from "../middleware/supabase-auth";
+
+const router: IRouter = Router();
+const pending = "pending";
+const accepted = "accepted";
+const declined = "declined";
+
+function requestShape(
+  request: typeof friendRequestsTable.$inferSelect,
+  profiles: Map<string, string>,
+) {
+  return {
+    id: request.id,
+    senderUserId: request.senderUserId,
+    senderDisplayName: profiles.get(request.senderUserId) ?? "Explorer",
+    receiverUserId: request.receiverUserId,
+    receiverDisplayName: profiles.get(request.receiverUserId) ?? "Explorer",
+    status: request.status as "pending" | "accepted" | "declined",
+    createdAt: request.createdAt,
+    respondedAt: request.respondedAt,
+  };
+}
+
+async function ensureProfile(userId: string, email?: string) {
+  const [existing] = await db
+    .select()
+    .from(friendProfilesTable)
+    .where(eq(friendProfilesTable.userId, userId))
+    .limit(1);
+  if (existing) return existing;
+
+  const localPart = email?.split("@")[0]?.replace(/[^a-zA-Z0-9 _-]/g, "").trim();
+  const fallback = (localPart || `Explorer ${userId.slice(0, 4)}`).slice(0, 32);
+  const [created] = await db
+    .insert(friendProfilesTable)
+    .values({ userId, displayName: fallback })
+    .returning();
+  return created;
+}
+
+async function loadProfiles(userIds: string[]) {
+  if (userIds.length === 0) return new Map<string, string>();
+  const rows = await db
+    .select()
+    .from(friendProfilesTable)
+    .where(inArray(friendProfilesTable.userId, userIds));
+  return new Map(rows.map((profile) => [profile.userId, profile.displayName]));
+}
+
+router.get("/friends", requireSupabaseUser, async (req, res): Promise<void> => {
+  const { id, email } = (req as AuthenticatedRequest).user;
+  const profile = await ensureProfile(id, email);
+  const [incoming, outgoing, acceptedRequests] = await Promise.all([
+    db
+      .select()
+      .from(friendRequestsTable)
+      .where(and(eq(friendRequestsTable.receiverUserId, id), eq(friendRequestsTable.status, pending)))
+      .orderBy(desc(friendRequestsTable.createdAt)),
+    db
+      .select()
+      .from(friendRequestsTable)
+      .where(and(eq(friendRequestsTable.senderUserId, id), eq(friendRequestsTable.status, pending)))
+      .orderBy(desc(friendRequestsTable.createdAt)),
+    db
+      .select()
+      .from(friendRequestsTable)
+      .where(
+        and(
+          eq(friendRequestsTable.status, accepted),
+          or(eq(friendRequestsTable.senderUserId, id), eq(friendRequestsTable.receiverUserId, id)),
+        ),
+      )
+      .orderBy(desc(friendRequestsTable.respondedAt)),
+  ]);
+
+  const relatedIds = [
+    ...new Set(
+      [...incoming, ...outgoing, ...acceptedRequests].flatMap((request) => [
+        request.senderUserId,
+        request.receiverUserId,
+      ]),
+    ),
+  ];
+  const profiles = await loadProfiles([id, ...relatedIds]);
+  const friends = acceptedRequests.map((request) => {
+    const otherUserId =
+      request.senderUserId === id ? request.receiverUserId : request.senderUserId;
+    return {
+      userId: otherUserId,
+      displayName: profiles.get(otherUserId) ?? "Explorer",
+      connectedAt: request.respondedAt ?? request.createdAt,
+    };
+  });
+
+  res.json(
+    GetFriendsOverviewResponse.parse({
+      profile,
+      friends,
+      incoming: incoming.map((request) => requestShape(request, profiles)),
+      outgoing: outgoing.map((request) => requestShape(request, profiles)),
+    }),
+  );
+});
+
+router.put("/friends/profile", requireSupabaseUser, async (req, res): Promise<void> => {
+  const { id } = (req as AuthenticatedRequest).user;
+  const parsed = UpsertFriendProfileBody.safeParse(req.body);
+  if (!parsed.success) {
+    res.status(400).json({ error: "Display name must be 2–32 characters." });
+    return;
+  }
+  const displayName = parsed.data.displayName.trim().replace(/\s+/g, " ");
+  if (displayName.length < 2 || displayName.length > 32) {
+    res.status(400).json({ error: "Display name must be 2–32 characters." });
+    return;
+  }
+
+  const [profile] = await db
+    .insert(friendProfilesTable)
+    .values({ userId: id, displayName })
+    .onConflictDoUpdate({
+      target: friendProfilesTable.userId,
+      set: { displayName, updatedAt: new Date() },
+    })
+    .returning();
+  res.json(UpsertFriendProfileResponse.parse(profile));
+});
+
+router.get("/friends/search", requireSupabaseUser, async (req, res): Promise<void> => {
+  const { id } = (req as AuthenticatedRequest).user;
+  const parsed = SearchFriendProfilesQueryParams.safeParse(req.query);
+  if (!parsed.success) {
+    res.status(400).json({ error: "Search must be between 2 and 40 characters." });
+    return;
+  }
+  const query = parsed.data.q.trim();
+  const results = await db
+    .select({ userId: friendProfilesTable.userId, displayName: friendProfilesTable.displayName })
+    .from(friendProfilesTable)
+    .where(and(ilike(friendProfilesTable.displayName, `%${query}%`), ne(friendProfilesTable.userId, id)))
+    .orderBy(friendProfilesTable.displayName)
+    .limit(20);
+  res.json(SearchFriendProfilesResponse.parse(results));
+});
+
+router.post("/friends/requests", requireSupabaseUser, async (req, res): Promise<void> => {
+  const { id, email } = (req as AuthenticatedRequest).user;
+  const parsed = CreateFriendRequestBody.safeParse(req.body);
+  if (!parsed.success || parsed.data.receiverUserId === id) {
+    res.status(400).json({ error: "Choose another explorer." });
+    return;
+  }
+  const receiver = await ensureProfile(parsed.data.receiverUserId);
+  if (!receiver) {
+    res.status(404).json({ error: "Explorer not found." });
+    return;
+  }
+  await ensureProfile(id, email);
+
+  const existing = await db
+    .select()
+    .from(friendRequestsTable)
+    .where(
+      or(
+        and(
+          eq(friendRequestsTable.senderUserId, id),
+          eq(friendRequestsTable.receiverUserId, receiver.userId),
+        ),
+        and(
+          eq(friendRequestsTable.senderUserId, receiver.userId),
+          eq(friendRequestsTable.receiverUserId, id),
+        ),
+      ),
+    )
+    .orderBy(desc(friendRequestsTable.createdAt))
+    .limit(1);
+  if (existing[0]?.status === accepted) {
+    res.status(400).json({ error: "You are already friends." });
+    return;
+  }
+  if (existing[0]?.status === pending) {
+    res.status(400).json({ error: "A friend request is already waiting." });
+    return;
+  }
+
+  const [created] = await db
+    .insert(friendRequestsTable)
+    .values({ senderUserId: id, receiverUserId: receiver.userId })
+    .returning();
+  const profiles = await loadProfiles([id, receiver.userId]);
+  res.status(201).json(CreateFriendRequestResponse.parse(requestShape(created, profiles)));
+});
+
+router.post(
+  "/friends/requests/:requestId/accept",
+  requireSupabaseUser,
+  async (req, res): Promise<void> => {
+    const { id } = (req as AuthenticatedRequest).user;
+    const parsed = AcceptFriendRequestParams.safeParse(req.params);
+    if (!parsed.success) {
+      res.status(400).json({ error: "Invalid friend request." });
+      return;
+    }
+    const [request] = await db
+      .select()
+      .from(friendRequestsTable)
+      .where(
+        and(
+          eq(friendRequestsTable.id, parsed.data.requestId),
+          eq(friendRequestsTable.receiverUserId, id),
+          eq(friendRequestsTable.status, pending),
+        ),
+      )
+      .limit(1);
+    if (!request) {
+      res.status(404).json({ error: "Friend request not found." });
+      return;
+    }
+    const [updated] = await db
+      .update(friendRequestsTable)
+      .set({ status: accepted, respondedAt: new Date() })
+      .where(eq(friendRequestsTable.id, request.id))
+      .returning();
+    const profiles = await loadProfiles([updated.senderUserId]);
+    res.json(
+      AcceptFriendRequestResponse.parse({
+        userId: updated.senderUserId,
+        displayName: profiles.get(updated.senderUserId) ?? "Explorer",
+        connectedAt: updated.respondedAt ?? updated.createdAt,
+      }),
+    );
+  },
+);
+
+router.post(
+  "/friends/requests/:requestId/decline",
+  requireSupabaseUser,
+  async (req, res): Promise<void> => {
+    const { id } = (req as AuthenticatedRequest).user;
+    const parsed = DeclineFriendRequestParams.safeParse(req.params);
+    if (!parsed.success) {
+      res.status(400).json({ error: "Invalid friend request." });
+      return;
+    }
+    const [request] = await db
+      .select()
+      .from(friendRequestsTable)
+      .where(
+        and(
+          eq(friendRequestsTable.id, parsed.data.requestId),
+          eq(friendRequestsTable.receiverUserId, id),
+          eq(friendRequestsTable.status, pending),
+        ),
+      )
+      .limit(1);
+    if (!request) {
+      res.status(404).json({ error: "Friend request not found." });
+      return;
+    }
+    const [updated] = await db
+      .update(friendRequestsTable)
+      .set({ status: declined, respondedAt: new Date() })
+      .where(eq(friendRequestsTable.id, request.id))
+      .returning();
+    const profiles = await loadProfiles([updated.senderUserId, updated.receiverUserId]);
+    res.json(DeclineFriendRequestResponse.parse(requestShape(updated, profiles)));
+  },
+);
+
+router.delete("/friends", requireSupabaseUser, async (req, res): Promise<void> => {
+  const { id } = (req as AuthenticatedRequest).user;
+  const parsed = RemoveFriendQueryParams.safeParse(req.query);
+  if (!parsed.success || parsed.data.userId === id) {
+    res.status(400).json({ error: "Invalid friend." });
+    return;
+  }
+  const [request] = await db
+    .select()
+    .from(friendRequestsTable)
+    .where(
+      and(
+        eq(friendRequestsTable.status, accepted),
+        or(
+          and(
+            eq(friendRequestsTable.senderUserId, id),
+            eq(friendRequestsTable.receiverUserId, parsed.data.userId),
+          ),
+          and(
+            eq(friendRequestsTable.senderUserId, parsed.data.userId),
+            eq(friendRequestsTable.receiverUserId, id),
+          ),
+        ),
+      ),
+    )
+    .limit(1);
+  if (!request) {
+    res.status(404).json({ error: "Friend not found." });
+    return;
+  }
+  await db.delete(friendRequestsTable).where(eq(friendRequestsTable.id, request.id));
+  res.sendStatus(204);
+});
+
+export default router;

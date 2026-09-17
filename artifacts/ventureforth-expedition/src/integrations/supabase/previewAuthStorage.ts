@@ -1,1 +1,106 @@
-Ly8gVGhpcyBmaWxlIGlzIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkLiBEbyBub3QgZWRpdCBpdCBkaXJlY3RseS4KCi8vIE9uIGEgTG92YWJsZSBwcmV2aWV3IHN1cmZhY2UsIGJyb2tlciB0aGUgYXV0aCBzZXNzaW9uIHRvIHRoZSBlZGl0b3Igb3ZlcgovLyBwb3N0TWVzc2FnZSBzbyB0aGUgcHJvamVjdCdzIHByZXZpZXcgc3VyZmFjZXMgc2hhcmUgb25lIGxvZ2luOyBlbHNlIGxvY2FsU3RvcmFnZS4KZXhwb3J0IGZ1bmN0aW9uIGJyb2tlcmVkUHJldmlld1N0b3JhZ2UoKSB7CiAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm4gdW5kZWZpbmVkOwogIGNvbnN0IGhvc3QgPSBsb2NhdGlvbi5ob3N0bmFtZTsKICBjb25zdCBQUkVWSUVXX1pPTkVTID0gWwogICAgImxvdmFibGVwcm9qZWN0LmNvbSIsCiAgICAibG92YWJsZXByb2plY3QtZGV2LmNvbSIsCiAgICAibG92YWJsZS5hcHAiLAogICAgImdwdC1lbmcuY29tIiwKICAgICJncHRlbmdpbmVlci5ydW4iLAogIF07CiAgY29uc3Qgb25QcmV2aWV3Wm9uZSA9IFBSRVZJRVdfWk9ORVMuc29tZSgoeikgPT4gaG9zdCA9PT0geiB8fCBob3N0LmVuZHNXaXRoKCIuIiArIHopKTsKICAvLyBSZWFkIHRoZSBpZCBvbmx5IGZyb20gbm9uLXVzZXItY29udHJvbGxlZCBob3N0IHBvc2l0aW9ucywgc28gYSB1c2VyLW5hbWVkCiAgLy8gcHJldmlldy0tPG5hbWU+IGhvc3QgY2FuJ3Qgc211Z2dsZSBhbm90aGVyIHByb2plY3QncyBpZC4KICBjb25zdCBVVUlEID0gIlswLTlhLWZdezh9LVswLTlhLWZdezR9LTRbMC05YS1mXXszfS1bODlhYl1bMC05YS1mXXszfS1bMC05YS1mXXsxMn0iOwogIGNvbnN0IHByb2plY3RJZCA9IG9uUHJldmlld1pvbmUKICAgID8gKGhvc3QubWF0Y2goCiAgICAgICAgbmV3IFJlZ0V4cCgiXig/OmlkLXByZXZpZXcoPzotW2EtejAtOV0rKT98cHJvamVjdCktLSgiICsgVVVJRCArICIpKD86LWRldik/KD89XFwufCQpIiwgImkiKSwKICAgICAgKT8uWzFdID8/IGhvc3QubWF0Y2gobmV3IFJlZ0V4cCgiXigiICsgVVVJRCArICIpKD89Wy4tXSkiLCAiaSIpKT8uWzFdKQogICAgOiB1bmRlZmluZWQ7CiAgY29uc3QgZnJhbWVkID0gd2luZG93LnBhcmVudCAmJiB3aW5kb3cucGFyZW50ICE9PSB3aW5kb3c7CiAgaWYgKCFwcm9qZWN0SWQgfHwgIWZyYW1lZCkgcmV0dXJuIGxvY2FsU3RvcmFnZTsKCiAgLy8gUG9zdCBvbmx5IHRvIHRoZSByZWFsIGVkaXRvciBhbmNlc3RvciwgdmFsaWRhdGVkIGFzIGEgTG92YWJsZSBvcmlnaW4sIHNvIHRoZQogIC8vIHNlc3Npb24gdG9rZW4gY2FuIG5ldmVyIHJlYWNoIGFuIHVudHJ1c3RlZCBlbWJlZGRlci4KICBjb25zdCBkZXYgPSBob3N0LmVuZHNXaXRoKCIubG92YWJsZXByb2plY3QtZGV2LmNvbSIpIHx8IGhvc3QuZW5kc1dpdGgoIi5ncHQtZW5nLmNvbSIpOwogIGNvbnN0IEVESVRPUiA9IGRldgogICAgPyAvXmh0dHBzOlwvXC8oW2EtejAtOS1dK1wuKSoobG92YWJsZVwuZGV2fGdwdGVuZ2luZWVyXC5hcHApJHxeaHR0cDpcL1wvbG9jYWxob3N0OjMwMDAkLwogICAgOiAvXmh0dHBzOlwvXC8oW2EtejAtOS1dK1wuKSoobG92YWJsZVwuZGV2fGdwdGVuZ2luZWVyXC5hcHApJC87CiAgY29uc3QgYW5jZXN0b3IgPQogICAgKGxvY2F0aW9uLmFuY2VzdG9yT3JpZ2lucyAmJiBsb2NhdGlvbi5hbmNlc3Rvck9yaWdpbnNbMF0pIHx8CiAgICAoZG9jdW1lbnQucmVmZXJyZXIgPyBuZXcgVVJMKGRvY3VtZW50LnJlZmVycmVyKS5vcmlnaW4gOiAiIik7CiAgY29uc3QgZWRpdG9yT3JpZ2lucyA9CiAgICBhbmNlc3RvciAmJiBFRElUT1IudGVzdChhbmNlc3RvcikKICAgICAgPyBbYW5jZXN0b3JdCiAgICAgIDogZGV2CiAgICAgICAgPyBbImh0dHBzOi8vbG92YWJsZS5kZXYiLCAiaHR0cDovL2xvY2FsaG9zdDozMDAwIl0KICAgICAgICA6IFsiaHR0cHM6Ly9sb3ZhYmxlLmRldiJdOwogIGNvbnN0IFJFU1VMVCA9ICJsb3ZhYmxlLXByZXZpZXctYXV0aDpyZXN1bHQiOwogIGNvbnN0IFRJTUVPVVQgPSAyMDAwOwogIGNvbnN0IG5ld0lkID0gKCkgPT4gTWF0aC5yYW5kb20oKS50b1N0cmluZygzNikuc2xpY2UoMikgKyBEYXRlLm5vdygpLnRvU3RyaW5nKDM2KTsKCiAgY29uc3QgcmVxdWVzdCA9ICgKICAgIHR5cGU6IHN0cmluZywKICAgIGtleTogc3RyaW5nLAogICAgdmFsdWU/OiBzdHJpbmcsCiAgKTogUHJvbWlzZTx7IG9rOiBib29sZWFuOyB2YWx1ZT86IHN0cmluZyB8IG51bGwgfSB8IG51bGw+ID0+CiAgICBuZXcgUHJvbWlzZSgocmVzb2x2ZSkgPT4gewogICAgICBjb25zdCByZXF1ZXN0SWQgPSBuZXdJZCgpOwogICAgICBsZXQgZG9uZSA9IGZhbHNlOwogICAgICBjb25zdCB0aW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gPSBzZXRUaW1lb3V0KCgpID0+IGZpbmlzaChudWxsKSwgVElNRU9VVCk7CiAgICAgIGNvbnN0IGZpbmlzaCA9IChyOiB7IG9rOiBib29sZWFuOyB2YWx1ZT86IHN0cmluZyB8IG51bGwgfSB8IG51bGwpID0+IHsKICAgICAgICBpZiAoZG9uZSkgcmV0dXJuOwogICAgICAgIGRvbmUgPSB0cnVlOwogICAgICAgIGNsZWFyVGltZW91dCh0aW1lcik7CiAgICAgICAgd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoIm1lc3NhZ2UiLCBvbk1lc3NhZ2UpOwogICAgICAgIHJlc29sdmUocik7CiAgICAgIH07CiAgICAgIGNvbnN0IG9uTWVzc2FnZSA9IChlOiBNZXNzYWdlRXZlbnQpID0+IHsKICAgICAgICBpZiAoZWRpdG9yT3JpZ2lucy5pbmRleE9mKGUub3JpZ2luKSA8IDApIHJldHVybjsKICAgICAgICBjb25zdCBkID0gZS5kYXRhOwogICAgICAgIGlmIChkICYmIGQudHlwZSA9PT0gUkVTVUxUICYmIGQucmVxdWVzdElkID09PSByZXF1ZXN0SWQpIGZpbmlzaChkKTsKICAgICAgfTsKICAgICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoIm1lc3NhZ2UiLCBvbk1lc3NhZ2UpOwogICAgICBjb25zdCBtc2c6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0geyB0eXBlLCByZXF1ZXN0SWQsIHByb2plY3RJZCwga2V5IH07CiAgICAgIGlmICh2YWx1ZSAhPT0gdW5kZWZpbmVkKSBtc2dbInZhbHVlIl0gPSB2YWx1ZTsKICAgICAgLy8gdGFyZ2V0T3JpZ2luIHBlciB0cnVzdGVkIGVkaXRvciBvcmlnaW4sIHNvIGEgc2Vzc2lvbiB0b2tlbiBuZXZlciByZWFjaGVzIGFuIGFyYml0cmFyeSBlbWJlZGRlci4KICAgICAgZm9yIChjb25zdCBvcmlnaW4gb2YgZWRpdG9yT3JpZ2lucykgd2luZG93LnBhcmVudC5wb3N0TWVzc2FnZShtc2csIG9yaWdpbik7CiAgICB9KTsKCiAgLy8gVGhlIGVkaXRvciBtYXkgbm90IGJlIGxpc3RlbmluZyB5ZXQgYXQgdGhlIGZpcnN0IGdldEl0ZW0sIHNvIHJldHJ5IG9uY2UuCiAgbGV0IGZpcnN0R2V0ID0gdHJ1ZTsKICBjb25zdCBSRVRSWV9ERUxBWSA9IDI1MDsKCiAgcmV0dXJuIHsKICAgIGdldEl0ZW06IGFzeW5jIChrZXk6IHN0cmluZykgPT4gewogICAgICBsZXQgcmVzID0gYXdhaXQgcmVxdWVzdCgibG92YWJsZS1wcmV2aWV3LWF1dGg6Z2V0Iiwga2V5KTsKICAgICAgaWYgKCFyZXMgJiYgZmlyc3RHZXQpIHsKICAgICAgICBhd2FpdCBuZXcgUHJvbWlzZSgocikgPT4gc2V0VGltZW91dChyLCBSRVRSWV9ERUxBWSkpOwogICAgICAgIHJlcyA9IGF3YWl0IHJlcXVlc3QoImxvdmFibGUtcHJldmlldy1hdXRoOmdldCIsIGtleSk7CiAgICAgIH0KICAgICAgZmlyc3RHZXQgPSBmYWxzZTsKICAgICAgLy8gJycgaXMgdGhlIGxvZ291dCB0b21ic3RvbmU6IGNsZWFyIHRoZSBsb2NhbCBjb3B5IHRvbyBzbyBpdCBjYW4ndCByZXN1cnJlY3QgaWYKICAgICAgLy8gdGhlIGJyb2tlciBsYXRlciBnb2VzIHNpbGVudC4gQSBudWxsIHJlcGx5IG1lYW5zIG5ldmVyLXN5bmNlZCAtPiBrZWVwIGxvY2FsLgogICAgICBpZiAocmVzICYmIHJlcy5vayAmJiB0eXBlb2YgcmVzLnZhbHVlID09PSAic3RyaW5nIikgewogICAgICAgIGlmIChyZXMudmFsdWUgPT09ICIiKSB7CiAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShrZXkpOwogICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgfQogICAgICAgIHJldHVybiByZXMudmFsdWU7CiAgICAgIH0KICAgICAgcmV0dXJuIGxvY2FsU3RvcmFnZS5nZXRJdGVtKGtleSk7CiAgICB9LAogICAgc2V0SXRlbTogKGtleTogc3RyaW5nLCB2YWx1ZTogc3RyaW5nKSA9PiB7CiAgICAgIGxvY2FsU3RvcmFnZS5zZXRJdGVtKGtleSwgdmFsdWUpOwogICAgICByZXR1cm4gcmVxdWVzdCgibG92YWJsZS1wcmV2aWV3LWF1dGg6c2V0Iiwga2V5LCB2YWx1ZSkudGhlbigoKSA9PiB1bmRlZmluZWQpOwogICAgfSwKICAgIHJlbW92ZUl0ZW06IChrZXk6IHN0cmluZykgPT4gewogICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbShrZXkpOwogICAgICByZXR1cm4gcmVxdWVzdCgibG92YWJsZS1wcmV2aWV3LWF1dGg6cmVtb3ZlIiwga2V5KS50aGVuKCgpID0+IHVuZGVmaW5lZCk7CiAgICB9LAogIH07Cn0K
+// This file is automatically generated. Do not edit it directly.
+
+// On a Lovable preview surface, broker the auth session to the editor over
+// postMessage so the project's preview surfaces share one login; else localStorage.
+export function brokeredPreviewStorage() {
+  if (typeof window === "undefined") return undefined;
+  const host = location.hostname;
+  const PREVIEW_ZONES = [
+    "lovableproject.com",
+    "lovableproject-dev.com",
+    "lovable.app",
+    "gpt-eng.com",
+    "gptengineer.run",
+  ];
+  const onPreviewZone = PREVIEW_ZONES.some((z) => host === z || host.endsWith("." + z));
+  // Read the id only from non-user-controlled host positions, so a user-named
+  // preview--<name> host can't smuggle another project's id.
+  const UUID = "[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}";
+  const projectId = onPreviewZone
+    ? (host.match(
+        new RegExp("^(?:id-preview(?:-[a-z0-9]+)?|project)--(" + UUID + ")(?:-dev)?(?=\\.|$)", "i"),
+      )?.[1] ?? host.match(new RegExp("^(" + UUID + ")(?=[.-])", "i"))?.[1])
+    : undefined;
+  const framed = window.parent && window.parent !== window;
+  if (!projectId || !framed) return localStorage;
+
+  // Post only to the real editor ancestor, validated as a Lovable origin, so the
+  // session token can never reach an untrusted embedder.
+  const dev = host.endsWith(".lovableproject-dev.com") || host.endsWith(".gpt-eng.com");
+  const EDITOR = dev
+    ? /^https:\/\/([a-z0-9-]+\.)*(lovable\.dev|gptengineer\.app)$|^http:\/\/localhost:3000$/
+    : /^https:\/\/([a-z0-9-]+\.)*(lovable\.dev|gptengineer\.app)$/;
+  const ancestor =
+    (location.ancestorOrigins && location.ancestorOrigins[0]) ||
+    (document.referrer ? new URL(document.referrer).origin : "");
+  const editorOrigins =
+    ancestor && EDITOR.test(ancestor)
+      ? [ancestor]
+      : dev
+        ? ["https://lovable.dev", "http://localhost:3000"]
+        : ["https://lovable.dev"];
+  const RESULT = "lovable-preview-auth:result";
+  const TIMEOUT = 2000;
+  const newId = () => Math.random().toString(36).slice(2) + Date.now().toString(36);
+
+  const request = (
+    type: string,
+    key: string,
+    value?: string,
+  ): Promise<{ ok: boolean; value?: string | null } | null> =>
+    new Promise((resolve) => {
+      const requestId = newId();
+      let done = false;
+      const timer: ReturnType<typeof setTimeout> = setTimeout(() => finish(null), TIMEOUT);
+      const finish = (r: { ok: boolean; value?: string | null } | null) => {
+        if (done) return;
+        done = true;
+        clearTimeout(timer);
+        window.removeEventListener("message", onMessage);
+        resolve(r);
+      };
+      const onMessage = (e: MessageEvent) => {
+        if (editorOrigins.indexOf(e.origin) < 0) return;
+        const d = e.data;
+        if (d && d.type === RESULT && d.requestId === requestId) finish(d);
+      };
+      window.addEventListener("message", onMessage);
+      const msg: Record<string, unknown> = { type, requestId, projectId, key };
+      if (value !== undefined) msg["value"] = value;
+      // targetOrigin per trusted editor origin, so a session token never reaches an arbitrary embedder.
+      for (const origin of editorOrigins) window.parent.postMessage(msg, origin);
+    });
+
+  // The editor may not be listening yet at the first getItem, so retry once.
+  let firstGet = true;
+  const RETRY_DELAY = 250;
+
+  return {
+    getItem: async (key: string) => {
+      let res = await request("lovable-preview-auth:get", key);
+      if (!res && firstGet) {
+        await new Promise((r) => setTimeout(r, RETRY_DELAY));
+        res = await request("lovable-preview-auth:get", key);
+      }
+      firstGet = false;
+      // '' is the logout tombstone: clear the local copy too so it can't resurrect if
+      // the broker later goes silent. A null reply means never-synced -> keep local.
+      if (res && res.ok && typeof res.value === "string") {
+        if (res.value === "") {
+          localStorage.removeItem(key);
+          return null;
+        }
+        return res.value;
+      }
+      return localStorage.getItem(key);
+    },
+    setItem: (key: string, value: string) => {
+      localStorage.setItem(key, value);
+      return request("lovable-preview-auth:set", key, value).then(() => undefined);
+    },
+    removeItem: (key: string) => {
+      localStorage.removeItem(key);
+      return request("lovable-preview-auth:remove", key).then(() => undefined);
+    },
+  };
+}

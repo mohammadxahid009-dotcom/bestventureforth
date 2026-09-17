@@ -1,1 +1,21 @@
-IyBSb3V0ZXMKClRhblN0YWNrIFN0YXJ0IHVzZXMgKipmaWxlLWJhc2VkIHJvdXRpbmcqKi4gRXZlcnkgYC50c3hgIGZpbGUgaW4gdGhpcyBkaXJlY3RvcnkKZGVmaW5lcyBhIHJvdXRlLiBEbyAqKm5vdCoqIGNyZWF0ZSBgc3JjL3BhZ2VzL2AsIGBzcmMvcm91dGVzL19hcHAvaW5kZXgudHN4YCwgb3IKYGFwcC9sYXlvdXQudHN4YCDigJQgdGhvc2UgYXJlIE5leHQuanMgLyBSZW1peCBjb252ZW50aW9ucy4gVGhlIG9ubHkgcm9vdCBsYXlvdXQKaXMgYHNyYy9yb3V0ZXMvX19yb290LnRzeGAuCgojIyBDb252ZW50aW9ucwoKfCBGaWxlICAgICAgICAgICAgICAgICAgICAgfCBVUkwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gfCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIHwKfCBgaW5kZXgudHN4YCAgICAgICAgICAgICAgfCBgL2AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgYWJvdXQudHN4YCAgICAgICAgICAgICAgfCBgL2Fib3V0YCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgdXNlcnMvaW5kZXgudHN4YCAgICAgICAgfCBgL3VzZXJzYCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwKfCBgdXNlcnMvJGlkLnRzeGAgICAgICAgICAgfCBgL3VzZXJzLzppZGAgKGR5bmFtaWMg4oCUIGJhcmUgYCRgLCBubyBjdXJseSBicmFjZXMpICAgICAgfAp8IGBwb3N0cy97LSRjYXRlZ29yeX0udHN4YCB8IGAvcG9zdHMvOmNhdGVnb3J5P2AgKG9wdGlvbmFsIHNlZ21lbnQpICAgICAgICAgICAgICAgICAgfAp8IGBmaWxlcy8kLnRzeGAgICAgICAgICAgICB8IGAvZmlsZXMvKmAgKHNwbGF0IOKAlCByZWFkIHZpYSBgX3NwbGF0YCBwYXJhbSwgbmV2ZXIgYCpgKSB8CnwgYF9sYXlvdXQudHN4YCAgICAgICAgICAgIHwgbGF5b3V0IHJvdXRlIChyZW5kZXJzIGNoaWxkcmVuIHZpYSBgPE91dGxldCAvPmApICAgICAgICB8CnwgYF9fcm9vdC50c3hgICAgICAgICAgICAgIHwgYXBwIHNoZWxsIOKAlCB3cmFwcyBldmVyeSBwYWdlOyBwcmVzZXJ2ZSBgPE91dGxldCAvPmAgICAgIHwKCmByb3V0ZVRyZWUuZ2VuLnRzYCBpcyBhdXRvLWdlbmVyYXRlZC4gRG9uJ3QgZWRpdCBpdCBieSBoYW5kLgo=
+# Routes
+
+TanStack Start uses **file-based routing**. Every `.tsx` file in this directory
+defines a route. Do **not** create `src/pages/`, `src/routes/_app/index.tsx`, or
+`app/layout.tsx` — those are Next.js / Remix conventions. The only root layout
+is `src/routes/__root.tsx`.
+
+## Conventions
+
+| File                     | URL                                                     |
+| ------------------------ | ------------------------------------------------------- |
+| `index.tsx`              | `/`                                                     |
+| `about.tsx`              | `/about`                                                |
+| `users/index.tsx`        | `/users`                                                |
+| `users/$id.tsx`          | `/users/:id` (dynamic — bare `$`, no curly braces)      |
+| `posts/{-$category}.tsx` | `/posts/:category?` (optional segment)                  |
+| `files/$.tsx`            | `/files/*` (splat — read via `_splat` param, never `*`) |
+| `_layout.tsx`            | layout route (renders children via `<Outlet />`)        |
+| `__root.tsx`             | app shell — wraps every page; preserve `<Outlet />`     |
+
+`routeTree.gen.ts` is auto-generated. Don't edit it by hand.

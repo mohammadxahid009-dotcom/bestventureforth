@@ -1,1 +1,133 @@
-aW1wb3J0IHR5cGUgeyBVc2VyIH0gZnJvbSAiQHN1cGFiYXNlL3N1cGFiYXNlLWpzIjsKaW1wb3J0IHsgc3VwYWJhc2UgfSBmcm9tICJAL2ludGVncmF0aW9ucy9zdXBhYmFzZS9jbGllbnQiOwppbXBvcnQgdHlwZSB7IEpzb24sIFRhYmxlcyB9IGZyb20gIkAvaW50ZWdyYXRpb25zL3N1cGFiYXNlL3R5cGVzIjsKaW1wb3J0IHR5cGUgeyBMYXRMbmcgfSBmcm9tICJAL2xpYi9leHBlZGl0aW9uIjsKCmV4cG9ydCB0eXBlIEh1bnRNb2RlID0gInRlYW0iIHwgInZzIjsKZXhwb3J0IHR5cGUgSHVudFN0YXRlID0gIndhaXRpbmciIHwgImFjdGl2ZSIgfCAiZmluaXNoZWQiIHwgImNhbmNlbGxlZCI7CmV4cG9ydCB0eXBlIEh1bnRSb29tID0gVGFibGVzPCJodW50X3Jvb21zIj47CmV4cG9ydCB0eXBlIEh1bnRQbGF5ZXIgPSBUYWJsZXM8Imh1bnRfcGxheWVycyI+OwoKZXhwb3J0IGZ1bmN0aW9uIHBsYXllck5hbWUodXNlcjogVXNlcikgewogIGNvbnN0IGNhbmRpZGF0ZSA9CiAgICB1c2VyLnVzZXJfbWV0YWRhdGE/LlsiZGlzcGxheV9uYW1lIl0gPz8KICAgIHVzZXIudXNlcl9tZXRhZGF0YT8uWyJmdWxsX25hbWUiXSA/PwogICAgdXNlci5lbWFpbD8uc3BsaXQoIkAiKVswXSA/PwogICAgIkV4cGxvcmVyIjsKICByZXR1cm4gU3RyaW5nKGNhbmRpZGF0ZSkudHJpbSgpLnNsaWNlKDAsIDMyKSB8fCAiRXhwbG9yZXIiOwp9CgpmdW5jdGlvbiB0aHJvd0lmRXJyb3IoZXJyb3I6IHsgbWVzc2FnZTogc3RyaW5nIH0gfCBudWxsKSB7CiAgaWYgKGVycm9yKSB0aHJvdyBuZXcgRXJyb3IoZXJyb3IubWVzc2FnZSk7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjcmVhdGVIdW50Um9vbShtb2RlOiBIdW50TW9kZSwgdXNlcjogVXNlcikgewogIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLnJwYygiY3JlYXRlX2h1bnRfcm9vbSIsIHsKICAgIHBfbW9kZTogbW9kZSwKICAgIHBfZGlzcGxheV9uYW1lOiBwbGF5ZXJOYW1lKHVzZXIpLAogIH0pOwogIHRocm93SWZFcnJvcihlcnJvcik7CiAgcmV0dXJuIGRhdGEgYXMgSHVudFJvb207Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBqb2luSHVudFJvb20oY29kZTogc3RyaW5nLCB1c2VyOiBVc2VyKSB7CiAgY29uc3QgeyBkYXRhLCBlcnJvciB9ID0gYXdhaXQgc3VwYWJhc2UucnBjKCJqb2luX2h1bnRfcm9vbSIsIHsKICAgIHBfY29kZTogY29kZS5yZXBsYWNlKC9bXmEtejAtOV0vZ2ksICIiKS50b1VwcGVyQ2FzZSgpLAogICAgcF9kaXNwbGF5X25hbWU6IHBsYXllck5hbWUodXNlciksCiAgfSk7CiAgdGhyb3dJZkVycm9yKGVycm9yKTsKICByZXR1cm4gZGF0YSBhcyBIdW50Um9vbTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvYWRIdW50Um9vbShyb29tSWQ6IHN0cmluZykgewogIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmZyb20oImh1bnRfcm9vbXMiKS5zZWxlY3QoIioiKS5lcSgiaWQiLCByb29tSWQpLnNpbmdsZSgpOwogIHRocm93SWZFcnJvcihlcnJvcik7CiAgcmV0dXJuIGRhdGEgYXMgSHVudFJvb207Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBsaXN0SHVudFBsYXllcnMocm9vbUlkOiBzdHJpbmcpIHsKICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgLmZyb20oImh1bnRfcGxheWVycyIpCiAgICAuc2VsZWN0KCIqIikKICAgIC5lcSgicm9vbV9pZCIsIHJvb21JZCkKICAgIC5uZXEoInN0YXR1cyIsICJsZWZ0IikKICAgIC5vcmRlcigiam9pbmVkX2F0Iik7CiAgdGhyb3dJZkVycm9yKGVycm9yKTsKICByZXR1cm4gKGRhdGEgPz8gW10pIGFzIEh1bnRQbGF5ZXJbXTsKfQoKZXhwb3J0IGNvbnN0IE1JTl9USU1FX0xJTUlUX01JTlVURVMgPSA1OwpleHBvcnQgY29uc3QgTUFYX1RJTUVfTElNSVRfTUlOVVRFUyA9IDE4MDsKCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRUaW1lTGltaXQobWludXRlczogbnVtYmVyKSB7CiAgY29uc3QgaCA9IE1hdGguZmxvb3IobWludXRlcyAvIDYwKTsKICBjb25zdCBtID0gbWludXRlcyAlIDYwOwogIGlmICghaCkgcmV0dXJuIGAke219IE1JTmA7CiAgcmV0dXJuIG0gPyBgJHtofSBIICR7bX0gTUlOYCA6IGAke2h9IEhgOwp9CgovKiogbW06c3MgKG9yIGg6bW06c3MpIGNvdW50ZG93biB0ZXh0IGZvciBhIHJlbWFpbmluZyBtaWxsaXNlY29uZCBhbW91bnQuICovCmV4cG9ydCBmdW5jdGlvbiBmb3JtYXRDb3VudGRvd24obXNMZWZ0OiBudW1iZXIpIHsKICBjb25zdCB0b3RhbCA9IE1hdGgubWF4KDAsIE1hdGguZmxvb3IobXNMZWZ0IC8gMTAwMCkpOwogIGNvbnN0IGggPSBNYXRoLmZsb29yKHRvdGFsIC8gMzYwMCk7CiAgY29uc3QgbSA9IE1hdGguZmxvb3IoKHRvdGFsICUgMzYwMCkgLyA2MCk7CiAgY29uc3QgcyA9IHRvdGFsICUgNjA7CiAgY29uc3QgcGFkID0gKG46IG51bWJlcikgPT4gbi50b1N0cmluZygpLnBhZFN0YXJ0KDIsICIwIik7CiAgcmV0dXJuIGggPyBgJHtofToke3BhZChtKX06JHtwYWQocyl9YCA6IGAke3BhZChtKX06JHtwYWQocyl9YDsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHN0YXJ0SHVudChyb29tSWQ6IHN0cmluZywgdGltZUxpbWl0TWludXRlczogbnVtYmVyIHwgbnVsbCA9IG51bGwpIHsKICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoCiAgICAic3RhcnRfaHVudF9yb29tX3RpbWVkIiwKICAgIHRpbWVMaW1pdE1pbnV0ZXMgPT09IG51bGwKICAgICAgPyB7IHBfcm9vbV9pZDogcm9vbUlkIH0KICAgICAgOiB7IHBfcm9vbV9pZDogcm9vbUlkLCBwX3RpbWVfbGltaXRfbWludXRlczogdGltZUxpbWl0TWludXRlcyB9LAogICk7CiAgdGhyb3dJZkVycm9yKGVycm9yKTsKICByZXR1cm4gZGF0YSBhcyBIdW50Um9vbTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGV4cGlyZUh1bnQocm9vbUlkOiBzdHJpbmcpIHsKICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoImV4cGlyZV9odW50X3Jvb20iLCB7IHBfcm9vbV9pZDogcm9vbUlkIH0pOwogIHRocm93SWZFcnJvcihlcnJvcik7CiAgcmV0dXJuIGRhdGEgYXMgSHVudFJvb207Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBsZWF2ZUh1bnQocm9vbUlkOiBzdHJpbmcpIHsKICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoImxlYXZlX2h1bnRfcm9vbSIsIHsgcF9yb29tX2lkOiByb29tSWQgfSk7CiAgdGhyb3dJZkVycm9yKGVycm9yKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGFzc2lnbkh1bnRUYXJnZXQocm9vbUlkOiBzdHJpbmcsIGRlc3RpbmF0aW9uOiBMYXRMbmcpIHsKICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoInNldF9odW50X3RhcmdldCIsIHsKICAgIHBfcm9vbV9pZDogcm9vbUlkLAogICAgcF9kZXN0aW5hdGlvbjogZGVzdGluYXRpb24gYXMgdW5rbm93biBhcyBKc29uLAogIH0pOwogIHRocm93SWZFcnJvcihlcnJvcik7Cn0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBjb21wbGV0ZUh1bnRUYXJnZXQocm9vbUlkOiBzdHJpbmcpIHsKICBjb25zdCB7IGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZS5ycGMoImNvbXBsZXRlX2h1bnRfdGFyZ2V0IiwgeyBwX3Jvb21faWQ6IHJvb21JZCB9KTsKICB0aHJvd0lmRXJyb3IoZXJyb3IpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gbG9hZE15SHVudFRhcmdldChyb29tSWQ6IHN0cmluZywgdXNlcklkOiBzdHJpbmcpOiBQcm9taXNlPExhdExuZyB8IG51bGw+IHsKICBjb25zdCB7IGRhdGEsIGVycm9yIH0gPSBhd2FpdCBzdXBhYmFzZQogICAgLmZyb20oImh1bnRfdGFyZ2V0cyIpCiAgICAuc2VsZWN0KCJkZXN0aW5hdGlvbiIpCiAgICAuZXEoInJvb21faWQiLCByb29tSWQpCiAgICAuZXEoInVzZXJfaWQiLCB1c2VySWQpCiAgICAubWF5YmVTaW5nbGUoKTsKICB0aHJvd0lmRXJyb3IoZXJyb3IpOwogIGNvbnN0IHBvaW50ID0gZGF0YT8uZGVzdGluYXRpb247CiAgaWYgKAogICAgcG9pbnQgJiYKICAgIHR5cGVvZiBwb2ludCA9PT0gIm9iamVjdCIgJiYKICAgICFBcnJheS5pc0FycmF5KHBvaW50KSAmJgogICAgdHlwZW9mIChwb2ludCBhcyB7IGxhdD86IHVua25vd24gfSkubGF0ID09PSAibnVtYmVyIiAmJgogICAgdHlwZW9mIChwb2ludCBhcyB7IGxuZz86IHVua25vd24gfSkubG5nID09PSAibnVtYmVyIgogICkgewogICAgcmV0dXJuIHBvaW50IGFzIHVua25vd24gYXMgTGF0TG5nOwogIH0KICByZXR1cm4gbnVsbDsKfQo=
+import type { User } from "@supabase/supabase-js";
+import { supabase } from "@/integrations/supabase/client";
+import type { Json, Tables } from "@/integrations/supabase/types";
+import type { LatLng } from "@/lib/expedition";
+
+export type HuntMode = "team" | "vs";
+export type HuntState = "waiting" | "active" | "finished" | "cancelled";
+export type HuntRoom = Tables<"hunt_rooms">;
+export type HuntPlayer = Tables<"hunt_players">;
+
+export function playerName(user: User) {
+  const candidate =
+    user.user_metadata?.["display_name"] ??
+    user.user_metadata?.["full_name"] ??
+    user.email?.split("@")[0] ??
+    "Explorer";
+  return String(candidate).trim().slice(0, 32) || "Explorer";
+}
+
+function throwIfError(error: { message: string } | null) {
+  if (error) throw new Error(error.message);
+}
+
+export async function createHuntRoom(mode: HuntMode, user: User) {
+  const { data, error } = await supabase.rpc("create_hunt_room", {
+    p_mode: mode,
+    p_display_name: playerName(user),
+  });
+  throwIfError(error);
+  return data as HuntRoom;
+}
+
+export async function joinHuntRoom(code: string, user: User) {
+  const { data, error } = await supabase.rpc("join_hunt_room", {
+    p_code: code.replace(/[^a-z0-9]/gi, "").toUpperCase(),
+    p_display_name: playerName(user),
+  });
+  throwIfError(error);
+  return data as HuntRoom;
+}
+
+export async function loadHuntRoom(roomId: string) {
+  const { data, error } = await supabase.from("hunt_rooms").select("*").eq("id", roomId).single();
+  throwIfError(error);
+  return data as HuntRoom;
+}
+
+export async function listHuntPlayers(roomId: string) {
+  const { data, error } = await supabase
+    .from("hunt_players")
+    .select("*")
+    .eq("room_id", roomId)
+    .neq("status", "left")
+    .order("joined_at");
+  throwIfError(error);
+  return (data ?? []) as HuntPlayer[];
+}
+
+export const MIN_TIME_LIMIT_MINUTES = 5;
+export const MAX_TIME_LIMIT_MINUTES = 180;
+
+export function formatTimeLimit(minutes: number) {
+  const h = Math.floor(minutes / 60);
+  const m = minutes % 60;
+  if (!h) return `${m} MIN`;
+  return m ? `${h} H ${m} MIN` : `${h} H`;
+}
+
+/** mm:ss (or h:mm:ss) countdown text for a remaining millisecond amount. */
+export function formatCountdown(msLeft: number) {
+  const total = Math.max(0, Math.floor(msLeft / 1000));
+  const h = Math.floor(total / 3600);
+  const m = Math.floor((total % 3600) / 60);
+  const s = total % 60;
+  const pad = (n: number) => n.toString().padStart(2, "0");
+  return h ? `${h}:${pad(m)}:${pad(s)}` : `${pad(m)}:${pad(s)}`;
+}
+
+export async function startHunt(roomId: string, timeLimitMinutes: number | null = null) {
+  const { data, error } = await supabase.rpc(
+    "start_hunt_room_timed",
+    timeLimitMinutes === null
+      ? { p_room_id: roomId }
+      : { p_room_id: roomId, p_time_limit_minutes: timeLimitMinutes },
+  );
+  throwIfError(error);
+  return data as HuntRoom;
+}
+
+export async function expireHunt(roomId: string) {
+  const { data, error } = await supabase.rpc("expire_hunt_room", { p_room_id: roomId });
+  throwIfError(error);
+  return data as HuntRoom;
+}
+
+export async function leaveHunt(roomId: string) {
+  const { error } = await supabase.rpc("leave_hunt_room", { p_room_id: roomId });
+  throwIfError(error);
+}
+
+export async function assignHuntTarget(roomId: string, destination: LatLng) {
+  const { error } = await supabase.rpc("set_hunt_target", {
+    p_room_id: roomId,
+    p_destination: destination as unknown as Json,
+  });
+  throwIfError(error);
+}
+
+export async function completeHuntTarget(roomId: string) {
+  const { error } = await supabase.rpc("complete_hunt_target", { p_room_id: roomId });
+  throwIfError(error);
+}
+
+export async function loadMyHuntTarget(roomId: string, userId: string): Promise<LatLng | null> {
+  const { data, error } = await supabase
+    .from("hunt_targets")
+    .select("destination")
+    .eq("room_id", roomId)
+    .eq("user_id", userId)
+    .maybeSingle();
+  throwIfError(error);
+  const point = data?.destination;
+  if (
+    point &&
+    typeof point === "object" &&
+    !Array.isArray(point) &&
+    typeof (point as { lat?: unknown }).lat === "number" &&
+    typeof (point as { lng?: unknown }).lng === "number"
+  ) {
+    return point as unknown as LatLng;
+  }
+  return null;
+}

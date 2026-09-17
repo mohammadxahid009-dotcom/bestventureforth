@@ -1,1 +1,37 @@
-aW1wb3J0IHsgY3JlYXRlSW5zZXJ0U2NoZW1hIH0gZnJvbSAiZHJpenpsZS16b2QiOwppbXBvcnQgeyBpbmRleCwgcGdUYWJsZSwgdGV4dCwgdGltZXN0YW1wLCB1dWlkIH0gZnJvbSAiZHJpenpsZS1vcm0vcGctY29yZSI7CmltcG9ydCB7IHogfSBmcm9tICJ6b2QvdjQiOwoKZXhwb3J0IGNvbnN0IGZyaWVuZFByb2ZpbGVzVGFibGUgPSBwZ1RhYmxlKCJmcmllbmRfcHJvZmlsZXMiLCB7CiAgdXNlcklkOiB0ZXh0KCJ1c2VyX2lkIikucHJpbWFyeUtleSgpLAogIGRpc3BsYXlOYW1lOiB0ZXh0KCJkaXNwbGF5X25hbWUiKS5ub3ROdWxsKCksCiAgY3JlYXRlZEF0OiB0aW1lc3RhbXAoImNyZWF0ZWRfYXQiLCB7IHdpdGhUaW1lem9uZTogdHJ1ZSB9KS5ub3ROdWxsKCkuZGVmYXVsdE5vdygpLAogIHVwZGF0ZWRBdDogdGltZXN0YW1wKCJ1cGRhdGVkX2F0IiwgeyB3aXRoVGltZXpvbmU6IHRydWUgfSkKICAgIC5ub3ROdWxsKCkKICAgIC5kZWZhdWx0Tm93KCkKICAgIC4kb25VcGRhdGUoKCkgPT4gbmV3IERhdGUoKSksCn0pOwoKZXhwb3J0IGNvbnN0IGZyaWVuZFJlcXVlc3RzVGFibGUgPSBwZ1RhYmxlKAogICJmcmllbmRfcmVxdWVzdHMiLAogIHsKICAgIGlkOiB1dWlkKCJpZCIpLnByaW1hcnlLZXkoKS5kZWZhdWx0UmFuZG9tKCksCiAgICBzZW5kZXJVc2VySWQ6IHRleHQoInNlbmRlcl91c2VyX2lkIikubm90TnVsbCgpLAogICAgcmVjZWl2ZXJVc2VySWQ6IHRleHQoInJlY2VpdmVyX3VzZXJfaWQiKS5ub3ROdWxsKCksCiAgICBzdGF0dXM6IHRleHQoInN0YXR1cyIpLm5vdE51bGwoKS5kZWZhdWx0KCJwZW5kaW5nIiksCiAgICBjcmVhdGVkQXQ6IHRpbWVzdGFtcCgiY3JlYXRlZF9hdCIsIHsgd2l0aFRpbWV6b25lOiB0cnVlIH0pLm5vdE51bGwoKS5kZWZhdWx0Tm93KCksCiAgICByZXNwb25kZWRBdDogdGltZXN0YW1wKCJyZXNwb25kZWRfYXQiLCB7IHdpdGhUaW1lem9uZTogdHJ1ZSB9KSwKICB9LAogICh0YWJsZSkgPT4gWwogICAgaW5kZXgoImZyaWVuZF9yZXF1ZXN0c19zZW5kZXJfaWR4Iikub24odGFibGUuc2VuZGVyVXNlcklkLCB0YWJsZS5zdGF0dXMpLAogICAgaW5kZXgoImZyaWVuZF9yZXF1ZXN0c19yZWNlaXZlcl9pZHgiKS5vbih0YWJsZS5yZWNlaXZlclVzZXJJZCwgdGFibGUuc3RhdHVzKSwKICBdLAopOwoKZXhwb3J0IGNvbnN0IGluc2VydEZyaWVuZFByb2ZpbGVTY2hlbWEgPSBjcmVhdGVJbnNlcnRTY2hlbWEoZnJpZW5kUHJvZmlsZXNUYWJsZSkub21pdCh7CiAgY3JlYXRlZEF0OiB0cnVlLAogIHVwZGF0ZWRBdDogdHJ1ZSwKfSk7CmV4cG9ydCB0eXBlIEluc2VydEZyaWVuZFByb2ZpbGUgPSB6LmluZmVyPHR5cGVvZiBpbnNlcnRGcmllbmRQcm9maWxlU2NoZW1hPjsKZXhwb3J0IHR5cGUgRnJpZW5kUHJvZmlsZSA9IHR5cGVvZiBmcmllbmRQcm9maWxlc1RhYmxlLiRpbmZlclNlbGVjdDsKZXhwb3J0IHR5cGUgRnJpZW5kUmVxdWVzdCA9IHR5cGVvZiBmcmllbmRSZXF1ZXN0c1RhYmxlLiRpbmZlclNlbGVjdDs=
+import { createInsertSchema } from "drizzle-zod";
+import { index, pgTable, text, timestamp, uuid } from "drizzle-orm/pg-core";
+import { z } from "zod/v4";
+
+export const friendProfilesTable = pgTable("friend_profiles", {
+  userId: text("user_id").primaryKey(),
+  displayName: text("display_name").notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true })
+    .notNull()
+    .defaultNow()
+    .$onUpdate(() => new Date()),
+});
+
+export const friendRequestsTable = pgTable(
+  "friend_requests",
+  {
+    id: uuid("id").primaryKey().defaultRandom(),
+    senderUserId: text("sender_user_id").notNull(),
+    receiverUserId: text("receiver_user_id").notNull(),
+    status: text("status").notNull().default("pending"),
+    createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+    respondedAt: timestamp("responded_at", { withTimezone: true }),
+  },
+  (table) => [
+    index("friend_requests_sender_idx").on(table.senderUserId, table.status),
+    index("friend_requests_receiver_idx").on(table.receiverUserId, table.status),
+  ],
+);
+
+export const insertFriendProfileSchema = createInsertSchema(friendProfilesTable).omit({
+  createdAt: true,
+  updatedAt: true,
+});
+export type InsertFriendProfile = z.infer<typeof insertFriendProfileSchema>;
+export type FriendProfile = typeof friendProfilesTable.$inferSelect;
+export type FriendRequest = typeof friendRequestsTable.$inferSelect;

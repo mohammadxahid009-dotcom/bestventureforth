@@ -1,1 +1,46 @@
-aW1wb3J0IHsgY3JlYXRlQ2xpZW50IH0gZnJvbSAiQHN1cGFiYXNlL3N1cGFiYXNlLWpzIjsKaW1wb3J0IHR5cGUgeyBOZXh0RnVuY3Rpb24sIFJlcXVlc3QsIFJlc3BvbnNlIH0gZnJvbSAiZXhwcmVzcyI7CgpleHBvcnQgdHlwZSBBdXRoZW50aWNhdGVkUmVxdWVzdCA9IFJlcXVlc3QgJiB7CiAgdXNlcjogewogICAgaWQ6IHN0cmluZzsKICAgIGVtYWlsPzogc3RyaW5nOwogIH07Cn07CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVxdWlyZVN1cGFiYXNlVXNlcigKICByZXE6IFJlcXVlc3QsCiAgcmVzOiBSZXNwb25zZSwKICBuZXh0OiBOZXh0RnVuY3Rpb24sCik6IFByb21pc2U8dm9pZD4gewogIGNvbnN0IGF1dGhvcml6YXRpb24gPSByZXEuaGVhZGVyKCJhdXRob3JpemF0aW9uIik7CiAgY29uc3QgdG9rZW4gPSBhdXRob3JpemF0aW9uPy5zdGFydHNXaXRoKCJCZWFyZXIgIikKICAgID8gYXV0aG9yaXphdGlvbi5zbGljZSgiQmVhcmVyICIubGVuZ3RoKQogICAgOiBudWxsOwogIGNvbnN0IHN1cGFiYXNlVXJsID0gcHJvY2Vzcy5lbnYuU1VQQUJBU0VfVVJMID8/IHJlcS5oZWFkZXIoIngtc3VwYWJhc2UtdXJsIik7CiAgY29uc3Qgc3VwYWJhc2VLZXkgPQogICAgcHJvY2Vzcy5lbnYuU1VQQUJBU0VfUFVCTElTSEFCTEVfS0VZID8/CiAgICBwcm9jZXNzLmVudi5TVVBBQkFTRV9BTk9OX0tFWSA/PwogICAgcmVxLmhlYWRlcigiYXBpa2V5Iik7CgogIGlmICghdG9rZW4gfHwgIXN1cGFiYXNlVXJsIHx8ICFzdXBhYmFzZUtleSkgewogICAgcmVzLnN0YXR1cyg0MDEpLmpzb24oeyBlcnJvcjogIkF1dGhlbnRpY2F0aW9uIHJlcXVpcmVkLiIgfSk7CiAgICByZXR1cm47CiAgfQoKICBjb25zdCBzdXBhYmFzZSA9IGNyZWF0ZUNsaWVudChzdXBhYmFzZVVybCwgc3VwYWJhc2VLZXksIHsKICAgIGF1dGg6IHsgcGVyc2lzdFNlc3Npb246IGZhbHNlLCBhdXRvUmVmcmVzaFRva2VuOiBmYWxzZSB9LAogIH0pOwogIGNvbnN0IHsgZGF0YSwgZXJyb3IgfSA9IGF3YWl0IHN1cGFiYXNlLmF1dGguZ2V0VXNlcih0b2tlbik7CgogIGlmIChlcnJvciB8fCAhZGF0YS51c2VyKSB7CiAgICByZXMuc3RhdHVzKDQwMSkuanNvbih7IGVycm9yOiAiWW91ciBzZXNzaW9uIGhhcyBleHBpcmVkLiBQbGVhc2Ugc2lnbiBpbiBhZ2Fpbi4iIH0pOwogICAgcmV0dXJuOwogIH0KCiAgKHJlcSBhcyBBdXRoZW50aWNhdGVkUmVxdWVzdCkudXNlciA9IHsKICAgIGlkOiBkYXRhLnVzZXIuaWQsCiAgICBlbWFpbDogZGF0YS51c2VyLmVtYWlsLAogIH07CiAgbmV4dCgpOwp9
+import { createClient } from "@supabase/supabase-js";
+import type { NextFunction, Request, Response } from "express";
+
+export type AuthenticatedRequest = Request & {
+  user: {
+    id: string;
+    email?: string;
+  };
+};
+
+export async function requireSupabaseUser(
+  req: Request,
+  res: Response,
+  next: NextFunction,
+): Promise<void> {
+  const authorization = req.header("authorization");
+  const token = authorization?.startsWith("Bearer ")
+    ? authorization.slice("Bearer ".length)
+    : null;
+  const supabaseUrl = process.env.SUPABASE_URL ?? req.header("x-supabase-url");
+  const supabaseKey =
+    process.env.SUPABASE_PUBLISHABLE_KEY ??
+    process.env.SUPABASE_ANON_KEY ??
+    req.header("apikey");
+
+  if (!token || !supabaseUrl || !supabaseKey) {
+    res.status(401).json({ error: "Authentication required." });
+    return;
+  }
+
+  const supabase = createClient(supabaseUrl, supabaseKey, {
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
+  const { data, error } = await supabase.auth.getUser(token);
+
+  if (error || !data.user) {
+    res.status(401).json({ error: "Your session has expired. Please sign in again." });
+    return;
+  }
+
+  (req as AuthenticatedRequest).user = {
+    id: data.user.id,
+    email: data.user.email,
+  };
+  next();
+}

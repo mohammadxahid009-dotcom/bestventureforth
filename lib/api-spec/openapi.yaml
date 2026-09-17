@@ -1,1 +1,303 @@
-b3BlbmFwaTogMy4xLjAKaW5mbzoKICAjIERvIG5vdCBjaGFuZ2UgdGhlIHRpdGxlLCBpZiB0aGUgdGl0bGUgY2hhbmdlcywgdGhlIGltcG9ydCBwYXRocyB3aWxsIGJlIGJyb2tlbgogIHRpdGxlOiBBcGkKICB2ZXJzaW9uOiAwLjEuMAogIGRlc2NyaXB0aW9uOiBBUEkgc3BlY2lmaWNhdGlvbgpzZXJ2ZXJzOgogIC0gdXJsOiAvYXBpCiAgICBkZXNjcmlwdGlvbjogQmFzZSBBUEkgcGF0aAp0YWdzOgogIC0gbmFtZTogaGVhbHRoCiAgICBkZXNjcmlwdGlvbjogSGVhbHRoIG9wZXJhdGlvbnMKICAtIG5hbWU6IGZyaWVuZHMKICAgIGRlc2NyaXB0aW9uOiBQZXJzaXN0ZW50IGZyaWVuZCBwcm9maWxlcyBhbmQgcmVxdWVzdHMKcGF0aHM6CiAgL2hlYWx0aHo6CiAgICBnZXQ6CiAgICAgIG9wZXJhdGlvbklkOiBoZWFsdGhDaGVjawogICAgICB0YWdzOiBbaGVhbHRoXQogICAgICBzdW1tYXJ5OiBIZWFsdGggY2hlY2sKICAgICAgZGVzY3JpcHRpb246IFJldHVybnMgc2VydmVyIGhlYWx0aCBzdGF0dXMKICAgICAgcmVzcG9uc2VzOgogICAgICAgICIyMDAiOgogICAgICAgICAgZGVzY3JpcHRpb246IEhlYWx0aHkKICAgICAgICAgIGNvbnRlbnQ6CiAgICAgICAgICAgIGFwcGxpY2F0aW9uL2pzb246CiAgICAgICAgICAgICAgc2NoZW1hOgogICAgICAgICAgICAgICAgJHJlZjogIiMvY29tcG9uZW50cy9zY2hlbWFzL0hlYWx0aFN0YXR1cyIKICAvZnJpZW5kczoKICAgIGdldDoKICAgICAgb3BlcmF0aW9uSWQ6IGdldEZyaWVuZHNPdmVydmlldwogICAgICB0YWdzOiBbZnJpZW5kc10KICAgICAgc2VjdXJpdHk6CiAgICAgICAgLSBzdXBhYmFzZUJlYXJlcjogW10KICAgICAgc3VtbWFyeTogR2V0IHRoZSBjdXJyZW50IHVzZXIncyBmcmllbmRzIGFuZCByZXF1ZXN0cwogICAgICByZXNwb25zZXM6CiAgICAgICAgIjIwMCI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogRnJpZW5kcyBvdmVydmlldwogICAgICAgICAgY29udGVudDoKICAgICAgICAgICAgYXBwbGljYXRpb24vanNvbjoKICAgICAgICAgICAgICBzY2hlbWE6CiAgICAgICAgICAgICAgICAkcmVmOiAiIy9jb21wb25lbnRzL3NjaGVtYXMvRnJpZW5kc092ZXJ2aWV3IgogICAgICAgICI0MDEiOgogICAgICAgICAgZGVzY3JpcHRpb246IEF1dGhlbnRpY2F0aW9uIHJlcXVpcmVkCiAgICBkZWxldGU6CiAgICAgIG9wZXJhdGlvbklkOiByZW1vdmVGcmllbmQKICAgICAgdGFnczogW2ZyaWVuZHNdCiAgICAgIHNlY3VyaXR5OgogICAgICAgIC0gc3VwYWJhc2VCZWFyZXI6IFtdCiAgICAgIHN1bW1hcnk6IFJlbW92ZSBhIGZyaWVuZAogICAgICBwYXJhbWV0ZXJzOgogICAgICAgIC0gbmFtZTogdXNlcklkCiAgICAgICAgICBpbjogcXVlcnkKICAgICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgICBzY2hlbWE6CiAgICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgICAgICBtaW5MZW5ndGg6IDEKICAgICAgcmVzcG9uc2VzOgogICAgICAgICIyMDQiOgogICAgICAgICAgZGVzY3JpcHRpb246IEZyaWVuZCByZW1vdmVkCiAgICAgICAgIjQwMCI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogSW52YWxpZCB1c2VyIElECiAgICAgICAgIjQwMSI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogQXV0aGVudGljYXRpb24gcmVxdWlyZWQKICAgICAgICAiNDA0IjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBGcmllbmQgbm90IGZvdW5kCiAgL2ZyaWVuZHMvcHJvZmlsZToKICAgIHB1dDoKICAgICAgb3BlcmF0aW9uSWQ6IHVwc2VydEZyaWVuZFByb2ZpbGUKICAgICAgdGFnczogW2ZyaWVuZHNdCiAgICAgIHNlY3VyaXR5OgogICAgICAgIC0gc3VwYWJhc2VCZWFyZXI6IFtdCiAgICAgIHN1bW1hcnk6IENyZWF0ZSBvciB1cGRhdGUgdGhlIGN1cnJlbnQgdXNlcidzIGZyaWVuZCBwcm9maWxlCiAgICAgIHJlcXVlc3RCb2R5OgogICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgY29udGVudDoKICAgICAgICAgIGFwcGxpY2F0aW9uL2pzb246CiAgICAgICAgICAgIHNjaGVtYToKICAgICAgICAgICAgICAkcmVmOiAiIy9jb21wb25lbnRzL3NjaGVtYXMvRnJpZW5kUHJvZmlsZUlucHV0IgogICAgICByZXNwb25zZXM6CiAgICAgICAgIjIwMCI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogVXBkYXRlZCBmcmllbmQgcHJvZmlsZQogICAgICAgICAgY29udGVudDoKICAgICAgICAgICAgYXBwbGljYXRpb24vanNvbjoKICAgICAgICAgICAgICBzY2hlbWE6CiAgICAgICAgICAgICAgICAkcmVmOiAiIy9jb21wb25lbnRzL3NjaGVtYXMvRnJpZW5kUHJvZmlsZSIKICAgICAgICAiNDAwIjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBJbnZhbGlkIGRpc3BsYXkgbmFtZQogICAgICAgICI0MDEiOgogICAgICAgICAgZGVzY3JpcHRpb246IEF1dGhlbnRpY2F0aW9uIHJlcXVpcmVkCiAgL2ZyaWVuZHMvc2VhcmNoOgogICAgZ2V0OgogICAgICBvcGVyYXRpb25JZDogc2VhcmNoRnJpZW5kUHJvZmlsZXMKICAgICAgdGFnczogW2ZyaWVuZHNdCiAgICAgIHNlY3VyaXR5OgogICAgICAgIC0gc3VwYWJhc2VCZWFyZXI6IFtdCiAgICAgIHN1bW1hcnk6IFNlYXJjaCBkaXNjb3ZlcmFibGUgZnJpZW5kIHByb2ZpbGVzCiAgICAgIHBhcmFtZXRlcnM6CiAgICAgICAgLSBuYW1lOiBxCiAgICAgICAgICBpbjogcXVlcnkKICAgICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgICBzY2hlbWE6CiAgICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgICAgICBtaW5MZW5ndGg6IDIKICAgICAgICAgICAgbWF4TGVuZ3RoOiA0MAogICAgICByZXNwb25zZXM6CiAgICAgICAgIjIwMCI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogTWF0Y2hpbmcgZnJpZW5kIHByb2ZpbGVzCiAgICAgICAgICBjb250ZW50OgogICAgICAgICAgICBhcHBsaWNhdGlvbi9qc29uOgogICAgICAgICAgICAgIHNjaGVtYToKICAgICAgICAgICAgICAgIHR5cGU6IGFycmF5CiAgICAgICAgICAgICAgICBpdGVtczoKICAgICAgICAgICAgICAgICAgJHJlZjogIiMvY29tcG9uZW50cy9zY2hlbWFzL0ZyaWVuZFNlYXJjaFJlc3VsdCIKICAgICAgICAiNDAwIjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBJbnZhbGlkIHNlYXJjaCBxdWVyeQogICAgICAgICI0MDEiOgogICAgICAgICAgZGVzY3JpcHRpb246IEF1dGhlbnRpY2F0aW9uIHJlcXVpcmVkCiAgL2ZyaWVuZHMvcmVxdWVzdHM6CiAgICBwb3N0OgogICAgICBvcGVyYXRpb25JZDogY3JlYXRlRnJpZW5kUmVxdWVzdAogICAgICB0YWdzOiBbZnJpZW5kc10KICAgICAgc2VjdXJpdHk6CiAgICAgICAgLSBzdXBhYmFzZUJlYXJlcjogW10KICAgICAgc3VtbWFyeTogU2VuZCBhIGZyaWVuZCByZXF1ZXN0CiAgICAgIHJlcXVlc3RCb2R5OgogICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgY29udGVudDoKICAgICAgICAgIGFwcGxpY2F0aW9uL2pzb246CiAgICAgICAgICAgIHNjaGVtYToKICAgICAgICAgICAgICAkcmVmOiAiIy9jb21wb25lbnRzL3NjaGVtYXMvRnJpZW5kUmVxdWVzdElucHV0IgogICAgICByZXNwb25zZXM6CiAgICAgICAgIjIwMSI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogQ3JlYXRlZCBmcmllbmQgcmVxdWVzdAogICAgICAgICAgY29udGVudDoKICAgICAgICAgICAgYXBwbGljYXRpb24vanNvbjoKICAgICAgICAgICAgICBzY2hlbWE6CiAgICAgICAgICAgICAgICAkcmVmOiAiIy9jb21wb25lbnRzL3NjaGVtYXMvRnJpZW5kUmVxdWVzdCIKICAgICAgICAiNDAwIjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBJbnZhbGlkIG9yIGR1cGxpY2F0ZSByZXF1ZXN0CiAgICAgICAgIjQwMSI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogQXV0aGVudGljYXRpb24gcmVxdWlyZWQKICAgICAgICAiNDA0IjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBSZWNpcGllbnQgcHJvZmlsZSBub3QgZm91bmQKICAvZnJpZW5kcy9yZXF1ZXN0cy97cmVxdWVzdElkfS9hY2NlcHQ6CiAgICBwb3N0OgogICAgICBvcGVyYXRpb25JZDogYWNjZXB0RnJpZW5kUmVxdWVzdAogICAgICB0YWdzOiBbZnJpZW5kc10KICAgICAgc2VjdXJpdHk6CiAgICAgICAgLSBzdXBhYmFzZUJlYXJlcjogW10KICAgICAgc3VtbWFyeTogQWNjZXB0IGFuIGluY29taW5nIGZyaWVuZCByZXF1ZXN0CiAgICAgIHBhcmFtZXRlcnM6CiAgICAgICAgLSBuYW1lOiByZXF1ZXN0SWQKICAgICAgICAgIGluOiBwYXRoCiAgICAgICAgICByZXF1aXJlZDogdHJ1ZQogICAgICAgICAgc2NoZW1hOgogICAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICAgICAgbWluTGVuZ3RoOiAxCiAgICAgIHJlc3BvbnNlczoKICAgICAgICAiMjAwIjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBBY2NlcHRlZCBmcmllbmRzaGlwCiAgICAgICAgICBjb250ZW50OgogICAgICAgICAgICBhcHBsaWNhdGlvbi9qc29uOgogICAgICAgICAgICAgIHNjaGVtYToKICAgICAgICAgICAgICAgICRyZWY6ICIjL2NvbXBvbmVudHMvc2NoZW1hcy9GcmllbmQiCiAgICAgICAgIjQwMCI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogSW52YWxpZCByZXF1ZXN0IHN0YXRlCiAgICAgICAgIjQwMSI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogQXV0aGVudGljYXRpb24gcmVxdWlyZWQKICAgICAgICAiNDA0IjoKICAgICAgICAgIGRlc2NyaXB0aW9uOiBSZXF1ZXN0IG5vdCBmb3VuZAogIC9mcmllbmRzL3JlcXVlc3RzL3tyZXF1ZXN0SWR9L2RlY2xpbmU6CiAgICBwb3N0OgogICAgICBvcGVyYXRpb25JZDogZGVjbGluZUZyaWVuZFJlcXVlc3QKICAgICAgdGFnczogW2ZyaWVuZHNdCiAgICAgIHNlY3VyaXR5OgogICAgICAgIC0gc3VwYWJhc2VCZWFyZXI6IFtdCiAgICAgIHN1bW1hcnk6IERlY2xpbmUgYW4gaW5jb21pbmcgZnJpZW5kIHJlcXVlc3QKICAgICAgcGFyYW1ldGVyczoKICAgICAgICAtIG5hbWU6IHJlcXVlc3RJZAogICAgICAgICAgaW46IHBhdGgKICAgICAgICAgIHJlcXVpcmVkOiB0cnVlCiAgICAgICAgICBzY2hlbWE6CiAgICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgICAgICBtaW5MZW5ndGg6IDEKICAgICAgcmVzcG9uc2VzOgogICAgICAgICIyMDAiOgogICAgICAgICAgZGVzY3JpcHRpb246IERlY2xpbmVkIGZyaWVuZCByZXF1ZXN0CiAgICAgICAgICBjb250ZW50OgogICAgICAgICAgICBhcHBsaWNhdGlvbi9qc29uOgogICAgICAgICAgICAgIHNjaGVtYToKICAgICAgICAgICAgICAgICRyZWY6ICIjL2NvbXBvbmVudHMvc2NoZW1hcy9GcmllbmRSZXF1ZXN0IgogICAgICAgICI0MDAiOgogICAgICAgICAgZGVzY3JpcHRpb246IEludmFsaWQgcmVxdWVzdCBzdGF0ZQogICAgICAgICI0MDEiOgogICAgICAgICAgZGVzY3JpcHRpb246IEF1dGhlbnRpY2F0aW9uIHJlcXVpcmVkCiAgICAgICAgIjQwNCI6CiAgICAgICAgICBkZXNjcmlwdGlvbjogUmVxdWVzdCBub3QgZm91bmQKY29tcG9uZW50czoKICBzZWN1cml0eVNjaGVtZXM6CiAgICBzdXBhYmFzZUJlYXJlcjoKICAgICAgdHlwZTogaHR0cAogICAgICBzY2hlbWU6IGJlYXJlcgogICAgICBiZWFyZXJGb3JtYXQ6IEpXVAogIHNjaGVtYXM6CiAgICBIZWFsdGhTdGF0dXM6CiAgICAgIHR5cGU6IG9iamVjdAogICAgICBwcm9wZXJ0aWVzOgogICAgICAgIHN0YXR1czoKICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICByZXF1aXJlZDoKICAgICAgICAtIHN0YXR1cwogICAgRnJpZW5kUHJvZmlsZToKICAgICAgdHlwZTogb2JqZWN0CiAgICAgIHJlcXVpcmVkOiBbdXNlcklkLCBkaXNwbGF5TmFtZSwgY3JlYXRlZEF0LCB1cGRhdGVkQXRdCiAgICAgIHByb3BlcnRpZXM6CiAgICAgICAgdXNlcklkOgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgZGlzcGxheU5hbWU6CiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICBjcmVhdGVkQXQ6CiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICAgIGZvcm1hdDogZGF0ZS10aW1lCiAgICAgICAgdXBkYXRlZEF0OgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgICBmb3JtYXQ6IGRhdGUtdGltZQogICAgRnJpZW5kUHJvZmlsZUlucHV0OgogICAgICB0eXBlOiBvYmplY3QKICAgICAgcmVxdWlyZWQ6IFtkaXNwbGF5TmFtZV0KICAgICAgcHJvcGVydGllczoKICAgICAgICBkaXNwbGF5TmFtZToKICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgICAgbWluTGVuZ3RoOiAyCiAgICAgICAgICBtYXhMZW5ndGg6IDMyCiAgICBGcmllbmRTZWFyY2hSZXN1bHQ6CiAgICAgIHR5cGU6IG9iamVjdAogICAgICByZXF1aXJlZDogW3VzZXJJZCwgZGlzcGxheU5hbWVdCiAgICAgIHByb3BlcnRpZXM6CiAgICAgICAgdXNlcklkOgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgZGlzcGxheU5hbWU6CiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgIEZyaWVuZDoKICAgICAgdHlwZTogb2JqZWN0CiAgICAgIHJlcXVpcmVkOiBbdXNlcklkLCBkaXNwbGF5TmFtZSwgY29ubmVjdGVkQXRdCiAgICAgIHByb3BlcnRpZXM6CiAgICAgICAgdXNlcklkOgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgZGlzcGxheU5hbWU6CiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICBjb25uZWN0ZWRBdDoKICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgICAgZm9ybWF0OiBkYXRlLXRpbWUKICAgIEZyaWVuZFJlcXVlc3Q6CiAgICAgIHR5cGU6IG9iamVjdAogICAgICByZXF1aXJlZDoKICAgICAgICBbaWQsIHNlbmRlclVzZXJJZCwgc2VuZGVyRGlzcGxheU5hbWUsIHJlY2VpdmVyVXNlcklkLCByZWNlaXZlckRpc3BsYXlOYW1lLCBzdGF0dXMsIGNyZWF0ZWRBdF0KICAgICAgcHJvcGVydGllczoKICAgICAgICBpZDoKICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgIHNlbmRlclVzZXJJZDoKICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgIHNlbmRlckRpc3BsYXlOYW1lOgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgcmVjZWl2ZXJVc2VySWQ6CiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICByZWNlaXZlckRpc3BsYXlOYW1lOgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgc3RhdHVzOgogICAgICAgICAgdHlwZTogc3RyaW5nCiAgICAgICAgICBlbnVtOiBbcGVuZGluZywgYWNjZXB0ZWQsIGRlY2xpbmVkXQogICAgICAgIGNyZWF0ZWRBdDoKICAgICAgICAgIHR5cGU6IHN0cmluZwogICAgICAgICAgZm9ybWF0OiBkYXRlLXRpbWUKICAgICAgICByZXNwb25kZWRBdDoKICAgICAgICAgIHR5cGU6IFsic3RyaW5nIiwgIm51bGwiXQogICAgICAgICAgZm9ybWF0OiBkYXRlLXRpbWUKICAgIEZyaWVuZFJlcXVlc3RJbnB1dDoKICAgICAgdHlwZTogb2JqZWN0CiAgICAgIHJlcXVpcmVkOiBbcmVjZWl2ZXJVc2VySWRdCiAgICAgIHByb3BlcnRpZXM6CiAgICAgICAgcmVjZWl2ZXJVc2VySWQ6CiAgICAgICAgICB0eXBlOiBzdHJpbmcKICAgICAgICAgIG1pbkxlbmd0aDogMQogICAgRnJpZW5kc092ZXJ2aWV3OgogICAgICB0eXBlOiBvYmplY3QKICAgICAgcmVxdWlyZWQ6IFtwcm9maWxlLCBmcmllbmRzLCBpbmNvbWluZywgb3V0Z29pbmddCiAgICAgIHByb3BlcnRpZXM6CiAgICAgICAgcHJvZmlsZToKICAgICAgICAgICRyZWY6ICIjL2NvbXBvbmVudHMvc2NoZW1hcy9GcmllbmRQcm9maWxlIgogICAgICAgIGZyaWVuZHM6CiAgICAgICAgICB0eXBlOiBhcnJheQogICAgICAgICAgaXRlbXM6CiAgICAgICAgICAgICRyZWY6ICIjL2NvbXBvbmVudHMvc2NoZW1hcy9GcmllbmQiCiAgICAgICAgaW5jb21pbmc6CiAgICAgICAgICB0eXBlOiBhcnJheQogICAgICAgICAgaXRlbXM6CiAgICAgICAgICAgICRyZWY6ICIjL2NvbXBvbmVudHMvc2NoZW1hcy9GcmllbmRSZXF1ZXN0IgogICAgICAgIG91dGdvaW5nOgogICAgICAgICAgdHlwZTogYXJyYXkKICAgICAgICAgIGl0ZW1zOgogICAgICAgICAgICAkcmVmOiAiIy9jb21wb25lbnRzL3NjaGVtYXMvRnJpZW5kUmVxdWVzdCIKCg==
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 0.1.0
+  description: API specification
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: friends
+    description: Persistent friend profiles and requests
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+  /friends:
+    get:
+      operationId: getFriendsOverview
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Get the current user's friends and requests
+      responses:
+        "200":
+          description: Friends overview
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FriendsOverview"
+        "401":
+          description: Authentication required
+    delete:
+      operationId: removeFriend
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Remove a friend
+      parameters:
+        - name: userId
+          in: query
+          required: true
+          schema:
+            type: string
+            minLength: 1
+      responses:
+        "204":
+          description: Friend removed
+        "400":
+          description: Invalid user ID
+        "401":
+          description: Authentication required
+        "404":
+          description: Friend not found
+  /friends/profile:
+    put:
+      operationId: upsertFriendProfile
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Create or update the current user's friend profile
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FriendProfileInput"
+      responses:
+        "200":
+          description: Updated friend profile
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FriendProfile"
+        "400":
+          description: Invalid display name
+        "401":
+          description: Authentication required
+  /friends/search:
+    get:
+      operationId: searchFriendProfiles
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Search discoverable friend profiles
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+            minLength: 2
+            maxLength: 40
+      responses:
+        "200":
+          description: Matching friend profiles
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/FriendSearchResult"
+        "400":
+          description: Invalid search query
+        "401":
+          description: Authentication required
+  /friends/requests:
+    post:
+      operationId: createFriendRequest
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Send a friend request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FriendRequestInput"
+      responses:
+        "201":
+          description: Created friend request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FriendRequest"
+        "400":
+          description: Invalid or duplicate request
+        "401":
+          description: Authentication required
+        "404":
+          description: Recipient profile not found
+  /friends/requests/{requestId}/accept:
+    post:
+      operationId: acceptFriendRequest
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Accept an incoming friend request
+      parameters:
+        - name: requestId
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+      responses:
+        "200":
+          description: Accepted friendship
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Friend"
+        "400":
+          description: Invalid request state
+        "401":
+          description: Authentication required
+        "404":
+          description: Request not found
+  /friends/requests/{requestId}/decline:
+    post:
+      operationId: declineFriendRequest
+      tags: [friends]
+      security:
+        - supabaseBearer: []
+      summary: Decline an incoming friend request
+      parameters:
+        - name: requestId
+          in: path
+          required: true
+          schema:
+            type: string
+            minLength: 1
+      responses:
+        "200":
+          description: Declined friend request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/FriendRequest"
+        "400":
+          description: Invalid request state
+        "401":
+          description: Authentication required
+        "404":
+          description: Request not found
+components:
+  securitySchemes:
+    supabaseBearer:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+    FriendProfile:
+      type: object
+      required: [userId, displayName, createdAt, updatedAt]
+      properties:
+        userId:
+          type: string
+        displayName:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+    FriendProfileInput:
+      type: object
+      required: [displayName]
+      properties:
+        displayName:
+          type: string
+          minLength: 2
+          maxLength: 32
+    FriendSearchResult:
+      type: object
+      required: [userId, displayName]
+      properties:
+        userId:
+          type: string
+        displayName:
+          type: string
+    Friend:
+      type: object
+      required: [userId, displayName, connectedAt]
+      properties:
+        userId:
+          type: string
+        displayName:
+          type: string
+        connectedAt:
+          type: string
+          format: date-time
+    FriendRequest:
+      type: object
+      required:
+        [id, senderUserId, senderDisplayName, receiverUserId, receiverDisplayName, status, createdAt]
+      properties:
+        id:
+          type: string
+        senderUserId:
+          type: string
+        senderDisplayName:
+          type: string
+        receiverUserId:
+          type: string
+        receiverDisplayName:
+          type: string
+        status:
+          type: string
+          enum: [pending, accepted, declined]
+        createdAt:
+          type: string
+          format: date-time
+        respondedAt:
+          type: ["string", "null"]
+          format: date-time
+    FriendRequestInput:
+      type: object
+      required: [receiverUserId]
+      properties:
+        receiverUserId:
+          type: string
+          minLength: 1
+    FriendsOverview:
+      type: object
+      required: [profile, friends, incoming, outgoing]
+      properties:
+        profile:
+          $ref: "#/components/schemas/FriendProfile"
+        friends:
+          type: array
+          items:
+            $ref: "#/components/schemas/Friend"
+        incoming:
+          type: array
+          items:
+            $ref: "#/components/schemas/FriendRequest"
+        outgoing:
+          type: array
+          items:
+            $ref: "#/components/schemas/FriendRequest"
+

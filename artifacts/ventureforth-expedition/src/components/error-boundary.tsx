@@ -1,1 +1,51 @@
-aW1wb3J0IHsgQ29tcG9uZW50LCB0eXBlIEVycm9ySW5mbywgdHlwZSBSZWFjdE5vZGUgfSBmcm9tICJyZWFjdCI7Cgp0eXBlIEVycm9yQm91bmRhcnlQcm9wcyA9IHsKICBjaGlsZHJlbjogUmVhY3ROb2RlOwogIHJlc2V0S2V5Pzogc3RyaW5nOwp9OwoKdHlwZSBFcnJvckJvdW5kYXJ5U3RhdGUgPSB7CiAgZXJyb3I6IEVycm9yIHwgbnVsbDsKfTsKCmV4cG9ydCBjbGFzcyBFcnJvckJvdW5kYXJ5IGV4dGVuZHMgQ29tcG9uZW50PEVycm9yQm91bmRhcnlQcm9wcywgRXJyb3JCb3VuZGFyeVN0YXRlPiB7CiAgc3RhdGU6IEVycm9yQm91bmRhcnlTdGF0ZSA9IHsgZXJyb3I6IG51bGwgfTsKCiAgc3RhdGljIGdldERlcml2ZWRTdGF0ZUZyb21FcnJvcihlcnJvcjogRXJyb3IpOiBFcnJvckJvdW5kYXJ5U3RhdGUgewogICAgcmV0dXJuIHsgZXJyb3IgfTsKICB9CgogIGNvbXBvbmVudERpZENhdGNoKGVycm9yOiBFcnJvciwgaW5mbzogRXJyb3JJbmZvKSB7CiAgICBjb25zb2xlLmVycm9yKCJFeHBlZGl0aW9uIGludGVyZmFjZSBlcnJvciIsIGVycm9yLCBpbmZvLmNvbXBvbmVudFN0YWNrKTsKICB9CgogIGNvbXBvbmVudERpZFVwZGF0ZShwcmV2aW91c1Byb3BzOiBFcnJvckJvdW5kYXJ5UHJvcHMpIHsKICAgIGlmICh0aGlzLnN0YXRlLmVycm9yICYmIHByZXZpb3VzUHJvcHMucmVzZXRLZXkgIT09IHRoaXMucHJvcHMucmVzZXRLZXkpIHsKICAgICAgdGhpcy5zZXRTdGF0ZSh7IGVycm9yOiBudWxsIH0pOwogICAgfQogIH0KCiAgcmVuZGVyKCkgewogICAgaWYgKCF0aGlzLnN0YXRlLmVycm9yKSByZXR1cm4gdGhpcy5wcm9wcy5jaGlsZHJlbjsKCiAgICByZXR1cm4gKAogICAgICA8bWFpbiBjbGFzc05hbWU9ImdyaWQgbWluLWgtWzEwMGR2aF0gcGxhY2UtaXRlbXMtY2VudGVyIGJnLWJhY2tncm91bmQgcHgtNiB0ZXh0LWZvcmVncm91bmQiPgogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icGFuZWwgdy1mdWxsIG1heC13LW1kIHJvdW5kZWQtMnhsIHAtNiB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtWzEwcHhdIHVwcGVyY2FzZSB0cmFja2luZy1bMC4yNGVtXSB0ZXh0LWFjY2VudCI+SW5zdHJ1bWVudCBmYXVsdDwvcD4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9Im10LTMgdGV4dC1sZyBmb250LWJvbGQgdHJhY2tpbmctWzAuMTJlbV0iPkVYUEVESVRJT04gUEFVU0VEPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMyB0ZXh0LXhzIGxlYWRpbmctcmVsYXhlZCB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICBUaGUgZmllbGQgY29uc29sZSBlbmNvdW50ZXJlZCBhbiB1bmV4cGVjdGVkIGZhdWx0LiBSZWxvYWQgdGhlIGV4cGVkaXRpb24gdG8gdHJ5IGFnYWluLgogICAgICAgICAgPC9wPgogICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgIGNsYXNzTmFtZT0ibXQtNSByb3VuZGVkLXhsIGJnLXByaW1hcnkgcHgtNCBweS0zIHRleHQtWzEwcHhdIGZvbnQtYm9sZCB0cmFja2luZy1bMC4yZW1dIHRleHQtcHJpbWFyeS1mb3JlZ3JvdW5kIgogICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiB3aW5kb3cubG9jYXRpb24ucmVsb2FkKCl9CiAgICAgICAgICA+CiAgICAgICAgICAgIFJFTE9BRCBDT05TT0xFCiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L3NlY3Rpb24+CiAgICAgIDwvbWFpbj4KICAgICk7CiAgfQp9
+import { Component, type ErrorInfo, type ReactNode } from "react";
+
+type ErrorBoundaryProps = {
+  children: ReactNode;
+  resetKey?: string;
+};
+
+type ErrorBoundaryState = {
+  error: Error | null;
+};
+
+export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundaryState> {
+  state: ErrorBoundaryState = { error: null };
+
+  static getDerivedStateFromError(error: Error): ErrorBoundaryState {
+    return { error };
+  }
+
+  componentDidCatch(error: Error, info: ErrorInfo) {
+    console.error("Expedition interface error", error, info.componentStack);
+  }
+
+  componentDidUpdate(previousProps: ErrorBoundaryProps) {
+    if (this.state.error && previousProps.resetKey !== this.props.resetKey) {
+      this.setState({ error: null });
+    }
+  }
+
+  render() {
+    if (!this.state.error) return this.props.children;
+
+    return (
+      <main className="grid min-h-[100dvh] place-items-center bg-background px-6 text-foreground">
+        <section className="panel w-full max-w-md rounded-2xl p-6 text-center">
+          <p className="text-[10px] uppercase tracking-[0.24em] text-accent">Instrument fault</p>
+          <h1 className="mt-3 text-lg font-bold tracking-[0.12em]">EXPEDITION PAUSED</h1>
+          <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
+            The field console encountered an unexpected fault. Reload the expedition to try again.
+          </p>
+          <button
+            type="button"
+            className="mt-5 rounded-xl bg-primary px-4 py-3 text-[10px] font-bold tracking-[0.2em] text-primary-foreground"
+            onClick={() => window.location.reload()}
+          >
+            RELOAD CONSOLE
+          </button>
+        </section>
+      </main>
+    );
+  }
+}

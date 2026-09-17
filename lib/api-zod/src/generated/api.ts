@@ -1,1 +1,170 @@
-LyoqCiAqIEdlbmVyYXRlZCBieSBvcnZhbCDwn426CiAqIERvIG5vdCBlZGl0IG1hbnVhbGx5LgogKiBBcGkKICogQVBJIHNwZWNpZmljYXRpb24KICogT3BlbkFQSSBzcGVjIHZlcnNpb246IDAuMS4wCiAqLwppbXBvcnQgKiBhcyB6b2QgZnJvbSAnem9kJzsKCgovKioKICogUmV0dXJucyBzZXJ2ZXIgaGVhbHRoIHN0YXR1cwogKiBAc3VtbWFyeSBIZWFsdGggY2hlY2sKICovCmV4cG9ydCBjb25zdCBIZWFsdGhDaGVja1Jlc3BvbnNlID0gem9kLm9iamVjdCh7CiAgInN0YXR1cyI6IHpvZC5zdHJpbmcoKQp9KQoKCi8qKgogKiBAc3VtbWFyeSBHZXQgdGhlIGN1cnJlbnQgdXNlcidzIGZyaWVuZHMgYW5kIHJlcXVlc3RzCiAqLwpleHBvcnQgY29uc3QgR2V0RnJpZW5kc092ZXJ2aWV3UmVzcG9uc2UgPSB6b2Qub2JqZWN0KHsKICAicHJvZmlsZSI6IHpvZC5vYmplY3QoewogICJ1c2VySWQiOiB6b2Quc3RyaW5nKCksCiAgImRpc3BsYXlOYW1lIjogem9kLnN0cmluZygpLAogICJjcmVhdGVkQXQiOiB6b2QuY29lcmNlLmRhdGUoKSwKICAidXBkYXRlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCkKfSksCiAgImZyaWVuZHMiOiB6b2QuYXJyYXkoem9kLm9iamVjdCh7CiAgInVzZXJJZCI6IHpvZC5zdHJpbmcoKSwKICAiZGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCksCiAgImNvbm5lY3RlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCkKfSkpLAogICJpbmNvbWluZyI6IHpvZC5hcnJheSh6b2Qub2JqZWN0KHsKICAiaWQiOiB6b2Quc3RyaW5nKCksCiAgInNlbmRlclVzZXJJZCI6IHpvZC5zdHJpbmcoKSwKICAic2VuZGVyRGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCksCiAgInJlY2VpdmVyVXNlcklkIjogem9kLnN0cmluZygpLAogICJyZWNlaXZlckRpc3BsYXlOYW1lIjogem9kLnN0cmluZygpLAogICJzdGF0dXMiOiB6b2QuZW51bShbJ3BlbmRpbmcnLCAnYWNjZXB0ZWQnLCAnZGVjbGluZWQnXSksCiAgImNyZWF0ZWRBdCI6IHpvZC5jb2VyY2UuZGF0ZSgpLAogICJyZXNwb25kZWRBdCI6IHpvZC5jb2VyY2UuZGF0ZSgpLm51bGxpc2goKQp9KSksCiAgIm91dGdvaW5nIjogem9kLmFycmF5KHpvZC5vYmplY3QoewogICJpZCI6IHpvZC5zdHJpbmcoKSwKICAic2VuZGVyVXNlcklkIjogem9kLnN0cmluZygpLAogICJzZW5kZXJEaXNwbGF5TmFtZSI6IHpvZC5zdHJpbmcoKSwKICAicmVjZWl2ZXJVc2VySWQiOiB6b2Quc3RyaW5nKCksCiAgInJlY2VpdmVyRGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCksCiAgInN0YXR1cyI6IHpvZC5lbnVtKFsncGVuZGluZycsICdhY2NlcHRlZCcsICdkZWNsaW5lZCddKSwKICAiY3JlYXRlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCksCiAgInJlc3BvbmRlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCkubnVsbGlzaCgpCn0pKQp9KQoKCi8qKgogKiBAc3VtbWFyeSBSZW1vdmUgYSBmcmllbmQKICovCgoKCmV4cG9ydCBjb25zdCBSZW1vdmVGcmllbmRRdWVyeVBhcmFtcyA9IHpvZC5vYmplY3QoewogICJ1c2VySWQiOiB6b2QuY29lcmNlLnN0cmluZygpLm1pbigxKQp9KQoKZXhwb3J0IGNvbnN0IFJlbW92ZUZyaWVuZFJlc3BvbnNlID0gem9kLnZvaWQoKQoKCi8qKgogKiBAc3VtbWFyeSBDcmVhdGUgb3IgdXBkYXRlIHRoZSBjdXJyZW50IHVzZXIncyBmcmllbmQgcHJvZmlsZQogKi8KZXhwb3J0IGNvbnN0IHVwc2VydEZyaWVuZFByb2ZpbGVCb2R5RGlzcGxheU5hbWVNaW4gPSAyOwpleHBvcnQgY29uc3QgdXBzZXJ0RnJpZW5kUHJvZmlsZUJvZHlEaXNwbGF5TmFtZU1heCA9IDMyOwoKCgpleHBvcnQgY29uc3QgVXBzZXJ0RnJpZW5kUHJvZmlsZUJvZHkgPSB6b2Qub2JqZWN0KHsKICAiZGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCkubWluKHVwc2VydEZyaWVuZFByb2ZpbGVCb2R5RGlzcGxheU5hbWVNaW4pLm1heCh1cHNlcnRGcmllbmRQcm9maWxlQm9keURpc3BsYXlOYW1lTWF4KQp9KQoKZXhwb3J0IGNvbnN0IFVwc2VydEZyaWVuZFByb2ZpbGVSZXNwb25zZSA9IHpvZC5vYmplY3QoewogICJ1c2VySWQiOiB6b2Quc3RyaW5nKCksCiAgImRpc3BsYXlOYW1lIjogem9kLnN0cmluZygpLAogICJjcmVhdGVkQXQiOiB6b2QuY29lcmNlLmRhdGUoKSwKICAidXBkYXRlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCkKfSkKCgovKioKICogQHN1bW1hcnkgU2VhcmNoIGRpc2NvdmVyYWJsZSBmcmllbmQgcHJvZmlsZXMKICovCmV4cG9ydCBjb25zdCBzZWFyY2hGcmllbmRQcm9maWxlc1F1ZXJ5UU1pbiA9IDI7CmV4cG9ydCBjb25zdCBzZWFyY2hGcmllbmRQcm9maWxlc1F1ZXJ5UU1heCA9IDQwOwoKCgpleHBvcnQgY29uc3QgU2VhcmNoRnJpZW5kUHJvZmlsZXNRdWVyeVBhcmFtcyA9IHpvZC5vYmplY3QoewogICJxIjogem9kLmNvZXJjZS5zdHJpbmcoKS5taW4oc2VhcmNoRnJpZW5kUHJvZmlsZXNRdWVyeVFNaW4pLm1heChzZWFyY2hGcmllbmRQcm9maWxlc1F1ZXJ5UU1heCkKfSkKCmV4cG9ydCBjb25zdCBTZWFyY2hGcmllbmRQcm9maWxlc1Jlc3BvbnNlSXRlbSA9IHpvZC5vYmplY3QoewogICJ1c2VySWQiOiB6b2Quc3RyaW5nKCksCiAgImRpc3BsYXlOYW1lIjogem9kLnN0cmluZygpCn0pCmV4cG9ydCBjb25zdCBTZWFyY2hGcmllbmRQcm9maWxlc1Jlc3BvbnNlID0gem9kLmFycmF5KFNlYXJjaEZyaWVuZFByb2ZpbGVzUmVzcG9uc2VJdGVtKQoKCi8qKgogKiBAc3VtbWFyeSBTZW5kIGEgZnJpZW5kIHJlcXVlc3QKICovCgoKCmV4cG9ydCBjb25zdCBDcmVhdGVGcmllbmRSZXF1ZXN0Qm9keSA9IHpvZC5vYmplY3QoewogICJyZWNlaXZlclVzZXJJZCI6IHpvZC5zdHJpbmcoKS5taW4oMSkKfSkKCmV4cG9ydCBjb25zdCBDcmVhdGVGcmllbmRSZXF1ZXN0UmVzcG9uc2UgPSB6b2Qub2JqZWN0KHsKICAiaWQiOiB6b2Quc3RyaW5nKCksCiAgInNlbmRlclVzZXJJZCI6IHpvZC5zdHJpbmcoKSwKICAic2VuZGVyRGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCksCiAgInJlY2VpdmVyVXNlcklkIjogem9kLnN0cmluZygpLAogICJyZWNlaXZlckRpc3BsYXlOYW1lIjogem9kLnN0cmluZygpLAogICJzdGF0dXMiOiB6b2QuZW51bShbJ3BlbmRpbmcnLCAnYWNjZXB0ZWQnLCAnZGVjbGluZWQnXSksCiAgImNyZWF0ZWRBdCI6IHpvZC5jb2VyY2UuZGF0ZSgpLAogICJyZXNwb25kZWRBdCI6IHpvZC5jb2VyY2UuZGF0ZSgpLm51bGxpc2goKQp9KQoKCi8qKgogKiBAc3VtbWFyeSBBY2NlcHQgYW4gaW5jb21pbmcgZnJpZW5kIHJlcXVlc3QKICovCgoKCmV4cG9ydCBjb25zdCBBY2NlcHRGcmllbmRSZXF1ZXN0UGFyYW1zID0gem9kLm9iamVjdCh7CiAgInJlcXVlc3RJZCI6IHpvZC5jb2VyY2Uuc3RyaW5nKCkubWluKDEpCn0pCgpleHBvcnQgY29uc3QgQWNjZXB0RnJpZW5kUmVxdWVzdFJlc3BvbnNlID0gem9kLm9iamVjdCh7CiAgInVzZXJJZCI6IHpvZC5zdHJpbmcoKSwKICAiZGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCksCiAgImNvbm5lY3RlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCkKfSkKCgovKioKICogQHN1bW1hcnkgRGVjbGluZSBhbiBpbmNvbWluZyBmcmllbmQgcmVxdWVzdAogKi8KCgoKZXhwb3J0IGNvbnN0IERlY2xpbmVGcmllbmRSZXF1ZXN0UGFyYW1zID0gem9kLm9iamVjdCh7CiAgInJlcXVlc3RJZCI6IHpvZC5jb2VyY2Uuc3RyaW5nKCkubWluKDEpCn0pCgpleHBvcnQgY29uc3QgRGVjbGluZUZyaWVuZFJlcXVlc3RSZXNwb25zZSA9IHpvZC5vYmplY3QoewogICJpZCI6IHpvZC5zdHJpbmcoKSwKICAic2VuZGVyVXNlcklkIjogem9kLnN0cmluZygpLAogICJzZW5kZXJEaXNwbGF5TmFtZSI6IHpvZC5zdHJpbmcoKSwKICAicmVjZWl2ZXJVc2VySWQiOiB6b2Quc3RyaW5nKCksCiAgInJlY2VpdmVyRGlzcGxheU5hbWUiOiB6b2Quc3RyaW5nKCksCiAgInN0YXR1cyI6IHpvZC5lbnVtKFsncGVuZGluZycsICdhY2NlcHRlZCcsICdkZWNsaW5lZCddKSwKICAiY3JlYXRlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCksCiAgInJlc3BvbmRlZEF0Ijogem9kLmNvZXJjZS5kYXRlKCkubnVsbGlzaCgpCn0pCgoK
+/**
+ * Generated by orval 🍺
+ * Do not edit manually.
+ * Api
+ * API specification
+ * OpenAPI spec version: 0.1.0
+ */
+import * as zod from 'zod';
+
+
+/**
+ * Returns server health status
+ * @summary Health check
+ */
+export const HealthCheckResponse = zod.object({
+  "status": zod.string()
+})
+
+
+/**
+ * @summary Get the current user's friends and requests
+ */
+export const GetFriendsOverviewResponse = zod.object({
+  "profile": zod.object({
+  "userId": zod.string(),
+  "displayName": zod.string(),
+  "createdAt": zod.coerce.date(),
+  "updatedAt": zod.coerce.date()
+}),
+  "friends": zod.array(zod.object({
+  "userId": zod.string(),
+  "displayName": zod.string(),
+  "connectedAt": zod.coerce.date()
+})),
+  "incoming": zod.array(zod.object({
+  "id": zod.string(),
+  "senderUserId": zod.string(),
+  "senderDisplayName": zod.string(),
+  "receiverUserId": zod.string(),
+  "receiverDisplayName": zod.string(),
+  "status": zod.enum(['pending', 'accepted', 'declined']),
+  "createdAt": zod.coerce.date(),
+  "respondedAt": zod.coerce.date().nullish()
+})),
+  "outgoing": zod.array(zod.object({
+  "id": zod.string(),
+  "senderUserId": zod.string(),
+  "senderDisplayName": zod.string(),
+  "receiverUserId": zod.string(),
+  "receiverDisplayName": zod.string(),
+  "status": zod.enum(['pending', 'accepted', 'declined']),
+  "createdAt": zod.coerce.date(),
+  "respondedAt": zod.coerce.date().nullish()
+}))
+})
+
+
+/**
+ * @summary Remove a friend
+ */
+
+
+
+export const RemoveFriendQueryParams = zod.object({
+  "userId": zod.coerce.string().min(1)
+})
+
+export const RemoveFriendResponse = zod.void()
+
+
+/**
+ * @summary Create or update the current user's friend profile
+ */
+export const upsertFriendProfileBodyDisplayNameMin = 2;
+export const upsertFriendProfileBodyDisplayNameMax = 32;
+
+
+
+export const UpsertFriendProfileBody = zod.object({
+  "displayName": zod.string().min(upsertFriendProfileBodyDisplayNameMin).max(upsertFriendProfileBodyDisplayNameMax)
+})
+
+export const UpsertFriendProfileResponse = zod.object({
+  "userId": zod.string(),
+  "displayName": zod.string(),
+  "createdAt": zod.coerce.date(),
+  "updatedAt": zod.coerce.date()
+})
+
+
+/**
+ * @summary Search discoverable friend profiles
+ */
+export const searchFriendProfilesQueryQMin = 2;
+export const searchFriendProfilesQueryQMax = 40;
+
+
+
+export const SearchFriendProfilesQueryParams = zod.object({
+  "q": zod.coerce.string().min(searchFriendProfilesQueryQMin).max(searchFriendProfilesQueryQMax)
+})
+
+export const SearchFriendProfilesResponseItem = zod.object({
+  "userId": zod.string(),
+  "displayName": zod.string()
+})
+export const SearchFriendProfilesResponse = zod.array(SearchFriendProfilesResponseItem)
+
+
+/**
+ * @summary Send a friend request
+ */
+
+
+
+export const CreateFriendRequestBody = zod.object({
+  "receiverUserId": zod.string().min(1)
+})
+
+export const CreateFriendRequestResponse = zod.object({
+  "id": zod.string(),
+  "senderUserId": zod.string(),
+  "senderDisplayName": zod.string(),
+  "receiverUserId": zod.string(),
+  "receiverDisplayName": zod.string(),
+  "status": zod.enum(['pending', 'accepted', 'declined']),
+  "createdAt": zod.coerce.date(),
+  "respondedAt": zod.coerce.date().nullish()
+})
+
+
+/**
+ * @summary Accept an incoming friend request
+ */
+
+
+
+export const AcceptFriendRequestParams = zod.object({
+  "requestId": zod.coerce.string().min(1)
+})
+
+export const AcceptFriendRequestResponse = zod.object({
+  "userId": zod.string(),
+  "displayName": zod.string(),
+  "connectedAt": zod.coerce.date()
+})
+
+
+/**
+ * @summary Decline an incoming friend request
+ */
+
+
+
+export const DeclineFriendRequestParams = zod.object({
+  "requestId": zod.coerce.string().min(1)
+})
+
+export const DeclineFriendRequestResponse = zod.object({
+  "id": zod.string(),
+  "senderUserId": zod.string(),
+  "senderDisplayName": zod.string(),
+  "receiverUserId": zod.string(),
+  "receiverDisplayName": zod.string(),
+  "status": zod.enum(['pending', 'accepted', 'declined']),
+  "createdAt": zod.coerce.date(),
+  "respondedAt": zod.coerce.date().nullish()
+})
+
+
