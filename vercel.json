@@ -1,6 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "pnpm install --no-frozen-lockfile",
+  "framework": "vite",
+  "installCommand": "pnpm install --frozen-lockfile",
   "buildCommand": "pnpm --filter @workspace/ventureforth-expedition build:vercel",
   "outputDirectory": "artifacts/ventureforth-expedition/dist/public",
   "rewrites": [
