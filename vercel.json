@@ -1,1 +1,12 @@
-ewogICJpbnN0YWxsQ29tbWFuZCI6ICJwbnBtIGluc3RhbGwgLS1uby1mcm96ZW4tbG9ja2ZpbGUiLAogICJidWlsZENvbW1hbmQiOiAicG5wbSAtLWZpbHRlciBAd29ya3NwYWNlL3ZlbnR1cmVmb3J0aC1leHBlZGl0aW9uIGJ1aWxkOnZlcmNlbCIsCiAgIm91dHB1dERpcmVjdG9yeSI6ICJhcnRpZmFjdHMvdmVudHVyZWZvcnRoLWV4cGVkaXRpb24vZGlzdC9wdWJsaWMiLAogICJyZXdyaXRlcyI6IFsKICAgIHsKICAgICAgInNvdXJjZSI6ICIvKC4qKSIsCiAgICAgICJkZXN0aW5hdGlvbiI6ICIvaW5kZXguaHRtbCIKICAgIH0KICBdCn0K
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm --filter @workspace/ventureforth-expedition build:vercel",
+  "outputDirectory": "artifacts/ventureforth-expedition/dist/public",
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
